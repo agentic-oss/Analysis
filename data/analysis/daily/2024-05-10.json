@@ -1,0 +1,697 @@
+{
+  "date": "2024-05-10",
+  "gold": {
+    "price": 2332.10009765625,
+    "return_1d": 0.7996196066356154,
+    "return_5d": 1.430938899751033,
+    "return_20d": -0.9639863555791828,
+    "trend_regime": "BULLISH",
+    "volatility_regime": "NORMAL_VOLATILITY",
+    "rsi_14": 34.0087151101166,
+    "macd": 14.117486838455534,
+    "atr_14": 28.814261300223215,
+    "dist_sma_200_pct": 14.180328803210514,
+    "dist_52w_high_pct": -3.9892919861568545,
+    "composite_score": 55.63846395010766,
+    "research_bias": "BULLISH",
+    "top_analogues": [
+      {
+        "historical_date": "2023-02-08 00:00:00",
+        "distance": 0.8928682830477058,
+        "similarity_score": 91.07131716952294,
+        "price": 1877.4000244140625,
+        "rsi_14": 32.1342911619429,
+        "forward_returns": {
+          "1d": -0.596573617584939,
+          "3d": -1.3582614077124355,
+          "5d": -2.3010585213809276,
+          "10d": -3.163951403090093,
+          "20d": -2.562052570599571,
+          "60d": 7.457121454107463
+        }
+      },
+      {
+        "historical_date": "2023-02-06 00:00:00",
+        "distance": 0.9674439631946534,
+        "similarity_score": 90.32556036805346,
+        "price": 1866.199951171875,
+        "rsi_14": 34.74698501910078,
+        "forward_returns": {
+          "1d": 0.29471654398802727,
+          "3d": 0.0,
+          "5d": -0.766259089698984,
+          "10d": -1.779013612717495,
+          "20d": -2.802482484525348,
+          "60d": 8.702177079797035
+        }
+      },
+      {
+        "historical_date": "2023-04-25 00:00:00",
+        "distance": 1.0461319637336592,
+        "similarity_score": 89.53868036266341,
+        "price": 1994.0,
+        "rsi_14": 43.374080745270355,
+        "forward_returns": {
+          "1d": -0.416251194991224,
+          "3d": -0.19558798465709737,
+          "5d": 1.0180566112399703,
+          "10d": 2.1163465983889074,
+          "20d": -1.083248524871494,
+          "60d": -1.489465956463143
+        }
+      },
+      {
+        "historical_date": "2023-02-07 00:00:00",
+        "distance": 1.0490835451601093,
+        "similarity_score": 89.5091645483989,
+        "price": 1871.699951171875,
+        "rsi_14": 38.07434817797905,
+        "forward_returns": {
+          "1d": 0.3045399044124819,
+          "3d": -0.4754983478082453,
+          "5d": -0.9456617852019011,
+          "10d": -2.1210638567906615,
+          "20d": -3.152214646533491,
+          "60d": 9.419247391535347
+        }
+      },
+      {
+        "historical_date": "2023-04-26 00:00:00",
+        "distance": 1.0504541173575013,
+        "similarity_score": 89.495458826425,
+        "price": 1985.699951171875,
+        "rsi_14": 41.9927191138534,
+        "forward_returns": {
+          "1d": 0.2115160067214017,
+          "3d": -0.11582448579178228,
+          "5d": 2.160448480081034,
+          "10d": 2.256133853540465,
+          "20d": -1.1532408171856745,
+          "60d": -1.2791410066138154
+        }
+      },
+      {
+        "historical_date": "2023-11-09 00:00:00",
+        "distance": 1.1443236210558474,
+        "similarity_score": 88.55676378944153,
+        "price": 1964.199951171875,
+        "rsi_14": 41.79368210850378,
+        "forward_returns": {
+          "1d": -1.6087962718400628,
+          "3d": -0.12218218121419211,
+          "5d": 1.002956609913075,
+          "10d": 1.9346299228512054,
+          "20d": 1.7360807709981607,
+          "60d": 3.614703276906206
+        }
+      },
+      {
+        "historical_date": "2023-02-09 00:00:00",
+        "distance": 1.153832570756939,
+        "similarity_score": 88.46167429243062,
+        "price": 1866.199951171875,
+        "rsi_14": 27.1969208659972,
+        "forward_returns": {
+          "1d": -0.1821831761176007,
+          "3d": -0.6537322629450282,
+          "5d": -1.296750177100725,
+          "10d": -3.075763789818231,
+          "20d": -0.22505365350790063,
+          "60d": 8.57893590425376
+        }
+      },
+      {
+        "historical_date": "2023-05-01 00:00:00",
+        "distance": 1.2047277405776022,
+        "similarity_score": 87.95272259422399,
+        "price": 1983.4000244140625,
+        "rsi_14": 44.165759793399296,
+        "forward_returns": {
+          "1d": 1.5579320375974648,
+          "3d": 3.2570321060181318,
+          "5d": 2.1629537100936513,
+          "10d": 1.744477924777632,
+          "20d": -1.2806304377033673,
+          "60d": -1.9159019629046314
+        }
+      },
+      {
+        "historical_date": "2023-12-21 00:00:00",
+        "distance": 1.2179784676475096,
+        "similarity_score": 87.8202153235249,
+        "price": 2039.0999755859375,
+        "rsi_14": 42.20047837264955,
+        "forward_returns": {
+          "1d": 0.8827483833959704,
+          "3d": 2.0989616630010532,
+          "5d": 1.1426573996754286,
+          "10d": -0.6130155534138537,
+          "20d": -0.755236359101874,
+          "60d": 5.826096227757316
+        }
+      },
+      {
+        "historical_date": "2023-04-27 00:00:00",
+        "distance": 1.2284466269559253,
+        "similarity_score": 87.71553373044074,
+        "price": 1989.9000244140625,
+        "rsi_14": 44.88373254966263,
+        "forward_returns": {
+          "1d": 0.010048302398191211,
+          "3d": 1.2261934828232013,
+          "5d": 2.919743448068224,
+          "10d": 1.246290087619606,
+          "20d": -2.3518794036853974,
+          "60d": -1.3970575650558592
+        }
+      },
+      {
+        "historical_date": "2023-02-03 00:00:00",
+        "distance": 1.239336946535661,
+        "similarity_score": 87.60663053464339,
+        "price": 1862.9000244140625,
+        "rsi_14": 30.49891912294548,
+        "forward_returns": {
+          "1d": 0.17713922994071485,
+          "3d": 0.7783563159574625,
+          "5d": -0.005366664052142145,
+          "10d": -1.2077942833822686,
+          "20d": -0.8051961889215198,
+          "60d": 8.127114844055171
+        }
+      },
+      {
+        "historical_date": "2023-11-08 00:00:00",
+        "distance": 1.2486599310730282,
+        "similarity_score": 87.51340068926972,
+        "price": 1951.5,
+        "rsi_14": 42.51547506419786,
+        "forward_returns": {
+          "1d": 0.650778948084807,
+          "3d": -0.3074558032282848,
+          "5d": 0.44068540025301584,
+          "10d": 2.0445823425089715,
+          "20d": 4.017423746557136,
+          "60d": 4.253138611324614
+        }
+      },
+      {
+        "historical_date": "2023-12-20 00:00:00",
+        "distance": 1.2633239084294934,
+        "similarity_score": 87.36676091570507,
+        "price": 2034.5,
+        "rsi_14": 49.22680912402463,
+        "forward_returns": {
+          "1d": 0.2260985788123726,
+          "3d": 1.1649029821516388,
+          "5d": 1.9365889576677286,
+          "10d": 0.38830299405565594,
+          "20d": -0.7225338496866573,
+          "60d": 5.986731326032202
+        }
+      },
+      {
+        "historical_date": "2023-05-03 00:00:00",
+        "distance": 1.3002460598816914,
+        "similarity_score": 86.99753940118309,
+        "price": 2028.5999755859375,
+        "rsi_14": 46.69441470179865,
+        "forward_returns": {
+          "1d": 0.9563257738115283,
+          "3d": -0.1133750756922014,
+          "5d": 0.09366185728725274,
+          "10d": -2.361235580722465,
+          "20d": -2.4943298922855517,
+          "60d": -2.864042999367389
+        }
+      },
+      {
+        "historical_date": "2023-12-18 00:00:00",
+        "distance": 1.3169473767175541,
+        "similarity_score": 86.83052623282445,
+        "price": 2026.300048828125,
+        "rsi_14": 47.12695001083557,
+        "forward_returns": {
+          "1d": 0.5971462909915681,
+          "3d": 0.6316896041736353,
+          "5d": 1.5742931241697677,
+          "10d": 0.3898683390112234,
+          "20d": -0.3800065664826269,
+          "60d": 6.4649852856570655
+        }
+      }
+    ],
+    "forward_statistics": {
+      "5d": {
+        "horizon": "5d",
+        "as_of_date": "2024-05-09 00:00:00",
+        "probability_positive": 62.21797283440995,
+        "probability_negative": 37.78202716559005,
+        "expected_return": 0.4927680184858347,
+        "direction": "BULLISH",
+        "model_agreement": "3/4",
+        "model_outputs": {
+          "historical_baseline": {
+            "prob_pos": 53.14787701317716,
+            "expected_ret": 0.21086788080474073
+          },
+          "logistic_regression": {
+            "prob_pos": 72.71537803528446
+          },
+          "random_forest_clf": {
+            "prob_pos": 58.00863628917819
+          },
+          "gradient_boosting_reg": {
+            "expected_ret": 0.7746681561669286,
+            "prob_pos": 65.0
+          }
+        }
+      }
+    }
+  },
+  "silver": {
+    "price": 28.131999969482422,
+    "return_1d": 2.81787912257363,
+    "return_5d": 5.827031470140098,
+    "return_20d": -0.15616348907238065,
+    "trend_regime": "STRONG_BULLISH",
+    "volatility_regime": "HIGH_VOLATILITY",
+    "rsi_14": 43.37514023799617,
+    "atr_14": 0.5637144361223493,
+    "composite_score": 54.07630820683504,
+    "research_bias": "NEUTRAL",
+    "top_analogues": [
+      {
+        "historical_date": "2023-12-20 00:00:00",
+        "distance": 0.9220608255490969,
+        "similarity_score": 90.77939174450903,
+        "price": 24.347000122070312,
+        "rsi_14": 41.082218017236606,
+        "forward_returns": {
+          "1d": -0.1642950479598615,
+          "3d": -0.8337824837600816,
+          "5d": -0.8748484117309774,
+          "10d": -5.031422250494321,
+          "20d": -8.970304367308957,
+          "60d": 2.534195493245517
+        }
+      },
+      {
+        "historical_date": "2023-01-05 00:00:00",
+        "distance": 1.0899397336607077,
+        "similarity_score": 89.10060266339292,
+        "price": 23.257999420166016,
+        "rsi_14": 43.40491010668135,
+        "forward_returns": {
+          "1d": 2.424976771153431,
+          "3d": 1.0706017521890043,
+          "5d": 2.6012617794649584,
+          "10d": 2.459371045663028,
+          "20d": -3.972825734855734,
+          "60d": 2.9366264580047874
+        }
+      },
+      {
+        "historical_date": "2023-12-19 00:00:00",
+        "distance": 1.1768421786820606,
+        "similarity_score": 88.23157821317939,
+        "price": 24.040000915527344,
+        "rsi_14": 40.11116565664024,
+        "forward_returns": {
+          "1d": 1.2770349203467646,
+          "3d": 1.0399334046552688,
+          "5d": 1.3935069538881795,
+          "10d": -4.371882508598146,
+          "20d": -6.110656048564078,
+          "60d": 4.371874574535917
+        }
+      },
+      {
+        "historical_date": "2023-12-22 00:00:00",
+        "distance": 1.1780150560632923,
+        "similarity_score": 88.21984943936708,
+        "price": 24.290000915527344,
+        "rsi_14": 46.85348798656387,
+        "forward_returns": {
+          "1d": -0.6010778521731819,
+          "3d": -0.6422401459416083,
+          "5d": -2.293129242064129,
+          "10d": -5.706058191327868,
+          "20d": -6.319480020190094,
+          "60d": 2.3013585598568254
+        }
+      },
+      {
+        "historical_date": "2023-01-11 00:00:00",
+        "distance": 1.2380706610459054,
+        "similarity_score": 87.61929338954094,
+        "price": 23.32699966430664,
+        "rsi_14": 40.970101762600635,
+        "forward_returns": {
+          "1d": 2.2977717372907103,
+          "3d": 2.645006167587316,
+          "5d": 1.8304970717247127,
+          "10d": 2.584990138238008,
+          "20d": -5.272857889728478,
+          "60d": 6.511771890683171
+        }
+      },
+      {
+        "historical_date": "2023-01-12 00:00:00",
+        "distance": 1.2553847313333832,
+        "similarity_score": 87.44615268666617,
+        "price": 23.863000869750977,
+        "rsi_14": 48.179521540218815,
+        "forward_returns": {
+          "1d": 1.5421364334108567,
+          "3d": -1.3954665003075295,
+          "5d": -0.13829336144707272,
+          "10d": -1.4080393507037936,
+          "20d": -7.664587044209192,
+          "60d": 5.313663842904104
+        }
+      },
+      {
+        "historical_date": "2023-12-21 00:00:00",
+        "distance": 1.2912085471284898,
+        "similarity_score": 87.0879145287151,
+        "price": 24.30699920654297,
+        "rsi_14": 38.40015235017971,
+        "forward_returns": {
+          "1d": -0.06993167223640073,
+          "3d": 0.2797580765902419,
+          "5d": -1.867768875195508,
+          "10d": -4.883360373789181,
+          "20d": -8.117001839629856,
+          "60d": 2.5753954764754283
+        }
+      },
+      {
+        "historical_date": "2023-12-18 00:00:00",
+        "distance": 1.2969551019082224,
+        "similarity_score": 87.03044898091778,
+        "price": 23.83099937438965,
+        "rsi_14": 39.33216544860807,
+        "forward_returns": {
+          "1d": 0.8770154279064801,
+          "3d": 1.9973976948061134,
+          "5d": 1.313414181354755,
+          "10d": -3.713651345368729,
+          "20d": -4.884392547741944,
+          "60d": 5.744624331705639
+        }
+      },
+      {
+        "historical_date": "2022-02-15 00:00:00",
+        "distance": 1.3238792955141063,
+        "similarity_score": 86.76120704485893,
+        "price": 23.33799934387207,
+        "rsi_14": 44.82682591958165,
+        "forward_returns": {
+          "1d": 1.1269195975460056,
+          "3d": 2.7980113818160124,
+          "5d": 5.214675617099385,
+          "10d": 7.905567197590879,
+          "20d": 5.707433241365756,
+          "60d": -11.059214358352232
+        }
+      },
+      {
+        "historical_date": "2023-12-15 00:00:00",
+        "distance": 1.3257873482459859,
+        "similarity_score": 86.74212651754014,
+        "price": 23.8700008392334,
+        "rsi_14": 42.532589195173585,
+        "forward_returns": {
+          "1d": -0.163391133106483,
+          "3d": 1.998321181677154,
+          "5d": 1.7595310495491123,
+          "10d": -0.5739465135354282,
+          "20d": -5.6723923081195,
+          "60d": 4.2061151017339204
+        }
+      },
+      {
+        "historical_date": "2023-12-26 00:00:00",
+        "distance": 1.3565857737236784,
+        "similarity_score": 86.43414226276322,
+        "price": 24.143999099731445,
+        "rsi_14": 49.28802078593357,
+        "forward_returns": {
+          "1d": 0.9567632077617239,
+          "3d": -1.205262051494782,
+          "5d": -4.961895290316498,
+          "10d": -5.21868111545456,
+          "20d": -5.533460010653791,
+          "60d": 2.269716518086917
+        }
+      },
+      {
+        "historical_date": "2022-11-02 00:00:00",
+        "distance": 1.3573081167241294,
+        "similarity_score": 86.4269188327587,
+        "price": 19.600000381469727,
+        "rsi_14": 59.3686963558073,
+        "forward_returns": {
+          "1d": -0.8367324199144655,
+          "3d": 6.622450563422011,
+          "5d": 8.663264903958678,
+          "10d": 9.714282099776717,
+          "20d": 15.494891273831524,
+          "60d": 21.16325882185217
+        }
+      },
+      {
+        "historical_date": "2023-01-10 00:00:00",
+        "distance": 1.3656481741531152,
+        "similarity_score": 86.34351825846885,
+        "price": 23.506999969482422,
+        "rsi_14": 54.65705659008536,
+        "forward_returns": {
+          "1d": -0.7657306564404776,
+          "3d": 3.0799376004001067,
+          "5d": 0.09784624661992591,
+          "10d": 1.4123483764533429,
+          "20d": -4.849616672176049,
+          "60d": 6.457649427909007
+        }
+      },
+      {
+        "historical_date": "2023-12-06 00:00:00",
+        "distance": 1.3819071209465423,
+        "similarity_score": 86.18092879053458,
+        "price": 23.888999938964844,
+        "rsi_14": 54.398948299709666,
+        "forward_returns": {
+          "1d": -0.6572045226414747,
+          "3d": -4.671602932952734,
+          "5d": -5.23253381553721,
+          "10d": 1.9172011564972724,
+          "20d": -3.2106835795717825,
+          "60d": -0.5274371091528174
+        }
+      },
+      {
+        "historical_date": "2023-08-01 00:00:00",
+        "distance": 1.400407397977895,
+        "similarity_score": 85.99592602022105,
+        "price": 24.20800018310547,
+        "rsi_14": 50.99664836352483,
+        "forward_returns": {
+          "1d": -1.875415026389926,
+          "3d": -2.441340047923235,
+          "5d": -6.159125569533607,
+          "10d": -6.663090125373817,
+          "20d": 2.3504636477065244,
+          "60d": -5.498179793135249
+        }
+      }
+    ],
+    "forward_statistics": {
+      "5d": {
+        "horizon": "5d",
+        "as_of_date": "2024-05-09 00:00:00",
+        "probability_positive": 52.03562848203949,
+        "probability_negative": 47.96437151796051,
+        "expected_return": -0.17707808396699565,
+        "direction": "NEUTRAL",
+        "model_agreement": "1/4",
+        "model_outputs": {
+          "historical_baseline": {
+            "prob_pos": 51.53733528550512,
+            "expected_ret": 0.19635486853590864
+          },
+          "logistic_regression": {
+            "prob_pos": 68.27100690220038
+          },
+          "random_forest_clf": {
+            "prob_pos": 53.334171740452454
+          },
+          "gradient_boosting_reg": {
+            "expected_ret": -0.5505110364699,
+            "prob_pos": 35.0
+          }
+        }
+      }
+    }
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 82.89848216216802,
+    "historical_percentile": 47.383720930232556,
+    "zscore": -0.6491502109787768,
+    "signal": "NEUTRAL",
+    "mean_ratio_252d": 84.8695789067188,
+    "forward_extreme_statistics": {
+      "1d": {
+        "sample_count": 160,
+        "gold_mean_ret": 0.019035089966611053,
+        "silver_mean_ret": -0.12472265394897838,
+        "gold_win_rate": 51.24999999999999,
+        "silver_win_rate": 49.375
+      },
+      "3d": {
+        "sample_count": 160,
+        "gold_mean_ret": 0.028992459240124856,
+        "silver_mean_ret": -0.35472751064522934,
+        "gold_win_rate": 46.25,
+        "silver_win_rate": 43.125
+      },
+      "5d": {
+        "sample_count": 160,
+        "gold_mean_ret": -0.09612350075235088,
+        "silver_mean_ret": -0.7593796719850479,
+        "gold_win_rate": 45.625,
+        "silver_win_rate": 45.625
+      },
+      "10d": {
+        "sample_count": 160,
+        "gold_mean_ret": -0.6405301278382829,
+        "silver_mean_ret": -2.2767502313189665,
+        "gold_win_rate": 35.625,
+        "silver_win_rate": 31.874999999999996
+      },
+      "20d": {
+        "sample_count": 156,
+        "gold_mean_ret": -0.7276709918512826,
+        "silver_mean_ret": -2.642967004661613,
+        "gold_win_rate": 43.58974358974359,
+        "silver_win_rate": 32.69230769230769
+      },
+      "60d": {
+        "sample_count": 154,
+        "gold_mean_ret": 0.27845949728265323,
+        "silver_mean_ret": -3.672787650278847,
+        "gold_win_rate": 48.05194805194805,
+        "silver_win_rate": 30.519480519480517
+      }
+    }
+  },
+  "macro": {
+    "macro_regime": "EASING",
+    "dxy_close": 105.2300033569336,
+    "us10y_close": 4.448999881744385,
+    "oil_brent_close": 83.87999725341797,
+    "vix_close": 12.6899995803833,
+    "nifty_close": 21957.5,
+    "usdinr_close": 83.46430206298828
+  },
+  "data_quality": {
+    "date": "2024-05-10",
+    "total_records": 11546,
+    "gold_records": 2050,
+    "silver_records": 1932,
+    "valid_count": 11460,
+    "suspicious_count": 86,
+    "invalid_count": 0,
+    "warnings": [
+      "[USDINR] [2021-12-27 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2022-01-17 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2022-02-14 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2022-05-31 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2022-06-03 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2022-11-21 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2023-11-02 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2023-11-17 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2023-11-23 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2023-12-29 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2024-01-01 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[USDINR] [2024-02-06 00:00:00] Suspicious OHLC relationship: Open/Close outside [Low, High].",
+      "[US2Y] [2021-08-19 00:00:00] Abnormal price jump detected: 21.82% shift.",
+      "[US2Y] [2021-08-24 00:00:00] Abnormal price jump detected: 20.00% shift.",
+      "[US2Y] [2021-09-21 00:00:00] Abnormal price jump detected: 20.00% shift.",
+      "[US2Y] [2021-09-22 00:00:00] Abnormal price jump detected: 25.00% shift.",
+      "[US2Y] [2021-09-28 00:00:00] Abnormal price jump detected: 20.00% shift.",
+      "[US2Y] [2021-10-05 00:00:00] Abnormal price jump detected: 25.00% shift.",
+      "[US2Y] [2021-10-19 00:00:00] Abnormal price jump detected: 16.28% shift.",
+      "[US2Y] [2021-11-01 00:00:00] Abnormal price jump detected: 16.67% shift.",
+      "[US2Y] [2021-11-04 00:00:00] Abnormal price jump detected: 22.22% shift.",
+      "[US2Y] [2021-11-30 00:00:00] Abnormal price jump detected: 26.32% shift.",
+      "[US2Y] [2021-12-07 00:00:00] Abnormal price jump detected: 34.88% shift.",
+      "[US2Y] [2021-12-16 00:00:00] Abnormal price jump detected: 22.22% shift.",
+      "[US2Y] [2021-12-20 00:00:00] Abnormal price jump detected: 26.67% shift.",
+      "[US2Y] [2021-12-21 00:00:00] Abnormal price jump detected: 71.05% shift.",
+      "[US2Y] [2021-12-27 00:00:00] Abnormal price jump detected: 25.86% shift.",
+      "[US2Y] [2021-12-28 00:00:00] Abnormal price jump detected: 16.28% shift.",
+      "[US2Y] [2021-12-30 00:00:00] Abnormal price jump detected: 44.44% shift.",
+      "[US2Y] [2021-12-31 00:00:00] Abnormal price jump detected: 32.00% shift.",
+      "[US2Y] [2022-01-03 00:00:00] Abnormal price jump detected: 60.61% shift.",
+      "[US2Y] [2022-01-04 00:00:00] Abnormal price jump detected: 50.94% shift.",
+      "[US2Y] [2022-01-11 00:00:00] Abnormal price jump detected: 31.11% shift.",
+      "[US2Y] [2022-01-19 00:00:00] Abnormal price jump detected: 26.92% shift.",
+      "[US2Y] [2022-01-25 00:00:00] Abnormal price jump detected: 19.35% shift.",
+      "[US2Y] [2022-02-01 00:00:00] Abnormal price jump detected: 17.34% shift.",
+      "[US2Y] [2022-02-04 00:00:00] Abnormal price jump detected: 15.54% shift.",
+      "[US2Y] [2022-02-08 00:00:00] Abnormal price jump detected: 35.47% shift.",
+      "[US2Y] [2022-02-10 00:00:00] Abnormal price jump detected: 37.04% shift.",
+      "[US2Y] [2022-02-24 00:00:00] Abnormal price jump detected: 16.76% shift.",
+      "[US2Y] [2022-03-08 00:00:00] Abnormal price jump detected: 18.03% shift.",
+      "[US2Y] [2022-03-15 00:00:00] Abnormal price jump detected: 18.52% shift.",
+      "[US2Y] [2022-03-17 00:00:00] Abnormal price jump detected: 16.86% shift.",
+      "[US2Y] [2022-03-21 00:00:00] Abnormal price jump detected: 18.80% shift.",
+      "[US2Y] [2022-04-05 00:00:00] Abnormal price jump detected: 24.16% shift.",
+      "[US2Y] [2022-05-03 00:00:00] Abnormal price jump detected: 16.99% shift.",
+      "[US2Y] [2022-06-13 00:00:00] Abnormal price jump detected: 16.30% shift.",
+      "[US2Y] [2022-06-14 00:00:00] Abnormal price jump detected: 16.36% shift.",
+      "[VIX] [2021-08-18 00:00:00] Abnormal price jump detected: 20.44% shift.",
+      "[VIX] [2021-09-20 00:00:00] Abnormal price jump detected: 23.55% shift.",
+      "[VIX] [2021-09-28 00:00:00] Abnormal price jump detected: 23.93% shift.",
+      "[VIX] [2021-11-26 00:00:00] Abnormal price jump detected: 54.04% shift.",
+      "[VIX] [2021-11-29 00:00:00] Abnormal price jump detected: 19.78% shift.",
+      "[VIX] [2021-11-30 00:00:00] Abnormal price jump detected: 18.42% shift.",
+      "[VIX] [2021-12-07 00:00:00] Abnormal price jump detected: 19.46% shift.",
+      "[VIX] [2022-01-05 00:00:00] Abnormal price jump detected: 16.68% shift.",
+      "[VIX] [2022-01-13 00:00:00] Abnormal price jump detected: 15.27% shift.",
+      "[VIX] [2022-01-18 00:00:00] Abnormal price jump detected: 18.76% shift.",
+      "[VIX] [2022-02-10 00:00:00] Abnormal price jump detected: 19.79% shift.",
+      "[VIX] [2022-02-17 00:00:00] Abnormal price jump detected: 15.73% shift.",
+      "[VIX] [2022-04-11 00:00:00] Abnormal price jump detected: 15.17% shift.",
+      "[VIX] [2022-04-22 00:00:00] Abnormal price jump detected: 24.38% shift.",
+      "[VIX] [2022-04-26 00:00:00] Abnormal price jump detected: 24.06% shift.",
+      "[VIX] [2022-05-05 00:00:00] Abnormal price jump detected: 22.74% shift.",
+      "[VIX] [2022-05-09 00:00:00] Abnormal price jump detected: 15.10% shift.",
+      "[VIX] [2022-05-18 00:00:00] Abnormal price jump detected: 18.62% shift.",
+      "[VIX] [2022-06-13 00:00:00] Abnormal price jump detected: 22.59% shift.",
+      "[VIX] [2022-08-22 00:00:00] Abnormal price jump detected: 15.53% shift.",
+      "[VIX] [2022-08-26 00:00:00] Abnormal price jump detected: 17.36% shift.",
+      "[VIX] [2023-03-09 00:00:00] Abnormal price jump detected: 18.32% shift.",
+      "[VIX] [2023-08-02 00:00:00] Abnormal price jump detected: 15.51% shift.",
+      "[VIX] [2023-09-21 00:00:00] Abnormal price jump detected: 15.85% shift.",
+      "[VIX] [2023-10-13 00:00:00] Abnormal price jump detected: 15.76% shift.",
+      "[VIX] [2024-04-12 00:00:00] Abnormal price jump detected: 16.10% shift.",
+      "[INDIA_VIX] [2021-11-22 00:00:00] Abnormal price jump detected: 17.90% shift.",
+      "[INDIA_VIX] [2021-11-26 00:00:00] Abnormal price jump detected: 24.85% shift.",
+      "[INDIA_VIX] [2021-12-20 00:00:00] Abnormal price jump detected: 16.10% shift.",
+      "[INDIA_VIX] [2022-01-24 00:00:00] Abnormal price jump detected: 20.86% shift.",
+      "[INDIA_VIX] [2022-02-14 00:00:00] Abnormal price jump detected: 23.02% shift.",
+      "[INDIA_VIX] [2022-02-22 00:00:00] Abnormal price jump detected: 16.42% shift.",
+      "[INDIA_VIX] [2022-02-24 00:00:00] Abnormal price jump detected: 30.32% shift.",
+      "[INDIA_VIX] [2022-02-25 00:00:00] Abnormal price jump detected: 16.39% shift.",
+      "[INDIA_VIX] [2022-04-25 00:00:00] Abnormal price jump detected: 15.86% shift.",
+      "[INDIA_VIX] [2023-01-27 00:00:00] Abnormal price jump detected: 18.14% shift.",
+      "[INDIA_VIX] [2023-03-13 00:00:00] Abnormal price jump detected: 20.95% shift.",
+      "[INDIA_VIX] [2024-04-23 00:00:00] Abnormal price jump detected: 19.69% shift."
+    ],
+    "errors": []
+  },
+  "alerts": []
+}

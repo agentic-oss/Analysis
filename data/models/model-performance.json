@@ -1,0 +1,15 @@
+{
+  "evaluation_timestamp": "2026-09-09T13:09:59.473377",
+  "total_evaluated": 1,
+  "overall_accuracy_pct": 100.0,
+  "overall_mae": 0.5,
+  "overall_rmse": 0.5,
+  "by_horizon": {
+    "5d": {
+      "count": 1,
+      "directional_accuracy_pct": 100.0,
+      "mae": 0.5,
+      "rmse": 0.5
+    }
+  }
+}

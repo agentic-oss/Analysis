@@ -1,0 +1,67 @@
+name: Daily Gold & Silver Analysis Pipeline
+
+on:
+  schedule:
+    # Run daily at 18:00 UTC (11:30 PM IST), after US/Indian market closes
+    - cron: '0 18 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      analysis_date:
+        description: 'Target Analysis Date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest
+
+      - name: Verify Secrets Protection
+        run: |
+          echo "Verifying no hardcoded secrets exist..."
+          ! grep -ri "api_key\|secret_key\|private_key\|password" src/ config/
+
+      - name: Run Unit Tests
+        run: |
+          PYTHONPATH=. pytest tests/ -v
+
+      - name: Execute Pipeline
+        run: |
+          TARGET_DATE="${{ github.event.inputs.analysis_date }}"
+          if [ -z "$TARGET_DATE" ]; then
+            TARGET_DATE=$(date -u +'%Y-%m-%d')
+          fi
+          echo "Executing metals pipeline for date: $TARGET_DATE"
+          PYTHONPATH=. python3 src/pipeline/runner.py "$TARGET_DATE"
+
+      - name: Commit and Push Analysis Updates
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/ reports/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            TODAY=$(date -u +'%Y-%m-%d')
+            git commit -m "data: daily gold silver analysis $TODAY"
+            git push
+          fi
