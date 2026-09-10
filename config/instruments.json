@@ -1,0 +1,124 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true,
+      "provider_ticker": "GC=F"
+    },
+    {
+      "symbol": "SILVER",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true,
+      "provider_ticker": "SI=F"
+    },
+    {
+      "symbol": "GOLD_INR",
+      "market": "domestic",
+      "currency": "INR",
+      "unit": "10g",
+      "enabled": true,
+      "provider_ticker": "GOLDBEES.NS"
+    },
+    {
+      "symbol": "SILVER_INR",
+      "market": "domestic",
+      "currency": "INR",
+      "unit": "kg",
+      "enabled": true,
+      "provider_ticker": "SILVERBEES.NS"
+    },
+    {
+      "symbol": "USDINR",
+      "market": "fx",
+      "currency": "INR",
+      "unit": "rate",
+      "enabled": true,
+      "provider_ticker": "USDINR=X"
+    },
+    {
+      "symbol": "DXY",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "provider_ticker": "DX-Y.NYB"
+    },
+    {
+      "symbol": "US10Y",
+      "market": "rates",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true,
+      "provider_ticker": "^TNX"
+    },
+    {
+      "symbol": "US2Y",
+      "market": "rates",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true,
+      "provider_ticker": "2YY=F"
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "market": "energy",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true,
+      "provider_ticker": "CL=F"
+    },
+    {
+      "symbol": "SP500",
+      "market": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "provider_ticker": "^GSPC"
+    },
+    {
+      "symbol": "NASDAQ",
+      "market": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "provider_ticker": "^IXIC"
+    },
+    {
+      "symbol": "DOW",
+      "market": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "provider_ticker": "^DJI"
+    },
+    {
+      "symbol": "NIFTY50",
+      "market": "equity",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true,
+      "provider_ticker": "^NSEI"
+    },
+    {
+      "symbol": "VIX",
+      "market": "volatility",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "provider_ticker": "^VIX"
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "market": "volatility",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true,
+      "provider_ticker": "^INDIAVIX"
+    }
+  ]
+}

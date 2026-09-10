@@ -1,0 +1,12 @@
+{
+  "date": "2024-01-10",
+  "alerts_count": 1,
+  "alerts": [
+    {
+      "date": "2024-01-10",
+      "type": "GOLD_SILVER_RATIO_EXTREME",
+      "severity": "MEDIUM",
+      "message": "Gold/Silver ratio reached extreme level of 62.22"
+    }
+  ]
+}
