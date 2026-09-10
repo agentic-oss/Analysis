@@ -1,0 +1,128 @@
+{
+  "date": "2024-01-10",
+  "instruments_evaluated": 17,
+  "symbol_quality": {
+    "GOLD": {
+      "symbol": "GOLD",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "SILVER": {
+      "symbol": "SILVER",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "GOLD_INR": {
+      "symbol": "GOLD_INR",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "SILVER_INR": {
+      "symbol": "SILVER_INR",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "USDINR": {
+      "symbol": "USDINR",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "DXY": {
+      "symbol": "DXY",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "US10Y": {
+      "symbol": "US10Y",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "US2Y": {
+      "symbol": "US2Y",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "CRUDE_OIL": {
+      "symbol": "CRUDE_OIL",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "SP500": {
+      "symbol": "SP500",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "NASDAQ": {
+      "symbol": "NASDAQ",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "DOW": {
+      "symbol": "DOW",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "NIFTY50": {
+      "symbol": "NIFTY50",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "VIX": {
+      "symbol": "VIX",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "INDIA_VIX": {
+      "symbol": "INDIA_VIX",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "GOLD_DERIVED_INR": {
+      "symbol": "GOLD_DERIVED_INR",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    },
+    "SILVER_DERIVED_INR": {
+      "symbol": "SILVER_DERIVED_INR",
+      "record_count": 523,
+      "classification": "valid",
+      "warnings": [],
+      "errors": []
+    }
+  },
+  "all_warnings": [],
+  "all_errors": [],
+  "overall_status": "valid"
+}

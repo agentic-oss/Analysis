@@ -1,0 +1,280 @@
+{
+  "date": "2024-01-10",
+  "gold": {
+    "symbol": "GOLD",
+    "price": 2560.733092083386,
+    "daily_move_pct": 0.7237161918037804,
+    "weekly_move_pct": 2.579895854090908,
+    "monthly_move_pct": 1.304946247628025,
+    "rsi_14": 63.47626405330157,
+    "macd": 19.457250693541482,
+    "macd_signal": 18.945287384278107,
+    "sma_20": 2519.591703806012,
+    "sma_50": 2475.1921605279645,
+    "sma_200": 2280.742282609108,
+    "volatility_20d": 0.1436596027826156,
+    "technical_bias": "Bullish",
+    "correlations": {
+      "DXY_20d": 0.5838445160488683,
+      "DXY_60d": 0.5788859985478851,
+      "DXY_252d": 0.7191857978186468
+    }
+  },
+  "silver": {
+    "symbol": "SILVER",
+    "price": 41.156963241434234,
+    "daily_move_pct": -1.4858982604618376,
+    "weekly_move_pct": -1.2286006211550737,
+    "monthly_move_pct": -2.6997244519982977,
+    "rsi_14": 28.70682587508105,
+    "macd": 0.2020968959536802,
+    "sma_20": 42.09326818891053,
+    "sma_50": 41.084241039077966,
+    "sma_200": 37.160189024891835,
+    "volatility_20d": 0.16074682115665292,
+    "technical_bias": "Neutral",
+    "gold_silver_ratio": {
+      "current_ratio": 62.21870834010906,
+      "mean_ratio": 66.87237699954476,
+      "z_score": -0.5398950414121446,
+      "percentile": 39.77055449330784
+    }
+  },
+  "gold_silver_ratio": {
+    "gold_silver_ratio": 62.21870834010906,
+    "ratio_sma_60": 60.54528932832729,
+    "ratio_zscore_60": 1.4285701327989893,
+    "spread_return_1d": 0.02209614452265618,
+    "spread_volatility_20d": 0.21785939188915476,
+    "extreme_high_gold_overvalued": false,
+    "extreme_low_silver_overvalued": true
+  },
+  "macro": {
+    "primary_macro_regime": "Risk-Off",
+    "regime_scores": {
+      "Inflationary": 0,
+      "Disinflationary": 1,
+      "Deflationary": 0,
+      "Risk-On": 0,
+      "Risk-Off": 2,
+      "Tightening": 0,
+      "Easing": 2,
+      "Stagflationary": 0
+    },
+    "inputs": {
+      "us10y_change_20d": -0.7797281683947119,
+      "dxy_return_20d": 0.036701099099304635,
+      "oil_return_20d": 0.0169222558076505,
+      "sp500_return_20d": 0.03596651239209758,
+      "vix_level": 97.1565672066685
+    }
+  },
+  "scores": {
+    "technical_score": 67.27965467076615,
+    "macro_score": 65.0,
+    "momentum_score": 63.47626405330157,
+    "volatility_score": 56.90211916521532,
+    "relative_value_score": 28.57144800801516,
+    "historical_pattern_score": 65.21739130434783,
+    "composite_score": 58.581014313785204
+  },
+  "forecast_signals": {
+    "disclaimer": "Historical conditional statistics only, not guaranteed future outcomes.",
+    "signals": {
+      "1d": {
+        "horizon": "1d",
+        "bias": "Neutral",
+        "positive_return_probability": 0.48,
+        "negative_return_probability": 0.52,
+        "expected_return": 0.0010478357085212983,
+        "median_return": -0.0003106757871994894,
+        "expected_volatility": 0.00879322662028015,
+        "max_gain": 0.015501113765301059,
+        "max_loss": -0.016251880195512953
+      },
+      "3d": {
+        "horizon": "3d",
+        "bias": "Neutral",
+        "positive_return_probability": 0.6086956521739131,
+        "negative_return_probability": 0.3913043478260869,
+        "expected_return": 0.003065527704095164,
+        "median_return": 0.0029819068592845488,
+        "expected_volatility": 0.016189624623789315,
+        "max_gain": 0.04569064702005664,
+        "max_loss": -0.02976835448894378
+      },
+      "5d": {
+        "horizon": "5d",
+        "bias": "Neutral",
+        "positive_return_probability": 0.6521739130434783,
+        "negative_return_probability": 0.34782608695652173,
+        "expected_return": 0.004483625687167439,
+        "median_return": 0.004948252236955666,
+        "expected_volatility": 0.017752781143387037,
+        "max_gain": 0.04382484128281251,
+        "max_loss": -0.036988487160342115
+      },
+      "10d": {
+        "horizon": "10d",
+        "bias": "Bullish",
+        "positive_return_probability": 0.75,
+        "negative_return_probability": 0.25,
+        "expected_return": 0.014366528866826486,
+        "median_return": 0.015949444201756195,
+        "expected_volatility": 0.025344351320545206,
+        "max_gain": 0.057257128032948634,
+        "max_loss": -0.049275716189596475
+      },
+      "20d": {
+        "horizon": "20d",
+        "bias": "Bullish",
+        "positive_return_probability": 0.8333333333333334,
+        "negative_return_probability": 0.16666666666666663,
+        "expected_return": 0.04630500090707792,
+        "median_return": 0.056106923703948826,
+        "expected_volatility": 0.05103430149621355,
+        "max_gain": 0.12131922753587347,
+        "max_loss": -0.04475923608407462
+      },
+      "60d": {
+        "horizon": "60d",
+        "bias": "Bullish",
+        "positive_return_probability": 0.8181818181818182,
+        "negative_return_probability": 0.18181818181818177,
+        "expected_return": 0.09229181693411213,
+        "median_return": 0.09214737871204111,
+        "expected_volatility": 0.054246462303700824,
+        "max_gain": 0.1482935652044353,
+        "max_loss": -0.008138104220520392
+      }
+    }
+  },
+  "data_quality": {
+    "date": "2024-01-10",
+    "instruments_evaluated": 17,
+    "symbol_quality": {
+      "GOLD": {
+        "symbol": "GOLD",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "SILVER": {
+        "symbol": "SILVER",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "GOLD_INR": {
+        "symbol": "GOLD_INR",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "SILVER_INR": {
+        "symbol": "SILVER_INR",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "USDINR": {
+        "symbol": "USDINR",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "DXY": {
+        "symbol": "DXY",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "US10Y": {
+        "symbol": "US10Y",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "US2Y": {
+        "symbol": "US2Y",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "CRUDE_OIL": {
+        "symbol": "CRUDE_OIL",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "SP500": {
+        "symbol": "SP500",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "NASDAQ": {
+        "symbol": "NASDAQ",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "DOW": {
+        "symbol": "DOW",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "NIFTY50": {
+        "symbol": "NIFTY50",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "VIX": {
+        "symbol": "VIX",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "INDIA_VIX": {
+        "symbol": "INDIA_VIX",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "GOLD_DERIVED_INR": {
+        "symbol": "GOLD_DERIVED_INR",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      },
+      "SILVER_DERIVED_INR": {
+        "symbol": "SILVER_DERIVED_INR",
+        "record_count": 523,
+        "classification": "valid",
+        "warnings": [],
+        "errors": []
+      }
+    },
+    "all_warnings": [],
+    "all_errors": [],
+    "overall_status": "valid"
+  }
+}
