@@ -1,0 +1,15 @@
+{
+  "date": "2026-03-31",
+  "alerts": [
+    {
+      "type": "GOLD_RSI_OVERSOLD",
+      "severity": "MEDIUM",
+      "message": "Gold RSI oversold at 23.3"
+    },
+    {
+      "type": "RATIO_EXTREME_LOW",
+      "severity": "HIGH",
+      "message": "Gold/Silver ratio reached extreme low: 64.36"
+    }
+  ]
+}
