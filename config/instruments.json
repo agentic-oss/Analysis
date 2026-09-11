@@ -1,0 +1,166 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "ticker": "GC=F",
+      "enabled": true,
+      "description": "Spot Gold USD/oz"
+    },
+    {
+      "symbol": "SILVER",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "ticker": "SI=F",
+      "enabled": true,
+      "description": "Spot Silver USD/oz"
+    },
+    {
+      "symbol": "GOLD_FUTURES",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "ticker": "GC=F",
+      "enabled": true,
+      "description": "COMEX Gold Futures"
+    },
+    {
+      "symbol": "SILVER_FUTURES",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "ticker": "SI=F",
+      "enabled": true,
+      "description": "COMEX Silver Futures"
+    },
+    {
+      "symbol": "GOLD_INR",
+      "market": "spot_inr",
+      "currency": "INR",
+      "unit": "10g",
+      "ticker": "GOLD_INR_CALC",
+      "enabled": true,
+      "description": "Indian Gold Price (INR per 10 grams)"
+    },
+    {
+      "symbol": "SILVER_INR",
+      "market": "spot_inr",
+      "currency": "INR",
+      "unit": "kg",
+      "ticker": "SILVER_INR_CALC",
+      "enabled": true,
+      "description": "Indian Silver Price (INR per kg)"
+    },
+    {
+      "symbol": "MCX_GOLD",
+      "market": "mcx_futures",
+      "currency": "INR",
+      "unit": "10g",
+      "ticker": "GOLDBEES.NS",
+      "enabled": true,
+      "description": "MCX Gold Futures / Gold BEES proxy"
+    },
+    {
+      "symbol": "MCX_SILVER",
+      "market": "mcx_futures",
+      "currency": "INR",
+      "unit": "kg",
+      "ticker": "SILVERBEES.NS",
+      "enabled": true,
+      "description": "MCX Silver Futures / Silver BEES proxy"
+    },
+    {
+      "symbol": "USDINR",
+      "market": "fx",
+      "currency": "INR",
+      "unit": "fx_rate",
+      "ticker": "USDINR=X",
+      "enabled": true,
+      "description": "USD to INR Exchange Rate"
+    },
+    {
+      "symbol": "DXY",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "ticker": "DX-Y.NYB",
+      "enabled": true,
+      "description": "US Dollar Index"
+    },
+    {
+      "symbol": "US10Y",
+      "market": "yield",
+      "currency": "USD",
+      "unit": "percent",
+      "ticker": "^TNX",
+      "enabled": true,
+      "description": "US 10-Year Treasury Yield"
+    },
+    {
+      "symbol": "US2Y",
+      "market": "yield",
+      "currency": "USD",
+      "unit": "percent",
+      "ticker": "^IRX",
+      "enabled": true,
+      "description": "US 2-Year Treasury Yield / Short rate proxy"
+    },
+    {
+      "symbol": "REAL_YIELD",
+      "market": "yield",
+      "currency": "USD",
+      "unit": "percent",
+      "ticker": "TIP",
+      "enabled": true,
+      "description": "US Real Yield Proxy (TIPS ETF)"
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "market": "commodity",
+      "currency": "USD",
+      "unit": "bbl",
+      "ticker": "CL=F",
+      "enabled": true,
+      "description": "WTI Crude Oil"
+    },
+    {
+      "symbol": "SP500",
+      "market": "equity_index",
+      "currency": "USD",
+      "unit": "index",
+      "ticker": "^GSPC",
+      "enabled": true,
+      "description": "S&P 500 Index"
+    },
+    {
+      "symbol": "NIFTY50",
+      "market": "equity_index",
+      "currency": "INR",
+      "unit": "index",
+      "ticker": "^NSEI",
+      "enabled": true,
+      "description": "NIFTY 50 Index"
+    },
+    {
+      "symbol": "VIX",
+      "market": "volatility",
+      "currency": "USD",
+      "unit": "index",
+      "ticker": "^VIX",
+      "enabled": true,
+      "description": "CBOE Volatility Index"
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "market": "volatility",
+      "currency": "INR",
+      "unit": "index",
+      "ticker": "^INDIAVIX",
+      "enabled": true,
+      "description": "India Volatility Index"
+    }
+  ]
+}

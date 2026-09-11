@@ -1,0 +1,228 @@
+{
+  "date": "2026-03-31",
+  "timestamp": "2026-09-11T13:45:21.812920+00:00",
+  "summary": {
+    "total_instruments": 18,
+    "valid_records": 4509,
+    "suspicious_records": 16,
+    "invalid_records": 6
+  },
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "total_records": 252,
+      "valid_records": 252,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER",
+      "total_records": 252,
+      "valid_records": 251,
+      "suspicious_records": 1,
+      "invalid_records": 0,
+      "warnings": [
+        "Row 211 (2026-01-30): price_spike_31.3pct"
+      ],
+      "errors": []
+    },
+    {
+      "symbol": "GOLD_FUTURES",
+      "total_records": 252,
+      "valid_records": 252,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER_FUTURES",
+      "total_records": 252,
+      "valid_records": 251,
+      "suspicious_records": 1,
+      "invalid_records": 0,
+      "warnings": [
+        "Row 211 (2026-01-30): price_spike_31.3pct"
+      ],
+      "errors": []
+    },
+    {
+      "symbol": "GOLD_INR",
+      "total_records": 262,
+      "valid_records": 262,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER_INR",
+      "total_records": 262,
+      "valid_records": 262,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "MCX_GOLD",
+      "total_records": 246,
+      "valid_records": 246,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "MCX_SILVER",
+      "total_records": 246,
+      "valid_records": 245,
+      "suspicious_records": 1,
+      "invalid_records": 0,
+      "warnings": [
+        "Row 207 (2026-02-02): price_spike_23.2pct"
+      ],
+      "errors": []
+    },
+    {
+      "symbol": "USDINR",
+      "total_records": 257,
+      "valid_records": 251,
+      "suspicious_records": 0,
+      "invalid_records": 6,
+      "warnings": [],
+      "errors": [
+        "Row 53 (2025-06-16): high_less_than_open_or_close",
+        "Row 145 (2025-10-22): high_less_than_open_or_close",
+        "Row 170 (2025-11-26): low_greater_than_open_or_close",
+        "Row 215 (2026-01-30): low_greater_than_open_or_close",
+        "Row 222 (2026-02-10): high_less_than_open_or_close",
+        "Row 241 (2026-03-09): low_greater_than_open_or_close"
+      ]
+    },
+    {
+      "symbol": "DXY",
+      "total_records": 252,
+      "valid_records": 252,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "US10Y",
+      "total_records": 251,
+      "valid_records": 251,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "US2Y",
+      "total_records": 251,
+      "valid_records": 251,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "REAL_YIELD",
+      "total_records": 251,
+      "valid_records": 251,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "total_records": 252,
+      "valid_records": 252,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SP500",
+      "total_records": 251,
+      "valid_records": 251,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "NIFTY50",
+      "total_records": 246,
+      "valid_records": 246,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "VIX",
+      "total_records": 251,
+      "valid_records": 242,
+      "suspicious_records": 9,
+      "invalid_records": 0,
+      "warnings": [
+        "Row 3 (2025-04-03): price_spike_39.6pct",
+        "Row 4 (2025-04-04): price_spike_50.9pct",
+        "Row 7 (2025-04-09): price_spike_35.8pct",
+        "Row 8 (2025-04-10): price_spike_21.1pct",
+        "Row 85 (2025-08-01): price_spike_21.9pct",
+        "Row 134 (2025-10-10): price_spike_31.8pct",
+        "Row 138 (2025-10-16): price_spike_22.6pct",
+        "Row 202 (2026-01-20): price_spike_26.7pct",
+        "Row 234 (2026-03-06): price_spike_24.2pct"
+      ],
+      "errors": []
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "total_records": 245,
+      "valid_records": 241,
+      "suspicious_records": 4,
+      "invalid_records": 0,
+      "warnings": [
+        "Row 4 (2025-04-07): price_spike_65.6pct",
+        "Row 226 (2026-03-02): price_spike_25.0pct",
+        "Row 227 (2026-03-04): price_spike_23.4pct",
+        "Row 238 (2026-03-19): price_spike_21.8pct"
+      ],
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "[SILVER] Row 211 (2026-01-30): price_spike_31.3pct",
+    "[SILVER_FUTURES] Row 211 (2026-01-30): price_spike_31.3pct",
+    "[MCX_SILVER] Row 207 (2026-02-02): price_spike_23.2pct",
+    "[VIX] Row 3 (2025-04-03): price_spike_39.6pct",
+    "[VIX] Row 4 (2025-04-04): price_spike_50.9pct",
+    "[VIX] Row 7 (2025-04-09): price_spike_35.8pct",
+    "[VIX] Row 8 (2025-04-10): price_spike_21.1pct",
+    "[VIX] Row 85 (2025-08-01): price_spike_21.9pct",
+    "[VIX] Row 134 (2025-10-10): price_spike_31.8pct",
+    "[VIX] Row 138 (2025-10-16): price_spike_22.6pct",
+    "[VIX] Row 202 (2026-01-20): price_spike_26.7pct",
+    "[VIX] Row 234 (2026-03-06): price_spike_24.2pct",
+    "[INDIA_VIX] Row 4 (2025-04-07): price_spike_65.6pct",
+    "[INDIA_VIX] Row 226 (2026-03-02): price_spike_25.0pct",
+    "[INDIA_VIX] Row 227 (2026-03-04): price_spike_23.4pct",
+    "[INDIA_VIX] Row 238 (2026-03-19): price_spike_21.8pct"
+  ],
+  "errors": [
+    "[USDINR] Row 53 (2025-06-16): high_less_than_open_or_close",
+    "[USDINR] Row 145 (2025-10-22): high_less_than_open_or_close",
+    "[USDINR] Row 170 (2025-11-26): low_greater_than_open_or_close",
+    "[USDINR] Row 215 (2026-01-30): low_greater_than_open_or_close",
+    "[USDINR] Row 222 (2026-02-10): high_less_than_open_or_close",
+    "[USDINR] Row 241 (2026-03-09): low_greater_than_open_or_close"
+  ]
+}

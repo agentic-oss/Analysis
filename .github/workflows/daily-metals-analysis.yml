@@ -1,0 +1,49 @@
+name: Daily Precious Metals Research Pipeline
+
+on:
+  schedule:
+    # Run daily at 18:00 UTC (11:30 PM IST / close of Indian & major global trading hours)
+    - cron: '0 18 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest requests
+
+      - name: Run Test Suite
+        run: |
+          PYTHONPATH=. pytest tests/
+
+      - name: Run Daily Analysis Pipeline
+        run: |
+          PYTHONPATH=. python3 src/pipeline/runner.py
+
+      - name: Verify Secret Protection
+        run: |
+          # Simple audit check ensuring no cleartext secret keys or env files are checked in
+          if grep -rn "API_KEY=" .git/ || grep -rn "PRIVATE_KEY=" .git/ ; then
+            echo "Secrets detected!"
+            exit 1
+          fi
+
+      - name: Commit and Push Analysis Data & Reports
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "data: daily gold silver analysis $(date -u +'%Y-%m-%d')" && git push)

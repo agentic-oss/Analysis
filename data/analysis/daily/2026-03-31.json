@@ -1,0 +1,97 @@
+{
+  "date": "2026-03-31",
+  "generated_at": "2026-09-11T13:45:22.087084+00:00",
+  "scores": {
+    "composite_score": 60.9,
+    "technical_score": 71.0,
+    "macro_score": 100.0,
+    "momentum_score": 23.3,
+    "volatility_score": 0.0,
+    "relative_value_score": 71.6,
+    "historical_pattern_score": 50.0,
+    "model_score": 50.0,
+    "weights": {
+      "technical": 0.25,
+      "macro": 0.25,
+      "momentum": 0.15,
+      "volatility": 0.1,
+      "relative_value": 0.1,
+      "historical_pattern": 0.1,
+      "model": 0.05
+    }
+  },
+  "gold": {
+    "price_usd": 4526.0,
+    "price_inr_10g": 128023.46,
+    "return_1d_pct": 0.756901157613532,
+    "return_5d_pct": 2.7678731100735376,
+    "return_20d_pct": -14.513446594836765,
+    "rsi_14": 23.338634115081476,
+    "macd_hist": -54.56386623660076,
+    "dist_sma_200_pct": 10.476820347879272,
+    "atr": 149.48573521205358,
+    "trend_regime": "Range",
+    "volatility_regime": "High Volatility"
+  },
+  "silver": {
+    "price_usd": 70.3239974975586,
+    "price_inr_kg": 198920.05,
+    "return_1d_pct": 1.120137104211083,
+    "return_5d_pct": 1.846505858144698,
+    "return_20d_pct": -20.343436839976636,
+    "rsi_14": 19.436922804606525,
+    "macd_hist": -0.9470554308857473,
+    "dist_sma_200_pct": 22.75558288289867,
+    "atr": 4.330142157418387
+  },
+  "gold_silver_ratio": {
+    "gold_silver_ratio": 64.35925375483848,
+    "ratio_percentile_252": 22.61904761904762,
+    "ratio_zscore": -1.0796666276917148,
+    "return_spread_1d_pct": -0.363235946597551
+  },
+  "macro": {
+    "primary_regime": "Risk-off",
+    "risk_regime": "Risk-off",
+    "monetary_regime": "Tightening",
+    "inflation_regime": "Neutral",
+    "components": {
+      "dxy_change_20d": 0.02165079225735078,
+      "yield_10y_change_20d": 0.29400014877319336,
+      "real_yield_change_20d": -1.220001220703125,
+      "vix_level": 30.610000610351562,
+      "oil_return_20d": 0.44433514537246666,
+      "sp500_return_20d": -0.07816471894464128
+    },
+    "reasons": [
+      "S&P 500 declining or high VIX spike",
+      "Rising real yields / 10Y Treasury yields"
+    ]
+  },
+  "historical_analogues": {
+    "gold": {
+      "analogues": [],
+      "forward_stats": {}
+    }
+  },
+  "probabilistic_signals": {
+    "gold": {}
+  },
+  "alerts": [
+    {
+      "type": "GOLD_RSI_OVERSOLD",
+      "severity": "MEDIUM",
+      "message": "Gold RSI oversold at 23.3"
+    },
+    {
+      "type": "RATIO_EXTREME_LOW",
+      "severity": "HIGH",
+      "message": "Gold/Silver ratio reached extreme low: 64.36"
+    }
+  ],
+  "data_quality": {
+    "valid_records": 4509,
+    "suspicious_records": 16,
+    "invalid_records": 6
+  }
+}
