@@ -1,0 +1,51 @@
+name: Daily Precious Metals Research Pipeline
+
+on:
+  schedule:
+    # 18:00 IST (12:30 UTC) Mon-Fri
+    - cron: '30 12 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      as_of_date:
+        description: 'Analysis Date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest
+
+      - name: Run tests
+        run: |
+          PYTHONPATH=. pytest
+
+      - name: Execute Daily Pipeline
+        run: |
+          PYTHONPATH=. python3 src/pipeline/runner.py "${{ github.event.inputs.as_of_date }}"
+
+      - name: Verify Secret Protection
+        run: |
+          echo "Verifying no raw secrets or private tokens in generated reports/data..."
+          ! grep -r "sk-" data/ src/ config/ || exit 1
+
+      - name: Commit and push daily research updates
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/ reports/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "data: daily gold silver analysis $(date +'%Y-%m-%d')" && git push)
