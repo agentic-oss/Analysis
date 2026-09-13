@@ -1,0 +1,235 @@
+{
+  "date": "2024-03-01",
+  "gold": {
+    "price": 2898.9994008432873,
+    "return_1d": 0.00948113263485273,
+    "return_5d": -0.008306533582814635,
+    "return_20d": -0.020843493918990652,
+    "technical_score": 65.0,
+    "macro_score": 60.0,
+    "regime": "Bullish Trend | Low Volatility",
+    "research_bias": "Bullish",
+    "fwd_5d_pos_prob": 0.7333
+  },
+  "silver": {
+    "price": 41.208021207477834,
+    "return_1d": -0.014498423452605658,
+    "return_5d": -0.029023807102556365,
+    "return_20d": -0.034952024906679036,
+    "technical_score": 60.0,
+    "macro_score": 60.0,
+    "regime": "Strong Bearish Trend | Low Volatility",
+    "research_bias": "Bullish",
+    "fwd_5d_pos_prob": 0.7333
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 70.35036664942356,
+    "zscore": 1.1232576753910777,
+    "percentile": 83.33333333333334
+  },
+  "macro": {
+    "macro_regime": "Risk-Off",
+    "dxy_close": 204.7316979275761,
+    "us10y_close": 1.9773377588344283,
+    "vix_close": 41.492764710348254
+  },
+  "data_quality": {
+    "date": "2024-03-01",
+    "total_records": 50232,
+    "instruments_analyzed": 21,
+    "summaries": [
+      {
+        "symbol": "GOLD",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "SILVER",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "GOLD_FUTURES",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "SILVER_FUTURES",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "GOLD_INR",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "SILVER_INR",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "MCX_GOLD",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "MCX_SILVER",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "USDINR",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "DXY",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "US10Y",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "US2Y",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "REAL_YIELD",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "CRUDE_OIL",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "BRENT_CRUDE",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "SP500",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "NASDAQ",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "DOW",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "NIFTY50",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "VIX",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "INDIAVIX",
+        "records_count": 2392,
+        "valid_count": 2392,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      }
+    ],
+    "warnings": [],
+    "errors": [],
+    "generated_timestamp": "2026-09-13T13:32:24.530557+00:00"
+  }
+}

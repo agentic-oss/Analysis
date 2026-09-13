@@ -1,0 +1,193 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "name": "Gold Spot USD",
+      "market": "spot",
+      "ticker": "GC=F",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER",
+      "name": "Silver Spot USD",
+      "market": "spot",
+      "ticker": "SI=F",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_FUTURES",
+      "name": "Gold Futures",
+      "market": "futures",
+      "ticker": "GC=F",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_FUTURES",
+      "name": "Silver Futures",
+      "market": "futures",
+      "ticker": "SI=F",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR",
+      "name": "Gold Spot INR",
+      "market": "spot",
+      "ticker": "GOLDBEES.NS",
+      "currency": "INR",
+      "unit": "10g",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR",
+      "name": "Silver Spot INR",
+      "market": "spot",
+      "ticker": "SILVERBEES.NS",
+      "currency": "INR",
+      "unit": "kg",
+      "enabled": true
+    },
+    {
+      "symbol": "MCX_GOLD",
+      "name": "MCX Gold Futures",
+      "market": "futures",
+      "ticker": "MCXGOLD.NS",
+      "currency": "INR",
+      "unit": "10g",
+      "enabled": true
+    },
+    {
+      "symbol": "MCX_SILVER",
+      "name": "MCX Silver Futures",
+      "market": "futures",
+      "ticker": "MCXSILVER.NS",
+      "currency": "INR",
+      "unit": "kg",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "name": "USD / INR Exchange Rate",
+      "market": "currency",
+      "ticker": "USDINR=X",
+      "currency": "INR",
+      "unit": "rate",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "name": "US Dollar Index",
+      "market": "currency",
+      "ticker": "DX-Y.NYB",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "name": "US 10-Year Treasury Yield",
+      "market": "rates",
+      "ticker": "^TNX",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true
+    },
+    {
+      "symbol": "US2Y",
+      "name": "US 2-Year Treasury Yield",
+      "market": "rates",
+      "ticker": "^IRX",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true
+    },
+    {
+      "symbol": "REAL_YIELD",
+      "name": "US 10-Year Real Yield (TIP ETF proxy)",
+      "market": "rates",
+      "ticker": "TIP",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "name": "Crude Oil Futures WTI",
+      "market": "energy",
+      "ticker": "CL=F",
+      "currency": "USD",
+      "unit": "bbl",
+      "enabled": true
+    },
+    {
+      "symbol": "BRENT_CRUDE",
+      "name": "Brent Crude Oil Futures",
+      "market": "energy",
+      "ticker": "BZ=F",
+      "currency": "USD",
+      "unit": "bbl",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "name": "S&P 500 Index",
+      "market": "equity",
+      "ticker": "^GSPC",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "NASDAQ",
+      "name": "Nasdaq Composite",
+      "market": "equity",
+      "ticker": "^IXIC",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "DOW",
+      "name": "Dow Jones Industrial Average",
+      "market": "equity",
+      "ticker": "^DJI",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "name": "NIFTY 50 Index",
+      "market": "equity",
+      "ticker": "^NSEI",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "name": "CBOE Volatility Index",
+      "market": "volatility",
+      "ticker": "^VIX",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIAVIX",
+      "name": "India Volatility Index",
+      "market": "volatility",
+      "ticker": "^INDIAVIX",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true
+    }
+  ]
+}

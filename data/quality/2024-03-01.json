@@ -1,0 +1,199 @@
+{
+  "date": "2024-03-01",
+  "total_records": 50232,
+  "instruments_analyzed": 21,
+  "summaries": [
+    {
+      "symbol": "GOLD",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "GOLD_FUTURES",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER_FUTURES",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "GOLD_INR",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER_INR",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "MCX_GOLD",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "MCX_SILVER",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "USDINR",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "DXY",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "US10Y",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "US2Y",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "REAL_YIELD",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "BRENT_CRUDE",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SP500",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "NASDAQ",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "DOW",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "NIFTY50",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "VIX",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "INDIAVIX",
+      "records_count": 2392,
+      "valid_count": 2392,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "generated_timestamp": "2026-09-13T13:32:24.530557+00:00"
+}
