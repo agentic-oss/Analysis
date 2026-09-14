@@ -1,0 +1,213 @@
+{
+  "date": "2026-03-30",
+  "symbol_reports": [
+    {
+      "date": "2026-09-14",
+      "symbol": "GC=F",
+      "record_count": 1256,
+      "valid_count": 1256,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "SI=F",
+      "record_count": 1256,
+      "valid_count": 1255,
+      "suspicious_count": 1,
+      "invalid_count": 0,
+      "warnings": [
+        "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30']"
+      ],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "GLD",
+      "record_count": 1254,
+      "valid_count": 1254,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "SLV",
+      "record_count": 1254,
+      "valid_count": 1252,
+      "suspicious_count": 2,
+      "invalid_count": 0,
+      "warnings": [
+        "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30', '2026-02-05']"
+      ],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "GOLDBEES.NS",
+      "record_count": 1234,
+      "valid_count": 1234,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "SILVERBEES.NS",
+      "record_count": 1023,
+      "valid_count": 1021,
+      "suspicious_count": 2,
+      "invalid_count": 0,
+      "warnings": [
+        "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30', '2026-02-02']"
+      ],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "USDINR=X",
+      "record_count": 1298,
+      "valid_count": 1255,
+      "suspicious_count": 0,
+      "invalid_count": 43,
+      "warnings": [],
+      "errors": [
+        "Found 43 invalid OHLC relationship records for USDINR=X"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "DX-Y.NYB",
+      "record_count": 1256,
+      "valid_count": 1256,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "^TNX",
+      "record_count": 1254,
+      "valid_count": 1254,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "^IRX",
+      "record_count": 1254,
+      "valid_count": 1180,
+      "suspicious_count": 74,
+      "invalid_count": 0,
+      "warnings": [
+        "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-04-01', '2021-04-05', '2021-04-07', '2021-04-08', '2021-04-09']"
+      ],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "CL=F",
+      "record_count": 1256,
+      "valid_count": 1256,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "BZ=F",
+      "record_count": 1257,
+      "valid_count": 1257,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "^GSPC",
+      "record_count": 1254,
+      "valid_count": 1254,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "^IXIC",
+      "record_count": 1254,
+      "valid_count": 1254,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "^DJI",
+      "record_count": 1254,
+      "valid_count": 1254,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "^NSEI",
+      "record_count": 1234,
+      "valid_count": 1234,
+      "suspicious_count": 0,
+      "invalid_count": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "^VIX",
+      "record_count": 1254,
+      "valid_count": 1189,
+      "suspicious_count": 65,
+      "invalid_count": 0,
+      "warnings": [
+        "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-05-10', '2021-05-12', '2021-05-13', '2021-05-14', '2021-06-18']"
+      ],
+      "errors": []
+    },
+    {
+      "date": "2026-09-14",
+      "symbol": "^INDIAVIX",
+      "record_count": 1222,
+      "valid_count": 1195,
+      "suspicious_count": 27,
+      "invalid_count": 0,
+      "warnings": [
+        "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-04-12', '2021-11-22', '2021-11-26', '2021-12-20', '2022-01-24']"
+      ],
+      "errors": []
+    }
+  ],
+  "valid_count": 22110,
+  "suspicious_count": 171,
+  "invalid_count": 43,
+  "warnings": [
+    "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30']",
+    "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30', '2026-02-05']",
+    "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30', '2026-02-02']",
+    "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-04-01', '2021-04-05', '2021-04-07', '2021-04-08', '2021-04-09']",
+    "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-05-10', '2021-05-12', '2021-05-13', '2021-05-14', '2021-06-18']",
+    "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-04-12', '2021-11-22', '2021-11-26', '2021-12-20', '2022-01-24']"
+  ],
+  "errors": [
+    "Found 43 invalid OHLC relationship records for USDINR=X"
+  ]
+}

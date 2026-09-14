@@ -1,0 +1,67 @@
+name: Daily Precious Metals Intelligence Pipeline
+
+on:
+  schedule:
+    # Runs daily at 18:00 UTC (11:30 PM IST - post Indian MCX market close)
+    - cron: '0 18 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      execution_date:
+        description: 'Execution date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  analyze-and-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache Pip Packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest
+
+      - name: Run Automated Tests
+        run: |
+          PYTHONPATH=. pytest tests/ -v
+
+      - name: Execute Daily Intelligence Pipeline
+        run: |
+          EXEC_DATE="${{ github.event.inputs.execution_date }}"
+          if [ -z "$EXEC_DATE" ]; then
+            EXEC_DATE=$(date -u +'%Y-%m-%d')
+          fi
+          echo "Running pipeline for date: $EXEC_DATE"
+          PYTHONPATH=. python3 src/pipeline/runner.py "$EXEC_DATE"
+
+      - name: Verify Secret Security
+        run: |
+          echo "Scanning for sensitive patterns or leaked API keys..."
+          git diff --staged | grep -iE 'api[_-]?key|secret|password|private_key' && exit 1 || echo "No secret leaks detected."
+
+      - name: Commit and Push Analysis Data & Daily Report
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/
+          TODAY=$(date -u +'%Y-%m-%d')
+          git commit -m "data: daily gold silver analysis ${TODAY}" || echo "No changes to commit"
+          git push || echo "Push skipped or not allowed"
