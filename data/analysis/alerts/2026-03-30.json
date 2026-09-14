@@ -1,0 +1,33 @@
+{
+  "date": "2026-03-30",
+  "alerts": [
+    {
+      "date": "2026-03-30",
+      "symbol": "GOLD",
+      "alert_type": "extreme_rsi_oversold",
+      "severity": "medium",
+      "message": "GOLD RSI (14) is oversold at 28.9"
+    },
+    {
+      "date": "2026-03-30",
+      "symbol": "GOLD",
+      "alert_type": "gold_silver_ratio_extreme_low",
+      "severity": "medium",
+      "message": "Gold/Silver Ratio is extremely low at 64.59"
+    },
+    {
+      "date": "2026-03-30",
+      "symbol": "SILVER",
+      "alert_type": "extreme_rsi_oversold",
+      "severity": "medium",
+      "message": "SILVER RSI (14) is oversold at 29.3"
+    },
+    {
+      "date": "2026-03-30",
+      "symbol": "SILVER",
+      "alert_type": "gold_silver_ratio_extreme_low",
+      "severity": "medium",
+      "message": "Gold/Silver Ratio is extremely low at 64.59"
+    }
+  ]
+}

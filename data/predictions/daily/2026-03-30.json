@@ -1,0 +1,207 @@
+{
+  "date": "2026-03-30",
+  "gold": {
+    "price": 4492.0,
+    "composite_score": 61.92,
+    "signals": {
+      "1d": {
+        "horizon_days": 1,
+        "research_bias": "Bullish",
+        "confidence_score": 67,
+        "positive_return_probability_pct": 66.7,
+        "negative_return_probability_pct": 33.3,
+        "expected_mean_return_pct": 0.17,
+        "expected_median_return_pct": 0.26,
+        "sample_count": 15,
+        "reasons": [
+          "66.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "3d": {
+        "horizon_days": 3,
+        "research_bias": "Bullish",
+        "confidence_score": 59,
+        "positive_return_probability_pct": 60.0,
+        "negative_return_probability_pct": 40.0,
+        "expected_mean_return_pct": 0.67,
+        "expected_median_return_pct": 0.47,
+        "sample_count": 15,
+        "reasons": [
+          "60.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "5d": {
+        "horizon_days": 5,
+        "research_bias": "Bullish",
+        "confidence_score": 77,
+        "positive_return_probability_pct": 80.0,
+        "negative_return_probability_pct": 20.0,
+        "expected_mean_return_pct": 1.31,
+        "expected_median_return_pct": 0.95,
+        "sample_count": 15,
+        "reasons": [
+          "80.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "10d": {
+        "horizon_days": 10,
+        "research_bias": "Bullish",
+        "confidence_score": 77,
+        "positive_return_probability_pct": 100.0,
+        "negative_return_probability_pct": 0.0,
+        "expected_mean_return_pct": 1.99,
+        "expected_median_return_pct": 1.63,
+        "sample_count": 15,
+        "reasons": [
+          "100.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "20d": {
+        "horizon_days": 20,
+        "research_bias": "Bullish",
+        "confidence_score": 77,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 1.61,
+        "expected_median_return_pct": 1.29,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "60d": {
+        "horizon_days": 60,
+        "research_bias": "Neutral",
+        "confidence_score": 77,
+        "positive_return_probability_pct": 20.0,
+        "negative_return_probability_pct": 80.0,
+        "expected_mean_return_pct": 1.56,
+        "expected_median_return_pct": -0.86,
+        "sample_count": 15,
+        "reasons": [
+          "20.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      }
+    }
+  },
+  "silver": {
+    "price": 69.54499816894531,
+    "composite_score": 59.95,
+    "signals": {
+      "1d": {
+        "horizon_days": 1,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 80.0,
+        "negative_return_probability_pct": 20.0,
+        "expected_mean_return_pct": 1.26,
+        "expected_median_return_pct": 1.35,
+        "sample_count": 15,
+        "reasons": [
+          "80.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "3d": {
+        "horizon_days": 3,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 2.86,
+        "expected_median_return_pct": 2.62,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "5d": {
+        "horizon_days": 5,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 3.65,
+        "expected_median_return_pct": 3.11,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "10d": {
+        "horizon_days": 10,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 6.49,
+        "expected_median_return_pct": 7.99,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "20d": {
+        "horizon_days": 20,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 93.3,
+        "negative_return_probability_pct": 6.7,
+        "expected_mean_return_pct": 5.56,
+        "expected_median_return_pct": 6.54,
+        "sample_count": 15,
+        "reasons": [
+          "93.3% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "60d": {
+        "horizon_days": 60,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 18.84,
+        "expected_median_return_pct": 21.57,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      }
+    }
+  }
+}

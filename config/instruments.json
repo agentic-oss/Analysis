@@ -1,0 +1,166 @@
+{
+  "instruments": [
+    {
+      "symbol": "GC=F",
+      "name": "Gold Futures",
+      "market": "futures",
+      "asset_class": "precious_metals",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "SI=F",
+      "name": "Silver Futures",
+      "market": "futures",
+      "asset_class": "precious_metals",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares (Spot Proxy)",
+      "market": "spot",
+      "asset_class": "precious_metals",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "SLV",
+      "name": "iShares Silver Trust (Spot Proxy)",
+      "market": "spot",
+      "asset_class": "precious_metals",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLDBEES.NS",
+      "name": "Nippon India ETF Gold BeES",
+      "market": "spot_india",
+      "asset_class": "precious_metals",
+      "currency": "INR",
+      "unit": "10g",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVERBEES.NS",
+      "name": "Nippon India ETF Silver BeES",
+      "market": "spot_india",
+      "asset_class": "precious_metals",
+      "currency": "INR",
+      "unit": "1kg",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR=X",
+      "name": "USD / INR Exchange Rate",
+      "market": "fx",
+      "asset_class": "currency",
+      "currency": "INR",
+      "unit": "USD",
+      "enabled": true
+    },
+    {
+      "symbol": "DX-Y.NYB",
+      "name": "US Dollar Index (DXY)",
+      "market": "index",
+      "asset_class": "currency",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "^TNX",
+      "name": "US 10-Year Treasury Yield",
+      "market": "rates",
+      "asset_class": "interest_rates",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true
+    },
+    {
+      "symbol": "^IRX",
+      "name": "US 13-Week Treasury Bill Yield",
+      "market": "rates",
+      "asset_class": "interest_rates",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true
+    },
+    {
+      "symbol": "CL=F",
+      "name": "Crude Oil WTI Futures",
+      "market": "futures",
+      "asset_class": "energy",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true
+    },
+    {
+      "symbol": "BZ=F",
+      "name": "Brent Crude Oil Futures",
+      "market": "futures",
+      "asset_class": "energy",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true
+    },
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500 Index",
+      "market": "equity_us",
+      "asset_class": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "Nasdaq Composite",
+      "market": "equity_us",
+      "asset_class": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "^DJI",
+      "name": "Dow Jones Industrial Average",
+      "market": "equity_us",
+      "asset_class": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "^NSEI",
+      "name": "NIFTY 50 Index",
+      "market": "equity_india",
+      "asset_class": "equity",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "^VIX",
+      "name": "CBOE Volatility Index",
+      "market": "volatility",
+      "asset_class": "volatility",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "^INDIAVIX",
+      "name": "India VIX Index",
+      "market": "volatility_india",
+      "asset_class": "volatility",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true
+    }
+  ]
+}

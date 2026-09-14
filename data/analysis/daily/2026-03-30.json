@@ -1,0 +1,837 @@
+{
+  "date": "2026-03-30",
+  "gold": {
+    "price": 4492.0,
+    "composite_score": 61.92,
+    "sub_scores": {
+      "technical": 70.0,
+      "macro": 90.0,
+      "momentum": 24.47,
+      "volatility": 25.0,
+      "relative_value": 50.0,
+      "historical_pattern": 100.0
+    },
+    "signals": {
+      "1d": {
+        "horizon_days": 1,
+        "research_bias": "Bullish",
+        "confidence_score": 67,
+        "positive_return_probability_pct": 66.7,
+        "negative_return_probability_pct": 33.3,
+        "expected_mean_return_pct": 0.17,
+        "expected_median_return_pct": 0.26,
+        "sample_count": 15,
+        "reasons": [
+          "66.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "3d": {
+        "horizon_days": 3,
+        "research_bias": "Bullish",
+        "confidence_score": 59,
+        "positive_return_probability_pct": 60.0,
+        "negative_return_probability_pct": 40.0,
+        "expected_mean_return_pct": 0.67,
+        "expected_median_return_pct": 0.47,
+        "sample_count": 15,
+        "reasons": [
+          "60.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "5d": {
+        "horizon_days": 5,
+        "research_bias": "Bullish",
+        "confidence_score": 77,
+        "positive_return_probability_pct": 80.0,
+        "negative_return_probability_pct": 20.0,
+        "expected_mean_return_pct": 1.31,
+        "expected_median_return_pct": 0.95,
+        "sample_count": 15,
+        "reasons": [
+          "80.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "10d": {
+        "horizon_days": 10,
+        "research_bias": "Bullish",
+        "confidence_score": 77,
+        "positive_return_probability_pct": 100.0,
+        "negative_return_probability_pct": 0.0,
+        "expected_mean_return_pct": 1.99,
+        "expected_median_return_pct": 1.63,
+        "sample_count": 15,
+        "reasons": [
+          "100.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "20d": {
+        "horizon_days": 20,
+        "research_bias": "Bullish",
+        "confidence_score": 77,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 1.61,
+        "expected_median_return_pct": 1.29,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "60d": {
+        "horizon_days": 60,
+        "research_bias": "Neutral",
+        "confidence_score": 77,
+        "positive_return_probability_pct": 20.0,
+        "negative_return_probability_pct": 80.0,
+        "expected_mean_return_pct": 1.56,
+        "expected_median_return_pct": -0.86,
+        "sample_count": 15,
+        "reasons": [
+          "20.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 61.9/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      }
+    },
+    "analogues": {
+      "current_date": "2026-03-27",
+      "analogue_count": 15,
+      "top_analogues": [
+        {
+          "date": "2024-11-15",
+          "distance": 5.112010147766342,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2022-05-13",
+          "distance": 5.155226686988036,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2024-11-14",
+          "distance": 5.197921430887889,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2022-05-16",
+          "distance": 5.241297841873772,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2021-06-29",
+          "distance": 5.251368965581626,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2022-05-12",
+          "distance": 5.282060534854217,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2021-06-24",
+          "distance": 5.308560882262985,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2021-06-22",
+          "distance": 5.327461258219573,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2021-06-30",
+          "distance": 5.334668411137807,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2021-06-25",
+          "distance": 5.33722310748766,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2022-05-10",
+          "distance": 5.339120540336237,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2021-06-23",
+          "distance": 5.344046361100397,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2024-11-18",
+          "distance": 5.348694844369379,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2022-05-17",
+          "distance": 5.350292356353824,
+          "similarity_score": 0.0
+        },
+        {
+          "date": "2021-06-28",
+          "distance": 5.382012583791818,
+          "similarity_score": 0.0
+        }
+      ],
+      "forward_statistics": {
+        "horizon_1d": {
+          "sample_count": 15,
+          "mean_return_pct": 0.17,
+          "median_return_pct": 0.26,
+          "positive_prob_pct": 66.7,
+          "negative_prob_pct": 33.3,
+          "max_gain_pct": 1.75,
+          "max_loss_pct": -0.94
+        },
+        "horizon_3d": {
+          "sample_count": 15,
+          "mean_return_pct": 0.67,
+          "median_return_pct": 0.47,
+          "positive_prob_pct": 60.0,
+          "negative_prob_pct": 40.0,
+          "max_gain_pct": 3.22,
+          "max_loss_pct": -1.77
+        },
+        "horizon_5d": {
+          "sample_count": 15,
+          "mean_return_pct": 1.31,
+          "median_return_pct": 0.95,
+          "positive_prob_pct": 80.0,
+          "negative_prob_pct": 20.0,
+          "max_gain_pct": 5.62,
+          "max_loss_pct": -1.18
+        },
+        "horizon_10d": {
+          "sample_count": 15,
+          "mean_return_pct": 1.99,
+          "median_return_pct": 1.63,
+          "positive_prob_pct": 100.0,
+          "negative_prob_pct": 0.0,
+          "max_gain_pct": 3.49,
+          "max_loss_pct": 0.97
+        },
+        "horizon_20d": {
+          "sample_count": 15,
+          "mean_return_pct": 1.61,
+          "median_return_pct": 1.29,
+          "positive_prob_pct": 86.7,
+          "negative_prob_pct": 13.3,
+          "max_gain_pct": 3.42,
+          "max_loss_pct": -0.22
+        },
+        "horizon_60d": {
+          "sample_count": 15,
+          "mean_return_pct": 1.56,
+          "median_return_pct": -0.86,
+          "positive_prob_pct": 20.0,
+          "negative_prob_pct": 80.0,
+          "max_gain_pct": 14.04,
+          "max_loss_pct": -3.64
+        }
+      }
+    }
+  },
+  "silver": {
+    "price": 69.54499816894531,
+    "composite_score": 59.95,
+    "sub_scores": {
+      "technical": 70.0,
+      "macro": 90.0,
+      "momentum": 24.64,
+      "volatility": 25.0,
+      "relative_value": 50.0,
+      "historical_pattern": 86.7
+    },
+    "signals": {
+      "1d": {
+        "horizon_days": 1,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 80.0,
+        "negative_return_probability_pct": 20.0,
+        "expected_mean_return_pct": 1.26,
+        "expected_median_return_pct": 1.35,
+        "sample_count": 15,
+        "reasons": [
+          "80.0% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "3d": {
+        "horizon_days": 3,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 2.86,
+        "expected_median_return_pct": 2.62,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "5d": {
+        "horizon_days": 5,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 3.65,
+        "expected_median_return_pct": 3.11,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "10d": {
+        "horizon_days": 10,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 6.49,
+        "expected_median_return_pct": 7.99,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "20d": {
+        "horizon_days": 20,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 93.3,
+        "negative_return_probability_pct": 6.7,
+        "expected_mean_return_pct": 5.56,
+        "expected_median_return_pct": 6.54,
+        "sample_count": 15,
+        "reasons": [
+          "93.3% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      },
+      "60d": {
+        "horizon_days": 60,
+        "research_bias": "Bullish",
+        "confidence_score": 74,
+        "positive_return_probability_pct": 86.7,
+        "negative_return_probability_pct": 13.3,
+        "expected_mean_return_pct": 18.84,
+        "expected_median_return_pct": 21.57,
+        "sample_count": 15,
+        "reasons": [
+          "86.7% positive forward-return frequency among historical analogues",
+          "Composite factor score stands at 60.0/100",
+          "Technical sub-score is 70.0 and Macro sub-score is 90.0"
+        ],
+        "disclaimer": "Historical conditional research statistics, not guaranteed future price outcomes."
+      }
+    },
+    "analogues": {
+      "current_date": "2026-03-27",
+      "analogue_count": 15,
+      "top_analogues": [
+        {
+          "date": "2025-04-08",
+          "distance": 3.2941506701311294,
+          "similarity_score": 32.76
+        },
+        {
+          "date": "2025-04-09",
+          "distance": 3.299606883544343,
+          "similarity_score": 32.65
+        },
+        {
+          "date": "2025-04-10",
+          "distance": 3.3790329658035074,
+          "similarity_score": 31.03
+        },
+        {
+          "date": "2025-04-07",
+          "distance": 3.4372142899845644,
+          "similarity_score": 29.84
+        },
+        {
+          "date": "2024-08-07",
+          "distance": 3.446437147353935,
+          "similarity_score": 29.65
+        },
+        {
+          "date": "2024-08-06",
+          "distance": 3.504240247972666,
+          "similarity_score": 28.47
+        },
+        {
+          "date": "2024-08-05",
+          "distance": 3.5439468290391005,
+          "similarity_score": 27.66
+        },
+        {
+          "date": "2024-07-29",
+          "distance": 3.5635594618600446,
+          "similarity_score": 27.26
+        },
+        {
+          "date": "2024-07-26",
+          "distance": 3.6277582469217515,
+          "similarity_score": 25.95
+        },
+        {
+          "date": "2024-08-08",
+          "distance": 3.6420723159440187,
+          "similarity_score": 25.66
+        },
+        {
+          "date": "2025-04-04",
+          "distance": 3.6451228602155865,
+          "similarity_score": 25.59
+        },
+        {
+          "date": "2022-05-16",
+          "distance": 3.6712444762316294,
+          "similarity_score": 25.06
+        },
+        {
+          "date": "2022-05-13",
+          "distance": 3.6867397789233367,
+          "similarity_score": 24.74
+        },
+        {
+          "date": "2024-07-30",
+          "distance": 3.69372957508321,
+          "similarity_score": 24.6
+        },
+        {
+          "date": "2024-08-09",
+          "distance": 3.697337787587863,
+          "similarity_score": 24.53
+        }
+      ],
+      "forward_statistics": {
+        "horizon_1d": {
+          "sample_count": 15,
+          "mean_return_pct": 1.26,
+          "median_return_pct": 1.35,
+          "positive_prob_pct": 80.0,
+          "negative_prob_pct": 20.0,
+          "max_gain_pct": 3.76,
+          "max_loss_pct": -0.98
+        },
+        "horizon_3d": {
+          "sample_count": 15,
+          "mean_return_pct": 2.86,
+          "median_return_pct": 2.62,
+          "positive_prob_pct": 86.7,
+          "negative_prob_pct": 13.3,
+          "max_gain_pct": 7.54,
+          "max_loss_pct": -0.85
+        },
+        "horizon_5d": {
+          "sample_count": 15,
+          "mean_return_pct": 3.65,
+          "median_return_pct": 3.11,
+          "positive_prob_pct": 86.7,
+          "negative_prob_pct": 13.3,
+          "max_gain_pct": 9.3,
+          "max_loss_pct": -4.47
+        },
+        "horizon_10d": {
+          "sample_count": 15,
+          "mean_return_pct": 6.49,
+          "median_return_pct": 7.99,
+          "positive_prob_pct": 86.7,
+          "negative_prob_pct": 13.3,
+          "max_gain_pct": 13.27,
+          "max_loss_pct": -2.36
+        },
+        "horizon_20d": {
+          "sample_count": 15,
+          "mean_return_pct": 5.56,
+          "median_return_pct": 6.54,
+          "positive_prob_pct": 93.3,
+          "negative_prob_pct": 6.7,
+          "max_gain_pct": 12.21,
+          "max_loss_pct": -2.78
+        },
+        "horizon_60d": {
+          "sample_count": 15,
+          "mean_return_pct": 18.84,
+          "median_return_pct": 21.57,
+          "positive_prob_pct": 86.7,
+          "negative_prob_pct": 13.3,
+          "max_gain_pct": 26.57,
+          "max_loss_pct": -5.61
+        }
+      }
+    }
+  },
+  "gold_silver_ratio": {
+    "latest_ratio": 64.59127353900574,
+    "latest_zscore_60d": 1.0309057136469115,
+    "forward_horizons": {
+      "horizon_1d": {
+        "mean_spread_return": -0.00028930233766406296,
+        "median_spread_return": 1.6788507608556102e-05,
+        "pos_spread_prob": 0.500398406374502,
+        "neg_spread_prob": 0.499601593625498,
+        "p10": -0.017110056755979295,
+        "p90": 0.015744772519953685
+      },
+      "horizon_3d": {
+        "mean_spread_return": -0.0008129987466923589,
+        "median_spread_return": 0.00041172117056231805,
+        "pos_spread_prob": 0.5091779728651237,
+        "neg_spread_prob": 0.49082202713487627,
+        "p10": -0.029092083555981852,
+        "p90": 0.028921981668197143
+      },
+      "horizon_5d": {
+        "mean_spread_return": -0.0013464660987914888,
+        "median_spread_return": -0.0005843560106915113,
+        "pos_spread_prob": 0.4908073541167066,
+        "neg_spread_prob": 0.5091926458832934,
+        "p10": -0.03971613432198673,
+        "p90": 0.03585419131963141
+      },
+      "horizon_10d": {
+        "mean_spread_return": -0.0025504043585667996,
+        "median_spread_return": 0.001188472510469385,
+        "pos_spread_prob": 0.5104333868378812,
+        "neg_spread_prob": 0.4895666131621188,
+        "p10": -0.06163715225848865,
+        "p90": 0.05200113681003937
+      },
+      "horizon_20d": {
+        "mean_spread_return": -0.004922100968389702,
+        "median_spread_return": 0.0020248737167427033,
+        "pos_spread_prob": 0.5169902912621359,
+        "neg_spread_prob": 0.4830097087378641,
+        "p10": -0.07351887483037589,
+        "p90": 0.06528444294685659
+      },
+      "horizon_60d": {
+        "mean_spread_return": -0.018872417675258504,
+        "median_spread_return": 0.012142139613713243,
+        "pos_spread_prob": 0.5459866220735786,
+        "neg_spread_prob": 0.4540133779264214,
+        "p10": -0.14365328946789702,
+        "p90": 0.10419973927113435
+      }
+    }
+  },
+  "macro": {
+    "macro_regime": "Stagflationary",
+    "components": {
+      "dxy_trend": "strong_dollar",
+      "rates_trend": "rising_rates",
+      "oil_trend": "rising_commodities",
+      "equity_trend": "bearish_equities",
+      "vix_level": "high_fear"
+    },
+    "metrics": {
+      "dxy_20d_return": 0.017991505609636953,
+      "us10y_20d_change": 0.3920001983642578,
+      "oil_20d_return": 0.3988487251692568,
+      "sp500_20d_return": -0.0745129796180638,
+      "vix_level": 31.049999237060547
+    }
+  },
+  "market_regime": {
+    "gold": {
+      "trend_regime": "Bearish Trend",
+      "volatility_regime": "Normal Volatility",
+      "composite_regime": "Bearish Trend / Normal Volatility",
+      "metrics": {
+        "close": 4492.0,
+        "sma_200": 4091.061486816406,
+        "rsi_14": 28.948667900257462,
+        "volatility_20d": 0.37831375150219526,
+        "hist_vol_mean": 0.2972809583622555
+      }
+    },
+    "silver": {
+      "trend_regime": "Bearish Trend",
+      "volatility_regime": "Normal Volatility",
+      "composite_regime": "Bearish Trend / Normal Volatility",
+      "metrics": {
+        "close": 69.54499816894531,
+        "sma_200": 57.117265129089354,
+        "rsi_14": 29.281198880588548,
+        "volatility_20d": 0.585762330603457,
+        "hist_vol_mean": 0.7384171261746786
+      }
+    }
+  },
+  "data_quality": {
+    "date": "2026-03-30",
+    "symbol_reports": [
+      {
+        "date": "2026-09-14",
+        "symbol": "GC=F",
+        "record_count": 1256,
+        "valid_count": 1256,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "SI=F",
+        "record_count": 1256,
+        "valid_count": 1255,
+        "suspicious_count": 1,
+        "invalid_count": 0,
+        "warnings": [
+          "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30']"
+        ],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "GLD",
+        "record_count": 1254,
+        "valid_count": 1254,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "SLV",
+        "record_count": 1254,
+        "valid_count": 1252,
+        "suspicious_count": 2,
+        "invalid_count": 0,
+        "warnings": [
+          "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30', '2026-02-05']"
+        ],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "GOLDBEES.NS",
+        "record_count": 1234,
+        "valid_count": 1234,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "SILVERBEES.NS",
+        "record_count": 1023,
+        "valid_count": 1021,
+        "suspicious_count": 2,
+        "invalid_count": 0,
+        "warnings": [
+          "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30', '2026-02-02']"
+        ],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "USDINR=X",
+        "record_count": 1298,
+        "valid_count": 1255,
+        "suspicious_count": 0,
+        "invalid_count": 43,
+        "warnings": [],
+        "errors": [
+          "Found 43 invalid OHLC relationship records for USDINR=X"
+        ]
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "DX-Y.NYB",
+        "record_count": 1256,
+        "valid_count": 1256,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "^TNX",
+        "record_count": 1254,
+        "valid_count": 1254,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "^IRX",
+        "record_count": 1254,
+        "valid_count": 1180,
+        "suspicious_count": 74,
+        "invalid_count": 0,
+        "warnings": [
+          "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-04-01', '2021-04-05', '2021-04-07', '2021-04-08', '2021-04-09']"
+        ],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "CL=F",
+        "record_count": 1256,
+        "valid_count": 1256,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "BZ=F",
+        "record_count": 1257,
+        "valid_count": 1257,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "^GSPC",
+        "record_count": 1254,
+        "valid_count": 1254,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "^IXIC",
+        "record_count": 1254,
+        "valid_count": 1254,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "^DJI",
+        "record_count": 1254,
+        "valid_count": 1254,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "^NSEI",
+        "record_count": 1234,
+        "valid_count": 1234,
+        "suspicious_count": 0,
+        "invalid_count": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "^VIX",
+        "record_count": 1254,
+        "valid_count": 1189,
+        "suspicious_count": 65,
+        "invalid_count": 0,
+        "warnings": [
+          "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-05-10', '2021-05-12', '2021-05-13', '2021-05-14', '2021-06-18']"
+        ],
+        "errors": []
+      },
+      {
+        "date": "2026-09-14",
+        "symbol": "^INDIAVIX",
+        "record_count": 1222,
+        "valid_count": 1195,
+        "suspicious_count": 27,
+        "invalid_count": 0,
+        "warnings": [
+          "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-04-12', '2021-11-22', '2021-11-26', '2021-12-20', '2022-01-24']"
+        ],
+        "errors": []
+      }
+    ],
+    "valid_count": 22110,
+    "suspicious_count": 171,
+    "invalid_count": 43,
+    "warnings": [
+      "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30']",
+      "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30', '2026-02-05']",
+      "Abnormal daily price jump (> 15.0%) detected on dates: ['2026-01-30', '2026-02-02']",
+      "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-04-01', '2021-04-05', '2021-04-07', '2021-04-08', '2021-04-09']",
+      "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-05-10', '2021-05-12', '2021-05-13', '2021-05-14', '2021-06-18']",
+      "Abnormal daily price jump (> 15.0%) detected on dates: ['2021-04-12', '2021-11-22', '2021-11-26', '2021-12-20', '2022-01-24']"
+    ],
+    "errors": [
+      "Found 43 invalid OHLC relationship records for USDINR=X"
+    ]
+  },
+  "alerts": [
+    {
+      "date": "2026-03-30",
+      "symbol": "GOLD",
+      "alert_type": "extreme_rsi_oversold",
+      "severity": "medium",
+      "message": "GOLD RSI (14) is oversold at 28.9"
+    },
+    {
+      "date": "2026-03-30",
+      "symbol": "GOLD",
+      "alert_type": "gold_silver_ratio_extreme_low",
+      "severity": "medium",
+      "message": "Gold/Silver Ratio is extremely low at 64.59"
+    },
+    {
+      "date": "2026-03-30",
+      "symbol": "SILVER",
+      "alert_type": "extreme_rsi_oversold",
+      "severity": "medium",
+      "message": "SILVER RSI (14) is oversold at 29.3"
+    },
+    {
+      "date": "2026-03-30",
+      "symbol": "SILVER",
+      "alert_type": "gold_silver_ratio_extreme_low",
+      "severity": "medium",
+      "message": "Gold/Silver Ratio is extremely low at 64.59"
+    }
+  ]
+}
