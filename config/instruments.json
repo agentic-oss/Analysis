@@ -1,0 +1,121 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "ticker": "GC=F",
+      "market": "spot_futures",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "SILVER",
+      "ticker": "SI=F",
+      "market": "spot_futures",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "GOLD_INR",
+      "ticker": "GOLDBEES.NS",
+      "market": "indian",
+      "currency": "INR",
+      "unit": "10g",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "SILVER_INR",
+      "ticker": "SILVERBEES.NS",
+      "market": "indian",
+      "currency": "INR",
+      "unit": "kg",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "USDINR",
+      "ticker": "INR=X",
+      "market": "fx",
+      "currency": "INR",
+      "unit": "rate",
+      "enabled": true,
+      "category": "currency"
+    },
+    {
+      "symbol": "DXY",
+      "ticker": "DX-Y.NYB",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "category": "currency"
+    },
+    {
+      "symbol": "US10Y",
+      "ticker": "^TNX",
+      "market": "bonds",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true,
+      "category": "rates"
+    },
+    {
+      "symbol": "US2Y",
+      "ticker": "2YY=F",
+      "market": "bonds",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true,
+      "category": "rates"
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "ticker": "CL=F",
+      "market": "commodity",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true,
+      "category": "energy"
+    },
+    {
+      "symbol": "SP500",
+      "ticker": "^GSPC",
+      "market": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "category": "equities"
+    },
+    {
+      "symbol": "NIFTY50",
+      "ticker": "^NSEI",
+      "market": "equity",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true,
+      "category": "equities"
+    },
+    {
+      "symbol": "VIX",
+      "ticker": "^VIX",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "category": "volatility"
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "ticker": "^INDIAVIX",
+      "market": "index",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true,
+      "category": "volatility"
+    }
+  ]
+}

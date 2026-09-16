@@ -1,0 +1,54 @@
+name: Precious Metals Daily Analysis Pipeline
+
+on:
+  schedule:
+    # Run daily at 18:30 IST / 13:00 UTC (after Indian market close)
+    - cron: '0 13 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      execution_date:
+        description: 'Execution date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest
+
+      - name: Run Secret Protection Verification
+        run: |
+          echo "Verifying no API keys or secrets are committed..."
+          ! grep -rE "(API_KEY|SECRET_KEY|PASSWORD|TOKEN)\s*=\s*['\"][A-Za-z0-9+/=]{16,}['\"]" src/
+
+      - name: Run Unit Tests
+        run: |
+          pytest tests/
+
+      - name: Run Daily Analysis Pipeline
+        run: |
+          if [ -n "${{ github.event.inputs.execution_date }}" ]; then
+            PYTHONPATH=. python3 src/pipeline/runner.py ${{ github.event.inputs.execution_date }}
+          else
+            PYTHONPATH=. python3 src/pipeline/runner.py $(date +'%Y-%m-%d')
+          fi
+
+      - name: Commit and Push Daily Analysis Results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/ config/
+          git diff-index --quiet HEAD || git commit -m "data: daily gold silver analysis $(date +'%Y-%m-%d')"
+          git push || echo "Push skipped or not allowed"
