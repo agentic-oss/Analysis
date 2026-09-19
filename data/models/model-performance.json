@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "horizon_days": 5,
+  "logistic_accuracy": 0.541,
+  "rf_mae": 1.1602,
+  "latest_predicted_direction": 1,
+  "latest_predicted_return_pct": 1.11
+}

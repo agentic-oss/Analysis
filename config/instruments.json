@@ -1,0 +1,213 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD_USD",
+      "ticker": "GC=F",
+      "asset_class": "precious_metals",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_USD",
+      "ticker": "SI=F",
+      "asset_class": "precious_metals",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_FUTURES",
+      "ticker": "GC=F",
+      "asset_class": "precious_metals",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_FUTURES",
+      "ticker": "SI=F",
+      "asset_class": "precious_metals",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR_ETF",
+      "ticker": "GOLDBEES.NS",
+      "asset_class": "precious_metals",
+      "market": "indian_spot",
+      "currency": "INR",
+      "unit": "10g",
+      "exchange": "NSE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR_ETF",
+      "ticker": "SILVERBEES.NS",
+      "asset_class": "precious_metals",
+      "market": "indian_spot",
+      "currency": "INR",
+      "unit": "kg",
+      "exchange": "NSE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "ticker": "USDINR=X",
+      "asset_class": "currency",
+      "market": "fx",
+      "currency": "INR",
+      "unit": "rate",
+      "exchange": "FX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "ticker": "DX-Y.NYB",
+      "asset_class": "currency",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "ICE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "ticker": "^TNX",
+      "asset_class": "interest_rates",
+      "market": "yield",
+      "currency": "USD",
+      "unit": "pct",
+      "exchange": "CBOE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "US2Y",
+      "ticker": "^IRX",
+      "asset_class": "interest_rates",
+      "market": "yield",
+      "currency": "USD",
+      "unit": "pct",
+      "exchange": "CBOE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "REAL_YIELD_TIP",
+      "ticker": "TIP",
+      "asset_class": "interest_rates",
+      "market": "etf",
+      "currency": "USD",
+      "unit": "price",
+      "exchange": "NYSE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "CRUDE_OIL_BRENT",
+      "ticker": "BZ=F",
+      "asset_class": "energy",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "barrel",
+      "exchange": "ICE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "CRUDE_OIL_WTI",
+      "ticker": "CL=F",
+      "asset_class": "energy",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "barrel",
+      "exchange": "NYMEX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "ticker": "^GSPC",
+      "asset_class": "equity",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "S&P",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "NASDAQ",
+      "ticker": "^IXIC",
+      "asset_class": "equity",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "NASDAQ",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "DOW_JONES",
+      "ticker": "^DJI",
+      "asset_class": "equity",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "DJ",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "ticker": "^NSEI",
+      "asset_class": "equity",
+      "market": "index",
+      "currency": "INR",
+      "unit": "index",
+      "exchange": "NSE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "ticker": "^VIX",
+      "asset_class": "volatility",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "CBOE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "ticker": "^INDIAVIX",
+      "asset_class": "volatility",
+      "market": "index",
+      "currency": "INR",
+      "unit": "index",
+      "exchange": "NSE",
+      "data_source": "yfinance",
+      "enabled": true
+    }
+  ]
+}
