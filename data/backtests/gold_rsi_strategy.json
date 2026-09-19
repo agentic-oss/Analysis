@@ -1,0 +1,9 @@
+{
+  "initial_capital": 100000.0,
+  "final_capital": 69693.09,
+  "total_return_pct": -30.31,
+  "max_drawdown_pct": -31.86,
+  "sharpe_ratio": -1.17,
+  "win_rate_pct": 48.7,
+  "trades_count": 208
+}
