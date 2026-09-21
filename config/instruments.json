@@ -1,0 +1,202 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "name": "Spot Gold",
+      "market": "spot",
+      "asset_class": "precious_metals",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX_SPOT",
+      "ticker": "GC=F",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER",
+      "name": "Spot Silver",
+      "market": "spot",
+      "asset_class": "precious_metals",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX_SPOT",
+      "ticker": "SI=F",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_FUTURES",
+      "name": "Gold Futures",
+      "market": "futures",
+      "asset_class": "precious_metals",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "ticker": "GC=F",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_FUTURES",
+      "name": "Silver Futures",
+      "market": "futures",
+      "asset_class": "precious_metals",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "ticker": "SI=F",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR",
+      "name": "Indian Gold Price",
+      "market": "domestic_spot",
+      "asset_class": "precious_metals",
+      "currency": "INR",
+      "unit": "10g",
+      "exchange": "INDIA_SPOT",
+      "ticker": "GOLDBEES.NS",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR",
+      "name": "Indian Silver Price",
+      "market": "domestic_spot",
+      "asset_class": "precious_metals",
+      "currency": "INR",
+      "unit": "kg",
+      "exchange": "INDIA_SPOT",
+      "ticker": "SILVERBEES.NS",
+      "enabled": true
+    },
+    {
+      "symbol": "MCX_GOLD",
+      "name": "MCX Gold Futures Proxy",
+      "market": "mcx_futures",
+      "asset_class": "precious_metals",
+      "currency": "INR",
+      "unit": "10g",
+      "exchange": "MCX",
+      "ticker": "GOLDBEES.NS",
+      "enabled": true
+    },
+    {
+      "symbol": "MCX_SILVER",
+      "name": "MCX Silver Futures Proxy",
+      "market": "mcx_futures",
+      "asset_class": "precious_metals",
+      "currency": "INR",
+      "unit": "kg",
+      "exchange": "MCX",
+      "ticker": "SILVERBEES.NS",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "name": "USD / INR Exchange Rate",
+      "market": "fx",
+      "asset_class": "currency",
+      "currency": "INR",
+      "unit": "rate",
+      "exchange": "FOREX",
+      "ticker": "USDINR=X",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "name": "US Dollar Index",
+      "market": "index",
+      "asset_class": "currency",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "ICE",
+      "ticker": "DX-Y.NYB",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "name": "US 10-Year Treasury Yield",
+      "market": "rates",
+      "asset_class": "interest_rates",
+      "currency": "USD",
+      "unit": "percent",
+      "exchange": "US_TREASURY",
+      "ticker": "^TNX",
+      "enabled": true
+    },
+    {
+      "symbol": "US2Y",
+      "name": "US 2-Year Treasury Yield",
+      "market": "rates",
+      "asset_class": "interest_rates",
+      "currency": "USD",
+      "unit": "percent",
+      "exchange": "US_TREASURY",
+      "ticker": "^IRX",
+      "enabled": true
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "name": "WTI Crude Oil Futures",
+      "market": "futures",
+      "asset_class": "energy",
+      "currency": "USD",
+      "unit": "bbl",
+      "exchange": "NYMEX",
+      "ticker": "CL=F",
+      "enabled": true
+    },
+    {
+      "symbol": "BRENT_CRUDE",
+      "name": "Brent Crude Futures",
+      "market": "futures",
+      "asset_class": "energy",
+      "currency": "USD",
+      "unit": "bbl",
+      "exchange": "ICE",
+      "ticker": "BZ=F",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "name": "S&P 500 Index",
+      "market": "equity",
+      "asset_class": "equities",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "US_EQUITIES",
+      "ticker": "^GSPC",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "name": "NIFTY 50 Index",
+      "market": "equity",
+      "asset_class": "equities",
+      "currency": "INR",
+      "unit": "index",
+      "exchange": "NSE",
+      "ticker": "^NSEI",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "name": "CBOE Volatility Index",
+      "market": "volatility",
+      "asset_class": "volatility",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "CBOE",
+      "ticker": "^VIX",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "name": "India Volatility Index",
+      "market": "volatility",
+      "asset_class": "volatility",
+      "currency": "INR",
+      "unit": "index",
+      "exchange": "NSE",
+      "ticker": "^INDIAVIX",
+      "enabled": true
+    }
+  ]
+}
