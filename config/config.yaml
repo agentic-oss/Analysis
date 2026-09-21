@@ -1,0 +1,78 @@
+system:
+  project_name: "Precious Metals Analysis Pipeline"
+  timezone: "Asia/Kolkata"
+  log_level: "INFO"
+  data_format: "parquet"
+
+paths:
+  raw: "data/raw"
+  processed_metals: "data/processed/metals"
+  processed_macro: "data/processed/macro"
+  features: "data/features/daily"
+  analysis: "data/analysis/daily"
+  alerts: "data/analysis/alerts"
+  predictions: "data/predictions/daily"
+  models: "data/models"
+  backtests: "data/backtests"
+  quality: "data/quality"
+  reports: "reports/daily"
+
+provider:
+  primary: "yahoo"
+  fallback: "mock"
+  timeout_seconds: 15
+  max_retries: 3
+  backoff_factor: 2.0
+  request_delay_seconds: 0.5
+
+conversion:
+  oz_to_grams: 31.1034768
+  oz_to_10g: 3.11034768
+  oz_to_kg: 0.0311034768
+
+indicators:
+  sma_periods: [5, 10, 20, 50, 100, 200]
+  ema_periods: [9, 20, 50, 200]
+  rsi_period: 14
+  stoch_rsi_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  atr_period: 14
+  bollinger_period: 20
+  bollinger_std: 2.0
+  volatility_periods: [20, 60, 120, 252]
+  correlation_windows: [20, 60, 120, 252]
+
+forecast:
+  horizons: [1, 3, 5, 10, 20, 60]
+  min_analogue_samples: 10
+  analogue_top_n: 15
+  confidence_weights:
+    historical_frequency: 0.35
+    trend_alignment: 0.25
+    macro_support: 0.20
+    model_agreement: 0.20
+
+scoring_weights:
+  technical: 0.25
+  macro: 0.20
+  momentum: 0.15
+  volatility: 0.10
+  relative_value: 0.15
+  pattern: 0.15
+
+alert_thresholds:
+  rsi_overbought: 70.0
+  rsi_oversold: 30.0
+  volatility_extreme_zscore: 2.0
+  ratio_extreme_zscore: 2.0
+  daily_price_jump_pct: 3.0
+  dxy_daily_change_pct: 1.0
+  us10y_daily_change_bps: 10.0
+
+backtest:
+  initial_capital: 100000.0
+  transaction_cost_bps: 5.0
+  slippage_bps: 2.0
+  position_size_pct: 0.20
