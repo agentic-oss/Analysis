@@ -1,0 +1,134 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "ticker": "GC=F",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER",
+      "ticker": "SI=F",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "ticker": "USDINR=X",
+      "market": "currency",
+      "currency": "INR",
+      "unit": "USD",
+      "exchange": "FX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "MCX_GOLD",
+      "ticker": "GOLDBEES.NS",
+      "market": "spot_etf_india",
+      "currency": "INR",
+      "unit": "10g",
+      "exchange": "NSE/MCX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "MCX_SILVER",
+      "ticker": "SILVERBEES.NS",
+      "market": "spot_etf_india",
+      "currency": "INR",
+      "unit": "kg",
+      "exchange": "NSE/MCX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "ticker": "DX-Y.NYB",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "ICE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "ticker": "^TNX",
+      "market": "yield",
+      "currency": "USD",
+      "unit": "percent",
+      "exchange": "CBOE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "US02Y",
+      "ticker": "^IRX",
+      "market": "yield",
+      "currency": "USD",
+      "unit": "percent",
+      "exchange": "CBOE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "ticker": "^GSPC",
+      "market": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "S&P",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "ticker": "^NSEI",
+      "market": "equity",
+      "currency": "INR",
+      "unit": "index",
+      "exchange": "NSE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "ticker": "CL=F",
+      "market": "commodity",
+      "currency": "USD",
+      "unit": "barrel",
+      "exchange": "NYMEX",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "ticker": "^VIX",
+      "market": "volatility",
+      "currency": "USD",
+      "unit": "index",
+      "exchange": "CBOE",
+      "data_source": "yfinance",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "ticker": "^INDIAVIX",
+      "market": "volatility",
+      "currency": "INR",
+      "unit": "index",
+      "exchange": "NSE",
+      "data_source": "yfinance",
+      "enabled": true
+    }
+  ]
+}
