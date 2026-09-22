@@ -1,0 +1,281 @@
+{
+  "date": "2026-09-22",
+  "gold": {
+    "price": 4371.2998046875,
+    "inr_price_10g": null,
+    "daily_move_pct": -0.2874175491441644
+  },
+  "silver": {
+    "price": 66.29000091552734,
+    "inr_price_kg": null,
+    "daily_move_pct": 0.7064245937615343
+  },
+  "gold_silver_ratio": {
+    "gold_silver_ratio": 65.94206885375974,
+    "ratio_zscore": -0.1628854588112922
+  },
+  "macro": {
+    "macro_regime": "Inflationary",
+    "dxy_close": 100.47200012207031,
+    "dxy_return_20d": 1.4868688101720373,
+    "us10y_close": 4.936999797821045
+  },
+  "market_regime": {
+    "market_regime": "Range / Medium Volatility"
+  },
+  "scores": {
+    "composite_score": 46.1,
+    "sub_scores": {
+      "technical": 44.8,
+      "macro": 43.2,
+      "momentum": 29.4,
+      "volatility": 50.0,
+      "relative_value": 52.4,
+      "historical_pattern": 60.0
+    },
+    "weights": {
+      "technical": 0.25,
+      "macro": 0.2,
+      "momentum": 0.15,
+      "volatility": 0.1,
+      "relative_value": 0.15,
+      "historical_pattern": 0.15
+    }
+  },
+  "signals": {
+    "gold": {
+      "instrument": "GOLD",
+      "current_price": 4371.2998046875,
+      "overall_research_bias": "Neutral",
+      "overall_confidence": 64,
+      "horizon_signals": {
+        "1d": {
+          "horizon_days": 1,
+          "research_bias": "Bearish",
+          "probability_positive_return_pct": 39.8,
+          "probability_negative_return_pct": 60.2,
+          "historical_mean_return_pct": -0.71,
+          "confidence_score": 64,
+          "confidence_reasons": [
+            "Sufficient historical analogue sample size (10)",
+            "Model agreement ratio: 67%",
+            "Multi-factor composite score: 46.1/100",
+            "Market Regime: Range / Medium Volatility"
+          ],
+          "disclaimer": "Probabilistic research signal derived from historical conditional statistics. Not a guaranteed future price prediction."
+        },
+        "3d": {
+          "horizon_days": 3,
+          "research_bias": "Bearish",
+          "probability_positive_return_pct": 43.8,
+          "probability_negative_return_pct": 56.2,
+          "historical_mean_return_pct": -0.79,
+          "confidence_score": 64,
+          "confidence_reasons": [
+            "Sufficient historical analogue sample size (10)",
+            "Model agreement ratio: 67%",
+            "Multi-factor composite score: 46.1/100",
+            "Market Regime: Range / Medium Volatility"
+          ],
+          "disclaimer": "Probabilistic research signal derived from historical conditional statistics. Not a guaranteed future price prediction."
+        },
+        "5d": {
+          "horizon_days": 5,
+          "research_bias": "Neutral",
+          "probability_positive_return_pct": 51.8,
+          "probability_negative_return_pct": 48.2,
+          "historical_mean_return_pct": 0.31,
+          "confidence_score": 64,
+          "confidence_reasons": [
+            "Sufficient historical analogue sample size (10)",
+            "Model agreement ratio: 67%",
+            "Multi-factor composite score: 46.1/100",
+            "Market Regime: Range / Medium Volatility"
+          ],
+          "disclaimer": "Probabilistic research signal derived from historical conditional statistics. Not a guaranteed future price prediction."
+        },
+        "10d": {
+          "horizon_days": 10,
+          "research_bias": "Bearish",
+          "probability_positive_return_pct": 43.8,
+          "probability_negative_return_pct": 56.2,
+          "historical_mean_return_pct": 0.51,
+          "confidence_score": 64,
+          "confidence_reasons": [
+            "Sufficient historical analogue sample size (10)",
+            "Model agreement ratio: 67%",
+            "Multi-factor composite score: 46.1/100",
+            "Market Regime: Range / Medium Volatility"
+          ],
+          "disclaimer": "Probabilistic research signal derived from historical conditional statistics. Not a guaranteed future price prediction."
+        },
+        "20d": {
+          "horizon_days": 20,
+          "research_bias": "Bearish",
+          "probability_positive_return_pct": 43.8,
+          "probability_negative_return_pct": 56.2,
+          "historical_mean_return_pct": 1.7,
+          "confidence_score": 64,
+          "confidence_reasons": [
+            "Sufficient historical analogue sample size (10)",
+            "Model agreement ratio: 67%",
+            "Multi-factor composite score: 46.1/100",
+            "Market Regime: Range / Medium Volatility"
+          ],
+          "disclaimer": "Probabilistic research signal derived from historical conditional statistics. Not a guaranteed future price prediction."
+        },
+        "60d": {
+          "horizon_days": 60,
+          "research_bias": "Bullish",
+          "probability_positive_return_pct": 61.2,
+          "probability_negative_return_pct": 38.8,
+          "historical_mean_return_pct": 1.41,
+          "confidence_score": 49,
+          "confidence_reasons": [
+            "Limited historical analogue sample size (6)",
+            "Model agreement ratio: 67%",
+            "Multi-factor composite score: 46.1/100",
+            "Market Regime: Range / Medium Volatility"
+          ],
+          "disclaimer": "Probabilistic research signal derived from historical conditional statistics. Not a guaranteed future price prediction."
+        }
+      }
+    }
+  },
+  "analogues": {
+    "target_date": "2026-09-22",
+    "analogues": [
+      {
+        "date": "2026-05-22",
+        "similarity_score": 52.15,
+        "distance": 0.9177,
+        "macro_regime": "Neutral",
+        "rsi_14": 49.0
+      },
+      {
+        "date": "2026-07-28",
+        "similarity_score": 51.01,
+        "distance": 0.9603,
+        "macro_regime": "Inflationary",
+        "rsi_14": 46.73
+      },
+      {
+        "date": "2026-06-08",
+        "similarity_score": 50.94,
+        "distance": 0.963,
+        "macro_regime": "Neutral",
+        "rsi_14": 35.03
+      },
+      {
+        "date": "2026-06-05",
+        "similarity_score": 50.09,
+        "distance": 0.9966,
+        "macro_regime": "Neutral",
+        "rsi_14": 34.92
+      },
+      {
+        "date": "2026-07-27",
+        "similarity_score": 50.07,
+        "distance": 0.9973,
+        "macro_regime": "Inflationary",
+        "rsi_14": 44.29
+      },
+      {
+        "date": "2026-05-26",
+        "similarity_score": 48.83,
+        "distance": 1.048,
+        "macro_regime": "Neutral",
+        "rsi_14": 43.29
+      },
+      {
+        "date": "2026-07-16",
+        "similarity_score": 48.36,
+        "distance": 1.0679,
+        "macro_regime": "Neutral",
+        "rsi_14": 45.77
+      },
+      {
+        "date": "2026-07-24",
+        "similarity_score": 47.82,
+        "distance": 1.0912,
+        "macro_regime": "Inflationary",
+        "rsi_14": 43.17
+      },
+      {
+        "date": "2026-05-20",
+        "similarity_score": 47.62,
+        "distance": 1.0998,
+        "macro_regime": "Inflationary",
+        "rsi_14": 42.23
+      },
+      {
+        "date": "2026-06-09",
+        "similarity_score": 47.2,
+        "distance": 1.1185,
+        "macro_regime": "Neutral",
+        "rsi_14": 33.47
+      }
+    ],
+    "forward_statistics": {
+      "1d": {
+        "sample_count": 10,
+        "mean_return_pct": -0.71,
+        "median_return_pct": -0.26,
+        "positive_probability_pct": 30.0,
+        "negative_probability_pct": 70.0,
+        "max_gain_pct": 0.67,
+        "max_loss_pct": -3.57
+      },
+      "3d": {
+        "sample_count": 10,
+        "mean_return_pct": -0.79,
+        "median_return_pct": -0.63,
+        "positive_probability_pct": 40.0,
+        "negative_probability_pct": 60.0,
+        "max_gain_pct": 2.11,
+        "max_loss_pct": -5.72
+      },
+      "5d": {
+        "sample_count": 10,
+        "mean_return_pct": 0.31,
+        "median_return_pct": 0.36,
+        "positive_probability_pct": 60.0,
+        "negative_probability_pct": 40.0,
+        "max_gain_pct": 2.82,
+        "max_loss_pct": -2.9
+      },
+      "10d": {
+        "sample_count": 10,
+        "mean_return_pct": 0.51,
+        "median_return_pct": -2.1,
+        "positive_probability_pct": 40.0,
+        "negative_probability_pct": 60.0,
+        "max_gain_pct": 9.96,
+        "max_loss_pct": -6.48
+      },
+      "20d": {
+        "sample_count": 10,
+        "mean_return_pct": 1.7,
+        "median_return_pct": -4.08,
+        "positive_probability_pct": 40.0,
+        "negative_probability_pct": 60.0,
+        "max_gain_pct": 16.24,
+        "max_loss_pct": -10.96
+      },
+      "60d": {
+        "sample_count": 6,
+        "mean_return_pct": 1.41,
+        "median_return_pct": 0.94,
+        "positive_probability_pct": 83.3,
+        "negative_probability_pct": 16.7,
+        "max_gain_pct": 5.91,
+        "max_loss_pct": -1.36
+      }
+    }
+  },
+  "data_quality": {
+    "valid_records": 503,
+    "suspicious_records": 0,
+    "warnings": []
+  }
+}

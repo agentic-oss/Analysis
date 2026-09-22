@@ -1,0 +1,133 @@
+{
+  "date": "2026-03-01",
+  "audit_reports": {
+    "GOLD": {
+      "symbol": "GOLD",
+      "total_records": 503,
+      "valid_records": 503,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    "SILVER": {
+      "symbol": "SILVER",
+      "total_records": 503,
+      "valid_records": 502,
+      "suspicious_records": 1,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 1 price jumps exceeding 20.0% threshold."
+      ],
+      "errors": []
+    },
+    "USDINR": {
+      "symbol": "USDINR",
+      "total_records": 517,
+      "valid_records": 504,
+      "suspicious_records": 13,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 13 records with abnormal OHLC relationships."
+      ],
+      "errors": []
+    },
+    "MCX_GOLD": {
+      "symbol": "MCX_GOLD",
+      "total_records": 498,
+      "valid_records": 498,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    "MCX_SILVER": {
+      "symbol": "MCX_SILVER",
+      "total_records": 498,
+      "valid_records": 497,
+      "suspicious_records": 1,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 1 price jumps exceeding 20.0% threshold."
+      ],
+      "errors": []
+    },
+    "DXY": {
+      "symbol": "DXY",
+      "total_records": 503,
+      "valid_records": 503,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    "US10Y": {
+      "symbol": "US10Y",
+      "total_records": 501,
+      "valid_records": 501,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    "US02Y": {
+      "symbol": "US02Y",
+      "total_records": 501,
+      "valid_records": 501,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    "SP500": {
+      "symbol": "SP500",
+      "total_records": 501,
+      "valid_records": 501,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    "NIFTY50": {
+      "symbol": "NIFTY50",
+      "total_records": 495,
+      "valid_records": 495,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    "CRUDE_OIL": {
+      "symbol": "CRUDE_OIL",
+      "total_records": 503,
+      "valid_records": 503,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    "VIX": {
+      "symbol": "VIX",
+      "total_records": 503,
+      "valid_records": 489,
+      "suspicious_records": 14,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 14 price jumps exceeding 20.0% threshold."
+      ],
+      "errors": []
+    },
+    "INDIA_VIX": {
+      "symbol": "INDIA_VIX",
+      "total_records": 492,
+      "valid_records": 486,
+      "suspicious_records": 6,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 6 price jumps exceeding 20.0% threshold."
+      ],
+      "errors": []
+    }
+  },
+  "total_instruments": 13
+}
