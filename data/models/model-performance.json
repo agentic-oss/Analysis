@@ -1,0 +1,14 @@
+{
+  "evaluation_timestamp": "2026-09-23T13:31:25.953053",
+  "total_forecasts_evaluated": 1,
+  "overall_directional_accuracy_pct": 100.0,
+  "mae": 0.32,
+  "rmse": 0.32,
+  "horizon_breakdown": {
+    "1d": {
+      "count": 1,
+      "accuracy_pct": 100.0,
+      "mae": 0.32
+    }
+  }
+}

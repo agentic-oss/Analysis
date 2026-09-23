@@ -1,0 +1,40 @@
+system:
+  timezone: "Asia/Kolkata"
+  data_dir: "data"
+  reports_dir: "reports"
+  default_provider: "yfinance"
+
+ingestion:
+  retries: 3
+  backoff_factor: 1.5
+  timeout: 15
+  history_years: 5
+
+lookback_windows:
+  short: 20
+  medium: 60
+  long: 120
+  annual: 252
+
+forecast_horizons: [1, 3, 5, 10, 20, 60]
+
+score_weights:
+  technical: 0.25
+  macro: 0.20
+  momentum: 0.15
+  volatility: 0.10
+  relative_value: 0.15
+  pattern: 0.15
+
+backtest:
+  initial_capital: 100000.0
+  transaction_cost_pct: 0.0005
+  slippage_pct: 0.0005
+  position_sizing: "risk_adjusted"
+
+alert_thresholds:
+  price_change_pct_1d: 2.0
+  rsi_overbought: 70
+  rsi_oversold: 30
+  gsr_zscore_extreme: 2.0
+  vix_spike: 25.0
