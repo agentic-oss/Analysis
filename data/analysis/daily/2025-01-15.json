@@ -1,0 +1,201 @@
+{
+  "date": "2025-01-15",
+  "gold": {
+    "price": 3322.4647,
+    "daily_return_pct": 0.342693948934536,
+    "weekly_return_pct": 0.8152237733349832,
+    "monthly_return_pct": -7.311432765942161,
+    "composite_score": 55.91,
+    "component_scores": {
+      "technical": 50.0,
+      "macro": 50.0,
+      "momentum": 75.0,
+      "volatility": 80.0,
+      "relative_value": 50.0,
+      "pattern": 44.4
+    },
+    "forward_statistics": {
+      "1d": {
+        "horizon": "1d",
+        "probability_positive": 51.8,
+        "probability_negative": 48.2,
+        "expected_return": 0.02,
+        "median_return": 0.05,
+        "model_agreement": "3/3"
+      },
+      "3d": {
+        "horizon": "3d",
+        "probability_positive": 52.3,
+        "probability_negative": 47.7,
+        "expected_return": 0.06,
+        "median_return": 0.11,
+        "model_agreement": "3/3"
+      },
+      "5d": {
+        "horizon": "5d",
+        "probability_positive": 51.2,
+        "probability_negative": 48.8,
+        "expected_return": 0.07,
+        "median_return": 0.13,
+        "model_agreement": "3/3"
+      },
+      "10d": {
+        "horizon": "10d",
+        "probability_positive": 51.5,
+        "probability_negative": 48.5,
+        "expected_return": 0.11,
+        "median_return": 0.31,
+        "model_agreement": "2/3"
+      },
+      "20d": {
+        "horizon": "20d",
+        "probability_positive": 55.9,
+        "probability_negative": 44.1,
+        "expected_return": -0.16,
+        "median_return": 0.86,
+        "model_agreement": "2/3"
+      },
+      "60d": {
+        "horizon": "60d",
+        "probability_positive": 51.1,
+        "probability_negative": 48.9,
+        "expected_return": -0.95,
+        "median_return": 2.33,
+        "model_agreement": "1/3"
+      }
+    }
+  },
+  "silver": {
+    "price": 28.8104,
+    "daily_return_pct": -1.9697645061297675,
+    "weekly_return_pct": -1.0176386111740987,
+    "monthly_return_pct": -0.19987460206940533,
+    "composite_score": 62.0,
+    "component_scores": {
+      "technical": 50.0,
+      "macro": 50.0,
+      "momentum": 100.0,
+      "volatility": 80.0,
+      "relative_value": 50.0,
+      "pattern": 60.0
+    },
+    "forward_statistics": {
+      "1d": {
+        "horizon": "1d",
+        "probability_positive": 50.4,
+        "probability_negative": 49.6,
+        "expected_return": 0.03,
+        "median_return": 0.04,
+        "model_agreement": "2/3"
+      },
+      "3d": {
+        "horizon": "3d",
+        "probability_positive": 52.7,
+        "probability_negative": 47.3,
+        "expected_return": 0.08,
+        "median_return": 0.08,
+        "model_agreement": "3/3"
+      },
+      "5d": {
+        "horizon": "5d",
+        "probability_positive": 54.0,
+        "probability_negative": 46.0,
+        "expected_return": 0.14,
+        "median_return": 0.12,
+        "model_agreement": "3/3"
+      },
+      "10d": {
+        "horizon": "10d",
+        "probability_positive": 55.4,
+        "probability_negative": 44.6,
+        "expected_return": 0.51,
+        "median_return": 0.12,
+        "model_agreement": "3/3"
+      },
+      "20d": {
+        "horizon": "20d",
+        "probability_positive": 50.3,
+        "probability_negative": 49.7,
+        "expected_return": 0.51,
+        "median_return": 0.18,
+        "model_agreement": "2/3"
+      },
+      "60d": {
+        "horizon": "60d",
+        "probability_positive": 58.4,
+        "probability_negative": 41.6,
+        "expected_return": 1.73,
+        "median_return": 1.22,
+        "model_agreement": "3/3"
+      }
+    }
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 115.32,
+    "current_zscore": -0.41,
+    "historical_percentile": 47.5,
+    "long_term_mean": 125.11,
+    "forward_extreme_spread_stats": {
+      "1d": {
+        "high_ratio_mean_fwd_spread": 0.01,
+        "low_ratio_mean_fwd_spread": 0.06
+      },
+      "3d": {
+        "high_ratio_mean_fwd_spread": 0.1,
+        "low_ratio_mean_fwd_spread": 0.06
+      },
+      "5d": {
+        "high_ratio_mean_fwd_spread": 0.05,
+        "low_ratio_mean_fwd_spread": -0.13
+      },
+      "10d": {
+        "high_ratio_mean_fwd_spread": 0.18,
+        "low_ratio_mean_fwd_spread": -0.32
+      },
+      "20d": {
+        "high_ratio_mean_fwd_spread": 2.13,
+        "low_ratio_mean_fwd_spread": -0.22
+      },
+      "60d": {
+        "high_ratio_mean_fwd_spread": 4.3,
+        "low_ratio_mean_fwd_spread": -1.13
+      }
+    }
+  },
+  "macro": {
+    "primary_macro_regime": "Risk-Off",
+    "components": {
+      "rates_trend": "neutral",
+      "dollar_trend": "neutral",
+      "inflation_pressure": "moderate",
+      "equity_sentiment": "risk_off"
+    },
+    "inputs": {
+      "rates_change_60d": 0.0,
+      "dxy_return_60d": 0.0,
+      "cpi_yoy": 2.5,
+      "vix_level": 24.1997,
+      "sp500_return_60d": 0.0,
+      "oil_return_60d": 0.0
+    }
+  },
+  "market_regime": {
+    "gold": {
+      "trend_regime": "Range",
+      "volatility_regime": "Normal Volatility",
+      "rsi_14": 38.67,
+      "volatility_20d": 19.8
+    },
+    "silver": {
+      "trend_regime": "Range",
+      "volatility_regime": "Normal Volatility",
+      "rsi_14": 50.69,
+      "volatility_20d": 17.48
+    }
+  },
+  "data_quality": {
+    "valid_records": 23508,
+    "suspicious_records": 0,
+    "invalid_records": 0
+  }
+}

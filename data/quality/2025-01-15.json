@@ -1,0 +1,115 @@
+{
+  "date": "2025-01-15",
+  "instruments": {
+    "GOLD": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "SILVER": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "GOLD_FUTURES": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "SILVER_FUTURES": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "GOLD_INR": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "SILVER_INR": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "MCX_GOLD": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "MCX_SILVER": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "USDINR": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "DXY": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "US10Y": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "US2Y": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "US_REAL_YIELD": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "CRUDE_OIL": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "SP500": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "NIFTY50": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "VIX": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    },
+    "INDIA_VIX": {
+      "total_records": 1306,
+      "valid_records": 1306,
+      "suspicious_records": 0,
+      "invalid_records": 0
+    }
+  },
+  "warnings": [],
+  "errors": []
+}
