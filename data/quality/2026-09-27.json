@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-27",
+  "instruments_count": 19,
+  "valid_records": 422,
+  "warnings": [
+    "Found 1 suspicious records for BRENT_OIL",
+    "Found 1 suspicious records for INDIA_VIX"
+  ],
+  "errors": []
+}

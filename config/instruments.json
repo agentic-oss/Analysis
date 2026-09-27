@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-03-30",
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "market": "spot",
+      "ticker": "GC=F",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "SILVER",
+      "market": "spot",
+      "ticker": "SI=F",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "GOLD_FUT",
+      "market": "futures",
+      "ticker": "GC=F",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "SILVER_FUT",
+      "market": "futures",
+      "ticker": "SI=F",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "GOLD_INR",
+      "market": "domestic_india",
+      "ticker": "GOLDBEES.NS",
+      "currency": "INR",
+      "unit": "10g",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "SILVER_INR",
+      "market": "domestic_india",
+      "ticker": "SILVERBEES.NS",
+      "currency": "INR",
+      "unit": "kg",
+      "enabled": true,
+      "category": "metals"
+    },
+    {
+      "symbol": "USDINR",
+      "market": "fx",
+      "ticker": "USDINR=X",
+      "currency": "INR",
+      "unit": "1_usd",
+      "enabled": true,
+      "category": "currency"
+    },
+    {
+      "symbol": "DXY",
+      "market": "index",
+      "ticker": "DX-Y.NYB",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "category": "currency"
+    },
+    {
+      "symbol": "US10Y",
+      "market": "bonds",
+      "ticker": "^TNX",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true,
+      "category": "rates"
+    },
+    {
+      "symbol": "US2Y",
+      "market": "bonds",
+      "ticker": "^IRX",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true,
+      "category": "rates"
+    },
+    {
+      "symbol": "REAL_YIELD",
+      "market": "bonds",
+      "ticker": "TIP",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "category": "rates"
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "market": "commodities",
+      "ticker": "CL=F",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true,
+      "category": "energy"
+    },
+    {
+      "symbol": "BRENT_OIL",
+      "market": "commodities",
+      "ticker": "BZ=F",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true,
+      "category": "energy"
+    },
+    {
+      "symbol": "SP500",
+      "market": "equities",
+      "ticker": "^GSPC",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "category": "equities"
+    },
+    {
+      "symbol": "NASDAQ",
+      "market": "equities",
+      "ticker": "^IXIC",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "category": "equities"
+    },
+    {
+      "symbol": "DOW",
+      "market": "equities",
+      "ticker": "^DJI",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "category": "equities"
+    },
+    {
+      "symbol": "NIFTY50",
+      "market": "equities",
+      "ticker": "^NSEI",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true,
+      "category": "equities"
+    },
+    {
+      "symbol": "VIX",
+      "market": "volatility",
+      "ticker": "^VIX",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true,
+      "category": "volatility"
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "market": "volatility",
+      "ticker": "^INDIAVIX",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true,
+      "category": "volatility"
+    }
+  ]
+}
