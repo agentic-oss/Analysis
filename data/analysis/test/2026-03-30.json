@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-30",
+  "gold": {
+    "price": 2000.0
+  },
+  "silver": {
+    "price": 25.0
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 80.0
+  },
+  "macro": {
+    "dxy": 100.0
+  },
+  "scores": {
+    "gold_scores": {
+      "composite_score": 60
+    }
+  },
+  "forecast_statistics": {},
+  "data_quality": {
+    "valid_records": 100
+  }
+}
