@@ -1,0 +1,80 @@
+{
+  "GOLD_USD_SPOT": {
+    "instrument_id": "GOLD_USD_SPOT",
+    "total_records": 503,
+    "valid_records": 503,
+    "suspicious_records": 0,
+    "warnings": [],
+    "errors": []
+  },
+  "SILVER_USD_SPOT": {
+    "instrument_id": "SILVER_USD_SPOT",
+    "total_records": 503,
+    "valid_records": 502,
+    "suspicious_records": 1,
+    "warnings": [
+      "1 abnormal price jumps (>20%) detected."
+    ],
+    "errors": []
+  },
+  "USD_INR": {
+    "instrument_id": "USD_INR",
+    "total_records": 517,
+    "valid_records": 504,
+    "suspicious_records": 13,
+    "warnings": [
+      "13 records with invalid High/Low relationships detected."
+    ],
+    "errors": []
+  },
+  "DXY": {
+    "instrument_id": "DXY",
+    "total_records": 503,
+    "valid_records": 503,
+    "suspicious_records": 0,
+    "warnings": [],
+    "errors": []
+  },
+  "US10Y": {
+    "instrument_id": "US10Y",
+    "total_records": 501,
+    "valid_records": 501,
+    "suspicious_records": 0,
+    "warnings": [],
+    "errors": []
+  },
+  "US_REAL_YIELD": {
+    "instrument_id": "US_REAL_YIELD",
+    "total_records": 501,
+    "valid_records": 501,
+    "suspicious_records": 0,
+    "warnings": [],
+    "errors": []
+  },
+  "BRENT_CRUDE": {
+    "instrument_id": "BRENT_CRUDE",
+    "total_records": 503,
+    "valid_records": 503,
+    "suspicious_records": 0,
+    "warnings": [],
+    "errors": []
+  },
+  "SP500": {
+    "instrument_id": "SP500",
+    "total_records": 501,
+    "valid_records": 501,
+    "suspicious_records": 0,
+    "warnings": [],
+    "errors": []
+  },
+  "VIX": {
+    "instrument_id": "VIX",
+    "total_records": 503,
+    "valid_records": 489,
+    "suspicious_records": 14,
+    "warnings": [
+      "14 abnormal price jumps (>20%) detected."
+    ],
+    "errors": []
+  }
+}
