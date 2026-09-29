@@ -1,0 +1,63 @@
+system:
+  project_name: "gold_silver_research_pipeline"
+  timezone: "Asia/Kolkata"
+  data_dir: "data"
+  reports_dir: "reports"
+  config_version: "1.0.0"
+
+data_provider:
+  primary: "yfinance"
+  timeout_seconds: 30
+  max_retries: 3
+  backoff_factor: 2.0
+  rate_limit_pause_seconds: 0.5
+
+conversion_factors:
+  troy_oz_to_grams: 31.1034768
+  troy_oz_to_10g: 3.11034768
+  troy_oz_to_kg: 0.0311034768
+
+indicators:
+  sma_periods: [5, 10, 20, 50, 100, 200]
+  ema_periods: [9, 20, 50, 200]
+  rsi_period: 14
+  stoch_rsi_period: 14
+  macd:
+    fast: 12
+    slow: 26
+    signal: 9
+  atr_period: 14
+  bollinger:
+    period: 20
+    std_dev: 2
+  rolling_volatility_periods: [20, 60, 252]
+  correlation_windows: [20, 60, 120, 252]
+
+forecasting:
+  horizons_days: [1, 3, 5, 10, 20, 60]
+  analogue_top_k: 25
+  min_analogue_samples: 10
+
+scores:
+  weights:
+    technical: 0.25
+    macro: 0.20
+    momentum: 0.15
+    volatility: 0.10
+    relative_value: 0.15
+    historical_pattern: 0.15
+
+backtesting:
+  initial_capital: 100000.0
+  transaction_cost_pct: 0.0005
+  slippage_pct: 0.0005
+  position_size_pct: 1.0
+
+alerts:
+  rsi_overbought: 70
+  rsi_oversold: 30
+  gold_silver_ratio_extreme_high: 90.0
+  gold_silver_ratio_extreme_low: 65.0
+  daily_return_threshold_pct: 2.0
+  real_yield_change_bp_threshold: 10.0
+  dxy_change_pct_threshold: 1.0

@@ -1,0 +1,180 @@
+{
+  "date": "2026-09-08",
+  "gold": {
+    "price": 4439.0,
+    "return_1d": -0.008399253191263556,
+    "market_regime": "Bearish Trend | High Volatility",
+    "technical_score": 44.26,
+    "signals": {
+      "instrument": "Gold",
+      "horizons": {
+        "1d": {
+          "horizon_days": 1,
+          "positive_return_probability": 0.68,
+          "negative_return_probability": 0.32,
+          "expected_return": 0.008,
+          "median_return": 0.0048,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "3d": {
+          "horizon_days": 3,
+          "positive_return_probability": 0.68,
+          "negative_return_probability": 0.32,
+          "expected_return": 0.0096,
+          "median_return": 0.0088,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "5d": {
+          "horizon_days": 5,
+          "positive_return_probability": 0.68,
+          "negative_return_probability": 0.32,
+          "expected_return": 0.0071,
+          "median_return": 0.0181,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "10d": {
+          "horizon_days": 10,
+          "positive_return_probability": 0.72,
+          "negative_return_probability": 0.28,
+          "expected_return": 0.0091,
+          "median_return": 0.0362,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "20d": {
+          "horizon_days": 20,
+          "positive_return_probability": 0.76,
+          "negative_return_probability": 0.24,
+          "expected_return": 0.0428,
+          "median_return": 0.057,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "60d": {
+          "horizon_days": 60,
+          "positive_return_probability": 0.8,
+          "negative_return_probability": 0.2,
+          "expected_return": 0.07,
+          "median_return": 0.0926,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        }
+      }
+    }
+  },
+  "silver": {
+    "price": 66.2969970703125,
+    "return_1d": 0.003785183446476159,
+    "market_regime": "Bearish Trend | High Volatility",
+    "signals": {
+      "instrument": "Silver",
+      "horizons": {
+        "1d": {
+          "horizon_days": 1,
+          "positive_return_probability": 0.48,
+          "negative_return_probability": 0.52,
+          "expected_return": -0.001,
+          "median_return": -0.0002,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "3d": {
+          "horizon_days": 3,
+          "positive_return_probability": 0.48,
+          "negative_return_probability": 0.52,
+          "expected_return": -0.0039,
+          "median_return": -0.0053,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "5d": {
+          "horizon_days": 5,
+          "positive_return_probability": 0.72,
+          "negative_return_probability": 0.28,
+          "expected_return": 0.0166,
+          "median_return": 0.0137,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "10d": {
+          "horizon_days": 10,
+          "positive_return_probability": 0.64,
+          "negative_return_probability": 0.36,
+          "expected_return": 0.0152,
+          "median_return": 0.0124,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "20d": {
+          "horizon_days": 20,
+          "positive_return_probability": 0.72,
+          "negative_return_probability": 0.28,
+          "expected_return": 0.0581,
+          "median_return": 0.0212,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "60d": {
+          "horizon_days": 60,
+          "positive_return_probability": 0.96,
+          "negative_return_probability": 0.04,
+          "expected_return": 0.1891,
+          "median_return": 0.1558,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        }
+      }
+    }
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 66.96,
+    "long_term_average": 79.22,
+    "z_score": -0.9,
+    "historical_percentile": 25.45,
+    "gold_usd_oz": 4439.0,
+    "silver_usd_oz": 66.3,
+    "gold_inr_10g": 134856.16,
+    "silver_inr_kg": 201409.29,
+    "usd_inr_rate_used": 94.49189758300781
+  },
+  "macro": {
+    "macro_regime": "Disinflationary",
+    "components": {
+      "real_yield_change_20d": 0.160003662109375,
+      "dxy_return_20d": -0.009817705469141624,
+      "vix_level": 15.720000267028809
+    }
+  },
+  "scores": {
+    "technical_score": 44.26,
+    "macro_score": 40.0,
+    "momentum_score": 0.0,
+    "volatility_score": 40.59,
+    "relative_value_score": 32.0,
+    "historical_pattern_score": 72.0,
+    "composite_score": 38.73,
+    "weights": {
+      "technical": 0.25,
+      "macro": 0.2,
+      "momentum": 0.15,
+      "volatility": 0.1,
+      "relative_value": 0.15,
+      "historical_pattern": 0.15
+    }
+  }
+}

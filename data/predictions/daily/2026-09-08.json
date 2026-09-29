@@ -1,0 +1,135 @@
+{
+  "date": "2026-09-08",
+  "predictions": {
+    "GOLD": {
+      "instrument": "Gold",
+      "horizons": {
+        "1d": {
+          "horizon_days": 1,
+          "positive_return_probability": 0.68,
+          "negative_return_probability": 0.32,
+          "expected_return": 0.008,
+          "median_return": 0.0048,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "3d": {
+          "horizon_days": 3,
+          "positive_return_probability": 0.68,
+          "negative_return_probability": 0.32,
+          "expected_return": 0.0096,
+          "median_return": 0.0088,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "5d": {
+          "horizon_days": 5,
+          "positive_return_probability": 0.68,
+          "negative_return_probability": 0.32,
+          "expected_return": 0.0071,
+          "median_return": 0.0181,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "10d": {
+          "horizon_days": 10,
+          "positive_return_probability": 0.72,
+          "negative_return_probability": 0.28,
+          "expected_return": 0.0091,
+          "median_return": 0.0362,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "20d": {
+          "horizon_days": 20,
+          "positive_return_probability": 0.76,
+          "negative_return_probability": 0.24,
+          "expected_return": 0.0428,
+          "median_return": 0.057,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "60d": {
+          "horizon_days": 60,
+          "positive_return_probability": 0.8,
+          "negative_return_probability": 0.2,
+          "expected_return": 0.07,
+          "median_return": 0.0926,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        }
+      }
+    },
+    "SILVER": {
+      "instrument": "Silver",
+      "horizons": {
+        "1d": {
+          "horizon_days": 1,
+          "positive_return_probability": 0.48,
+          "negative_return_probability": 0.52,
+          "expected_return": -0.001,
+          "median_return": -0.0002,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "3d": {
+          "horizon_days": 3,
+          "positive_return_probability": 0.48,
+          "negative_return_probability": 0.52,
+          "expected_return": -0.0039,
+          "median_return": -0.0053,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "5d": {
+          "horizon_days": 5,
+          "positive_return_probability": 0.72,
+          "negative_return_probability": 0.28,
+          "expected_return": 0.0166,
+          "median_return": 0.0137,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "10d": {
+          "horizon_days": 10,
+          "positive_return_probability": 0.64,
+          "negative_return_probability": 0.36,
+          "expected_return": 0.0152,
+          "median_return": 0.0124,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "20d": {
+          "horizon_days": 20,
+          "positive_return_probability": 0.72,
+          "negative_return_probability": 0.28,
+          "expected_return": 0.0581,
+          "median_return": 0.0212,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        },
+        "60d": {
+          "horizon_days": 60,
+          "positive_return_probability": 0.96,
+          "negative_return_probability": 0.04,
+          "expected_return": 0.1891,
+          "median_return": 0.1558,
+          "sample_count": 25,
+          "research_signal_type": "PROBABILISTIC_HISTORICAL_SIGNAL",
+          "disclaimer": "All price predictions and forecasting outputs must strictly be framed as probabilistic research signals rather than guaranteed future prices."
+        }
+      }
+    }
+  }
+}
