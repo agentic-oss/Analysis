@@ -1,0 +1,397 @@
+{
+  "date": "2026-03-08",
+  "gold": {
+    "price": 5158.7001953125,
+    "daily_change_pct": 1.57520619299083,
+    "volatility_20d": 0.29516236898515996,
+    "rsi_14": 55.26317233507831,
+    "macd_hist": -17.399623773297648,
+    "dist_sma_200": 28.882506775197893,
+    "trend_regime": "Strong Bullish Trend",
+    "composite_score": 64.5,
+    "scores": {
+      "technical_score": 74.6,
+      "macro_score": 80.0,
+      "momentum_score": 49.2,
+      "volatility_score": 11.5,
+      "relative_value_score": 91.2,
+      "historical_pattern_score": 60.0,
+      "model_score": 62.3,
+      "composite_score": 64.5
+    }
+  },
+  "silver": {
+    "price": 83.81600189208984,
+    "daily_change_pct": 2.6062966254028375,
+    "trend_regime": "Bullish"
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 61.54791542018605,
+    "ratio_sma_200": 79.16761261997887,
+    "z_score": -2.0602428900358207,
+    "percentile": 2.1235521235521233,
+    "is_extreme_high": false,
+    "is_extreme_low": true
+  },
+  "macro": {
+    "primary_regime": "Risk-Off",
+    "is_risk_off": true,
+    "is_risk_on": false,
+    "is_inflationary": false,
+    "is_tightening": false,
+    "is_easing": false,
+    "components": {
+      "us10y_change_20d": -1.3000011444091797,
+      "dxy_return_20d": 0.011960725542787154,
+      "sp500_return_20d": -0.008587297548114714,
+      "oil_return_20d": 0.02,
+      "vix_level": 29.489999771118164
+    },
+    "explainability": "Macro regime identified as Risk-Off based on VIX (29.5), S&P 500 20d return (-0.9%), Oil 20d return (2.0%), and 10Y Yield 20d change (-1.30bp)."
+  },
+  "market_regime": {
+    "trend_regime": "Strong Bullish Trend",
+    "volatility_regime": "High Volatility",
+    "combined_regime": "Strong Bullish Trend | High Volatility",
+    "rsi_state": "Neutral"
+  },
+  "analogues": {
+    "top_k": 25,
+    "analogues": [
+      {
+        "date": "2025-11-10",
+        "distance": 0.5889405085354981,
+        "forward_10d_return_pct": -0.6744310729773167,
+        "forward_20d_return_pct": 2.7705044956938383
+      },
+      {
+        "date": "2025-11-11",
+        "distance": 0.6126912524458011,
+        "forward_10d_return_pct": 0.5757645564472985,
+        "forward_20d_return_pct": 2.6334425520113327
+      },
+      {
+        "date": "2025-11-13",
+        "distance": 0.6367635947054868,
+        "forward_10d_return_pct": 1.4399785992072953,
+        "forward_20d_return_pct": 3.189886868220288
+      },
+      {
+        "date": "2025-11-12",
+        "distance": 0.6545702663197425,
+        "forward_10d_return_pct": -1.1486591328558136,
+        "forward_20d_return_pct": 2.3590255373081006
+      },
+      {
+        "date": "2025-05-23",
+        "distance": 0.6867927675906689,
+        "forward_10d_return_pct": -0.3238500899116131,
+        "forward_20d_return_pct": -0.9477730709369298
+      },
+      {
+        "date": "2025-11-17",
+        "distance": 0.7185873926378206,
+        "forward_10d_return_pct": 3.590619822984415,
+        "forward_20d_return_pct": 6.327151912811388
+      },
+      {
+        "date": "2025-11-14",
+        "distance": 0.7274411815720989,
+        "forward_10d_return_pct": 4.4111146419200224,
+        "forward_20d_return_pct": 5.886381882048627
+      },
+      {
+        "date": "2025-05-21",
+        "distance": 0.7392879665232441,
+        "forward_10d_return_pct": 1.859064362645239,
+        "forward_20d_return_pct": 2.1789633671910367
+      },
+      {
+        "date": "2025-10-24",
+        "distance": 0.7438348058906972,
+        "forward_10d_return_pct": -3.093425537754888,
+        "forward_20d_return_pct": -1.4089566300780225
+      },
+      {
+        "date": "2025-05-07",
+        "distance": 0.7444274944133467,
+        "forward_10d_return_pct": -2.311386084523806,
+        "forward_20d_return_pct": -0.49529187685909
+      },
+      {
+        "date": "2025-05-05",
+        "distance": 0.7630002464674563,
+        "forward_10d_return_pct": -2.6728485544057783,
+        "forward_20d_return_pct": 1.6494611571117614
+      },
+      {
+        "date": "2025-06-03",
+        "distance": 0.7637230021385116,
+        "forward_10d_return_pct": 0.8824080964665939,
+        "forward_20d_return_pct": -0.5152392875902886
+      },
+      {
+        "date": "2025-06-02",
+        "distance": 0.768103384476817,
+        "forward_10d_return_pct": 0.5916666061800809,
+        "forward_20d_return_pct": -1.3952638356596954
+      },
+      {
+        "date": "2025-05-09",
+        "distance": 0.7743606681673637,
+        "forward_10d_return_pct": 0.6519153357692883,
+        "forward_20d_return_pct": 0.32595401745663877
+      },
+      {
+        "date": "2025-10-23",
+        "distance": 0.8005881538807516,
+        "forward_10d_return_pct": -3.72925738166724,
+        "forward_20d_return_pct": -2.0648421372009502
+      },
+      {
+        "date": "2025-05-29",
+        "distance": 0.8034323828726145,
+        "forward_10d_return_pct": 2.57151735480548,
+        "forward_20d_return_pct": -0.8893310159932676
+      },
+      {
+        "date": "2025-05-22",
+        "distance": 0.8080057467582233,
+        "forward_10d_return_pct": 1.566012068474962,
+        "forward_20d_return_pct": 3.0349013657056148
+      },
+      {
+        "date": "2025-05-06",
+        "distance": 0.8327198772977974,
+        "forward_10d_return_pct": -4.037628526363699,
+        "forward_20d_return_pct": -0.6894968248095603
+      },
+      {
+        "date": "2025-10-22",
+        "distance": 0.849933965008946,
+        "forward_10d_return_pct": -1.7833423953742635,
+        "forward_20d_return_pct": 0.4280057780870121
+      },
+      {
+        "date": "2025-06-05",
+        "distance": 0.8525028619554263,
+        "forward_10d_return_pct": 0.3140604192149973,
+        "forward_20d_return_pct": -0.847385168697977
+      },
+      {
+        "date": "2025-05-20",
+        "distance": 0.8562897779228211,
+        "forward_10d_return_pct": 3.489004752736826,
+        "forward_20d_return_pct": 3.759970660907071
+      },
+      {
+        "date": "2025-05-08",
+        "distance": 0.8660204792119287,
+        "forward_10d_return_pct": -0.33272837265577737,
+        "forward_20d_return_pct": 1.228073129348155
+      },
+      {
+        "date": "2025-06-04",
+        "distance": 0.8715724661067188,
+        "forward_10d_return_pct": 0.2618306252124613,
+        "forward_20d_return_pct": -1.6562735242660716
+      },
+      {
+        "date": "2025-05-27",
+        "distance": 0.8922577904127124,
+        "forward_10d_return_pct": 1.302872417656537,
+        "forward_20d_return_pct": 1.2937885279349581
+      },
+      {
+        "date": "2025-05-28",
+        "distance": 0.9008883476262913,
+        "forward_10d_return_pct": 1.4810783415123545,
+        "forward_20d_return_pct": 1.6115845467256376
+      }
+    ],
+    "forward_stats": {
+      "1d": {
+        "sample_size": 25,
+        "mean_return_pct": -0.2560945624144629,
+        "median_return_pct": -0.4532964024486836,
+        "std_pct": 1.6411953348204809,
+        "win_probability": 32.0,
+        "max_gain_pct": 3.0250127478837854,
+        "max_loss_pct": -3.4688995215311005,
+        "p25_pct": -0.8501460457109901,
+        "p75_pct": 0.6737744990889832
+      },
+      "3d": {
+        "sample_size": 25,
+        "mean_return_pct": -1.070723311093026,
+        "median_return_pct": -0.9031417227214374,
+        "std_pct": 2.0577528809115013,
+        "win_probability": 16.0,
+        "max_gain_pct": 3.104799898635957,
+        "max_loss_pct": -4.83209726296751,
+        "p25_pct": -2.302210111721368,
+        "p75_pct": -0.34844262332674825
+      },
+      "5d": {
+        "sample_size": 25,
+        "mean_return_pct": -1.2954727327002118,
+        "median_return_pct": -1.2098196693736862,
+        "std_pct": 2.313370750366221,
+        "win_probability": 32.0,
+        "max_gain_pct": 3.1654997699302974,
+        "max_loss_pct": -6.002531306272943,
+        "p25_pct": -3.104234996123161,
+        "p75_pct": 0.3135786513204301
+      },
+      "10d": {
+        "sample_size": 25,
+        "mean_return_pct": 0.1952540341097463,
+        "median_return_pct": 0.5757645564472985,
+        "std_pct": 2.2504133139026115,
+        "win_probability": 60.0,
+        "max_gain_pct": 4.4111146419200224,
+        "max_loss_pct": -4.037628526363699,
+        "p25_pct": -1.1486591328558136,
+        "p75_pct": 1.4810783415123545
+      },
+      "20d": {
+        "sample_size": 25,
+        "mean_return_pct": 1.1106896970587843,
+        "median_return_pct": 1.228073129348155,
+        "std_pct": 2.2859181250893834,
+        "win_probability": 60.0,
+        "max_gain_pct": 6.327151912811388,
+        "max_loss_pct": -2.0648421372009502,
+        "p25_pct": -0.847385168697977,
+        "p75_pct": 2.6334425520113327
+      },
+      "60d": {
+        "sample_size": 25,
+        "mean_return_pct": 8.393985200315102,
+        "median_return_pct": 3.0018830476800398,
+        "std_pct": 9.34840811063135,
+        "win_probability": 88.0,
+        "max_gain_pct": 23.850774443183212,
+        "max_loss_pct": -3.786376528205952,
+        "p25_pct": 2.1172010876912384,
+        "p75_pct": 18.744263479775235
+      }
+    }
+  },
+  "forecasts": {
+    "1d": {
+      "horizon_days": 1,
+      "probability_positive": 0.4013,
+      "probability_negative": 0.5987,
+      "expected_return_pct": -0.26,
+      "median_return_pct": -0.45,
+      "expected_volatility_pct": 1.64,
+      "historical_max_gain_pct": 3.03,
+      "historical_max_loss_pct": -3.47,
+      "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price prediction."
+    },
+    "3d": {
+      "horizon_days": 3,
+      "probability_positive": 0.3054,
+      "probability_negative": 0.6946,
+      "expected_return_pct": -1.07,
+      "median_return_pct": -0.9,
+      "expected_volatility_pct": 2.06,
+      "historical_max_gain_pct": 3.1,
+      "historical_max_loss_pct": -4.83,
+      "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price prediction."
+    },
+    "5d": {
+      "horizon_days": 5,
+      "probability_positive": 0.417,
+      "probability_negative": 0.583,
+      "expected_return_pct": -1.3,
+      "median_return_pct": -1.21,
+      "expected_volatility_pct": 2.31,
+      "historical_max_gain_pct": 3.17,
+      "historical_max_loss_pct": -6.0,
+      "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price prediction."
+    },
+    "10d": {
+      "horizon_days": 10,
+      "probability_positive": 0.6091,
+      "probability_negative": 0.3909,
+      "expected_return_pct": 0.2,
+      "median_return_pct": 0.58,
+      "expected_volatility_pct": 2.25,
+      "historical_max_gain_pct": 4.41,
+      "historical_max_loss_pct": -4.04,
+      "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price prediction."
+    },
+    "20d": {
+      "horizon_days": 20,
+      "probability_positive": 0.5876,
+      "probability_negative": 0.4124,
+      "expected_return_pct": 1.11,
+      "median_return_pct": 1.23,
+      "expected_volatility_pct": 2.29,
+      "historical_max_gain_pct": 6.33,
+      "historical_max_loss_pct": -2.06,
+      "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price prediction."
+    },
+    "60d": {
+      "horizon_days": 60,
+      "probability_positive": 0.7016,
+      "probability_negative": 0.2984,
+      "expected_return_pct": 8.39,
+      "median_return_pct": 3.0,
+      "expected_volatility_pct": 9.35,
+      "historical_max_gain_pct": 23.85,
+      "historical_max_loss_pct": -3.79,
+      "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price prediction."
+    }
+  },
+  "confidence": {
+    "confidence_score": 95.0,
+    "reasons": [
+      "Robust historical analogue sample size (25 occurrences).",
+      "High model agreement (100% consensus).",
+      "Macro regime environment is stable."
+    ],
+    "disclaimer": "Confidence reflects historical consistency and model agreement, not guaranteed certainty."
+  },
+  "alerts": {
+    "date": "2026-03-08",
+    "alerts_count": 1,
+    "alerts": [
+      {
+        "type": "GOLD_SILVER_RATIO_EXTREME",
+        "severity": "HIGH",
+        "message": "Gold/Silver ratio Z-score reached extreme level (-2.06)."
+      }
+    ]
+  },
+  "data_quality": {
+    "date": "2026-03-08",
+    "instruments_validated": 2,
+    "summaries": [
+      {
+        "symbol": "GOLD_SPOT",
+        "total_records": 1555,
+        "valid_count": 1554,
+        "suspicious_count": 1,
+        "invalid_count": 0,
+        "errors": [],
+        "warnings": [
+          "Found 1 price jumps exceeding 10.0%."
+        ]
+      },
+      {
+        "symbol": "SILVER_SPOT",
+        "total_records": 1554,
+        "valid_count": 1547,
+        "suspicious_count": 7,
+        "invalid_count": 0,
+        "errors": [],
+        "warnings": [
+          "Found 7 price jumps exceeding 10.0%."
+        ]
+      }
+    ]
+  }
+}

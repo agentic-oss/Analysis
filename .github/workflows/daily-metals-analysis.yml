@@ -1,0 +1,54 @@
+name: Daily Precious Metals Research Pipeline
+
+on:
+  schedule:
+    # Run daily at 14:30 UTC (8:00 PM IST / 10:00 AM EST)
+    - cron: '30 14 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest
+
+      - name: Verify Secret Protection
+        run: |
+          echo "Scanning repository for potential hardcoded secret patterns..."
+          ! grep -rE "api[_-]?key\s*=\s*['\"][A-Za-z0-9_]{16,}['\"]" src/ config/
+          ! grep -rE "password\s*=\s*['\"][^'\"]+['\"]" src/ config/
+
+      - name: Run Pipeline
+        run: |
+          PYTHONPATH=. python3 src/pipeline/runner.py
+
+      - name: Run Automated Tests
+        run: |
+          pytest tests/ -v
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          TODAY=$(date -u +'%Y-%m-%d')
+          git add data/ reports/
+          if git diff --staged --quiet; then
+            echo "No data or report changes to commit."
+          else
+            git commit -m "data: daily gold silver analysis ${TODAY}"
+            git push
+          fi

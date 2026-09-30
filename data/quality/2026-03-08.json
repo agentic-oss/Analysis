@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-08",
+  "instruments_validated": 2,
+  "summaries": [
+    {
+      "symbol": "GOLD_SPOT",
+      "total_records": 1555,
+      "valid_count": 1554,
+      "suspicious_count": 1,
+      "invalid_count": 0,
+      "errors": [],
+      "warnings": [
+        "Found 1 price jumps exceeding 10.0%."
+      ]
+    },
+    {
+      "symbol": "SILVER_SPOT",
+      "total_records": 1554,
+      "valid_count": 1547,
+      "suspicious_count": 7,
+      "invalid_count": 0,
+      "errors": [],
+      "warnings": [
+        "Found 7 price jumps exceeding 10.0%."
+      ]
+    }
+  ]
+}

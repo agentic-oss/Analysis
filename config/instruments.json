@@ -1,0 +1,166 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD_SPOT",
+      "ticker": "GC=F",
+      "category": "metals",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_SPOT",
+      "ticker": "SI=F",
+      "category": "metals",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_FUTURES",
+      "ticker": "GC=F",
+      "category": "metals",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_FUTURES",
+      "ticker": "SI=F",
+      "category": "metals",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR",
+      "ticker": "GOLDBEES.NS",
+      "category": "metals_indian",
+      "market": "indian_etf",
+      "currency": "INR",
+      "unit": "10g",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR",
+      "ticker": "SILVERBEES.NS",
+      "category": "metals_indian",
+      "market": "indian_etf",
+      "currency": "INR",
+      "unit": "kg",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "ticker": "INR=X",
+      "category": "currency",
+      "market": "forex",
+      "currency": "INR",
+      "unit": "usd",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "ticker": "DX-Y.NYB",
+      "category": "currency",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "ticker": "^TNX",
+      "category": "rates",
+      "market": "bond",
+      "currency": "USD",
+      "unit": "yield_pct",
+      "enabled": true
+    },
+    {
+      "symbol": "US2Y",
+      "ticker": "^IRX",
+      "category": "rates",
+      "market": "bond",
+      "currency": "USD",
+      "unit": "yield_pct",
+      "enabled": true
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "ticker": "CL=F",
+      "category": "energy",
+      "market": "commodity",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true
+    },
+    {
+      "symbol": "BRENT_CRUDE",
+      "ticker": "BZ=F",
+      "category": "energy",
+      "market": "commodity",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "ticker": "^GSPC",
+      "category": "equity",
+      "market": "index",
+      "currency": "USD",
+      "unit": "points",
+      "enabled": true
+    },
+    {
+      "symbol": "NASDAQ",
+      "ticker": "^IXIC",
+      "category": "equity",
+      "market": "index",
+      "currency": "USD",
+      "unit": "points",
+      "enabled": true
+    },
+    {
+      "symbol": "DOW_JONES",
+      "ticker": "^DJI",
+      "category": "equity",
+      "market": "index",
+      "currency": "USD",
+      "unit": "points",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "ticker": "^NSEI",
+      "category": "equity",
+      "market": "index",
+      "currency": "INR",
+      "unit": "points",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "ticker": "^VIX",
+      "category": "volatility",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "ticker": "^INDIAVIX",
+      "category": "volatility",
+      "market": "index",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true
+    }
+  ]
+}
