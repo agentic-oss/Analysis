@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-02",
+  "backtest": {
+    "initial_capital": 100000.0,
+    "final_capital": 50464.65,
+    "total_return_pct": -49.54,
+    "annualized_return_pct": -13.43,
+    "max_drawdown_pct": -50.48,
+    "sharpe_ratio": -0.86,
+    "sortino_ratio": -1.03,
+    "win_rate_pct": 39.7,
+    "profit_factor": 0.82,
+    "total_trades": 234
+  },
+  "performance": {
+    "total_forecasts_evaluated": 0,
+    "overall_directional_accuracy": 0.0,
+    "horizon_breakdown": {},
+    "model_monitoring": {
+      "status": "NO_MATURED_FORECASTS_YET"
+    }
+  }
+}

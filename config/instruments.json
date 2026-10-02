@@ -1,0 +1,184 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "name": "Gold Spot / Futures",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "ticker": "GC=F",
+      "category": "precious_metals",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER",
+      "name": "Silver Spot / Futures",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "ticker": "SI=F",
+      "category": "precious_metals",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_FUT",
+      "name": "Gold Futures (COMEX)",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "ticker": "GC=F",
+      "category": "precious_metals",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_FUT",
+      "name": "Silver Futures (COMEX)",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "ticker": "SI=F",
+      "category": "precious_metals",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR",
+      "name": "Indian Gold (Spot/MCX Proxy)",
+      "market": "indian",
+      "currency": "INR",
+      "unit": "10g",
+      "ticker": "GOLDBEES.NS",
+      "category": "precious_metals",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR",
+      "name": "Indian Silver (Spot/MCX Proxy)",
+      "market": "indian",
+      "currency": "INR",
+      "unit": "kg",
+      "ticker": "SILVERBEES.NS",
+      "category": "precious_metals",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "name": "USD / INR Exchange Rate",
+      "market": "currency",
+      "currency": "INR",
+      "unit": "rate",
+      "ticker": "USDINR=X",
+      "category": "currency",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "name": "US Dollar Index",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "ticker": "DX-Y.NYB",
+      "category": "currency",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "name": "US 10-Year Treasury Yield",
+      "market": "rates",
+      "currency": "USD",
+      "unit": "percent",
+      "ticker": "^TNX",
+      "category": "interest_rates",
+      "enabled": true
+    },
+    {
+      "symbol": "US_REAL_YIELD",
+      "name": "iShares TIPS Bond ETF Proxy for Real Yields",
+      "market": "rates",
+      "currency": "USD",
+      "unit": "price",
+      "ticker": "TIP",
+      "category": "interest_rates",
+      "enabled": true
+    },
+    {
+      "symbol": "WTI",
+      "name": "WTI Crude Oil",
+      "market": "energy",
+      "currency": "USD",
+      "unit": "barrel",
+      "ticker": "CL=F",
+      "category": "energy",
+      "enabled": true
+    },
+    {
+      "symbol": "BRENT",
+      "name": "Brent Crude Oil",
+      "market": "energy",
+      "currency": "USD",
+      "unit": "barrel",
+      "ticker": "BZ=F",
+      "category": "energy",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "name": "S&P 500 Index",
+      "market": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "ticker": "^GSPC",
+      "category": "equity",
+      "enabled": true
+    },
+    {
+      "symbol": "NASDAQ",
+      "name": "Nasdaq Composite Index",
+      "market": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "ticker": "^IXIC",
+      "category": "equity",
+      "enabled": true
+    },
+    {
+      "symbol": "DJI",
+      "name": "Dow Jones Industrial Average",
+      "market": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "ticker": "^DJI",
+      "category": "equity",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "name": "NIFTY 50 Index",
+      "market": "equity",
+      "currency": "INR",
+      "unit": "index",
+      "ticker": "^NSEI",
+      "category": "equity",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "name": "CBOE Volatility Index",
+      "market": "volatility",
+      "currency": "USD",
+      "unit": "index",
+      "ticker": "^VIX",
+      "category": "volatility",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIAVIX",
+      "name": "India Volatility Index",
+      "market": "volatility",
+      "currency": "INR",
+      "unit": "index",
+      "ticker": "^INDIAVIX",
+      "category": "volatility",
+      "enabled": true
+    }
+  ]
+}

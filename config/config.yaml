@@ -1,0 +1,57 @@
+system:
+  project_name: "Precious Metals Intelligence & Forecasting Pipeline"
+  timezone: "Asia/Kolkata"
+  collection_time_utc: "22:00"
+  data_dir: "data"
+  reports_dir: "reports/daily"
+  log_level: "INFO"
+
+data_provider:
+  primary: "yfinance"
+  timeout_seconds: 15
+  max_retries: 3
+  retry_backoff_factor: 2.0
+  rate_limit_pause_seconds: 0.5
+
+conversion_factors:
+  troy_oz_to_grams: 31.1034768
+  troy_oz_to_10g: 3.11034768
+  kg_to_troy_oz: 32.1507466
+  gram_to_troy_oz: 0.0321507466
+
+lookback_windows:
+  short: 20
+  medium: 60
+  long: 120
+  annual: 252
+
+forecast_horizons: [1, 3, 5, 10, 20, 60]
+
+score_weights:
+  technical: 0.25
+  macro: 0.20
+  momentum: 0.15
+  volatility: 0.10
+  relative_value: 0.15
+  pattern: 0.15
+
+alert_thresholds:
+  price_change_1d_pct: 2.0
+  rsi_oversold: 30.0
+  rsi_overbought: 70.0
+  gold_silver_ratio_high: 85.0
+  gold_silver_ratio_low: 65.0
+  dxy_change_1d_pct: 1.0
+  vix_threshold_high: 25.0
+
+backtest:
+  initial_capital: 100000.0
+  transaction_cost_pct: 0.001
+  slippage_pct: 0.0005
+  position_size_pct: 0.20
+
+models:
+  min_historical_samples: 50
+  random_seed: 42
+  walk_forward_window: 252
+  train_test_split_ratio: 0.8
