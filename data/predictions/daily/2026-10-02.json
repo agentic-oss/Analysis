@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-02",
+  "gold_forecasts": {
+    "symbol": "GOLD",
+    "disclaimer": "All predictions are probabilistic research signals derived from historical patterns, not guaranteed future prices.",
+    "forecasts": {
+      "1d": {
+        "horizon_days": 1,
+        "positive_return_probability": 0.5,
+        "negative_return_probability": 0.5,
+        "expected_return_pct": 0.14,
+        "research_signal": "Neutral Signal",
+        "model_agreement": "2/3",
+        "confidence_score": 80.0,
+        "confidence_reasons": [
+          "Large historical sample size (1174 records)",
+          "Partial model agreement (2/3)",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "3d": {
+        "horizon_days": 3,
+        "positive_return_probability": 0.47,
+        "negative_return_probability": 0.53,
+        "expected_return_pct": 0.36,
+        "research_signal": "Neutral Signal",
+        "model_agreement": "2/3",
+        "confidence_score": 80.0,
+        "confidence_reasons": [
+          "Large historical sample size (1172 records)",
+          "Partial model agreement (2/3)",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "5d": {
+        "horizon_days": 5,
+        "positive_return_probability": 0.42,
+        "negative_return_probability": 0.58,
+        "expected_return_pct": 0.53,
+        "research_signal": "Bearish Signal",
+        "model_agreement": "2/3",
+        "confidence_score": 80.0,
+        "confidence_reasons": [
+          "Large historical sample size (1170 records)",
+          "Partial model agreement (2/3)",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "10d": {
+        "horizon_days": 10,
+        "positive_return_probability": 0.49,
+        "negative_return_probability": 0.51,
+        "expected_return_pct": 0.71,
+        "research_signal": "Neutral Signal",
+        "model_agreement": "2/3",
+        "confidence_score": 80.0,
+        "confidence_reasons": [
+          "Large historical sample size (1165 records)",
+          "Partial model agreement (2/3)",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "20d": {
+        "horizon_days": 20,
+        "positive_return_probability": 0.62,
+        "negative_return_probability": 0.38,
+        "expected_return_pct": 1.09,
+        "research_signal": "Bullish Signal",
+        "model_agreement": "3/3",
+        "confidence_score": 90.0,
+        "confidence_reasons": [
+          "Large historical sample size (1155 records)",
+          "Unanimous model agreement",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "60d": {
+        "horizon_days": 60,
+        "positive_return_probability": 0.74,
+        "negative_return_probability": 0.26,
+        "expected_return_pct": 2.41,
+        "research_signal": "Bullish Signal",
+        "model_agreement": "3/3",
+        "confidence_score": 90.0,
+        "confidence_reasons": [
+          "Large historical sample size (1115 records)",
+          "Unanimous model agreement",
+          "Strong multi-factor score alignment"
+        ]
+      }
+    }
+  },
+  "silver_forecasts": {
+    "symbol": "SILVER",
+    "disclaimer": "All predictions are probabilistic research signals derived from historical patterns, not guaranteed future prices.",
+    "forecasts": {
+      "1d": {
+        "horizon_days": 1,
+        "positive_return_probability": 0.47,
+        "negative_return_probability": 0.53,
+        "expected_return_pct": 0.18,
+        "research_signal": "Neutral Signal",
+        "model_agreement": "2/3",
+        "confidence_score": 80.0,
+        "confidence_reasons": [
+          "Large historical sample size (1173 records)",
+          "Partial model agreement (2/3)",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "3d": {
+        "horizon_days": 3,
+        "positive_return_probability": 0.51,
+        "negative_return_probability": 0.49,
+        "expected_return_pct": 0.45,
+        "research_signal": "Neutral Signal",
+        "model_agreement": "2/3",
+        "confidence_score": 80.0,
+        "confidence_reasons": [
+          "Large historical sample size (1171 records)",
+          "Partial model agreement (2/3)",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "5d": {
+        "horizon_days": 5,
+        "positive_return_probability": 0.5,
+        "negative_return_probability": 0.5,
+        "expected_return_pct": 0.69,
+        "research_signal": "Neutral Signal",
+        "model_agreement": "2/3",
+        "confidence_score": 80.0,
+        "confidence_reasons": [
+          "Large historical sample size (1169 records)",
+          "Partial model agreement (2/3)",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "10d": {
+        "horizon_days": 10,
+        "positive_return_probability": 0.56,
+        "negative_return_probability": 0.44,
+        "expected_return_pct": 0.64,
+        "research_signal": "Bullish Signal",
+        "model_agreement": "3/3",
+        "confidence_score": 90.0,
+        "confidence_reasons": [
+          "Large historical sample size (1164 records)",
+          "Unanimous model agreement",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "20d": {
+        "horizon_days": 20,
+        "positive_return_probability": 0.69,
+        "negative_return_probability": 0.31,
+        "expected_return_pct": 0.19,
+        "research_signal": "Bullish Signal",
+        "model_agreement": "3/3",
+        "confidence_score": 90.0,
+        "confidence_reasons": [
+          "Large historical sample size (1154 records)",
+          "Unanimous model agreement",
+          "Strong multi-factor score alignment"
+        ]
+      },
+      "60d": {
+        "horizon_days": 60,
+        "positive_return_probability": 0.68,
+        "negative_return_probability": 0.32,
+        "expected_return_pct": -0.93,
+        "research_signal": "Bullish Signal",
+        "model_agreement": "2/3",
+        "confidence_score": 80.0,
+        "confidence_reasons": [
+          "Large historical sample size (1114 records)",
+          "Partial model agreement (2/3)",
+          "Strong multi-factor score alignment"
+        ]
+      }
+    }
+  }
+}

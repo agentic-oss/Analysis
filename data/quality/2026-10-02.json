@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-02",
+  "expected_symbol": "ALL",
+  "warnings": [
+    "Found 54 abnormal price jump observations (> 20.0%)."
+  ],
+  "errors": [
+    "Found 42 invalid OHLC relationship records."
+  ],
+  "summary": {
+    "total_records": 21419,
+    "valid_count": 21323,
+    "suspicious_count": 54,
+    "invalid_count": 42
+  }
+}
