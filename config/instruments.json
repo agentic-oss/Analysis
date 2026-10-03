@@ -1,0 +1,154 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "name": "Gold Spot",
+      "type": "precious_metal",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "provider_ticker": "GC=F",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER",
+      "name": "Silver Spot",
+      "type": "precious_metal",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "provider_ticker": "SI=F",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_FUT",
+      "name": "Gold Futures COMEX",
+      "type": "precious_metal",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "provider_ticker": "GC=F",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_FUT",
+      "name": "Silver Futures COMEX",
+      "type": "precious_metal",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "provider_ticker": "SI=F",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR",
+      "name": "Indian Gold Spot Price",
+      "type": "precious_metal",
+      "market": "spot_inr",
+      "currency": "INR",
+      "unit": "10g",
+      "provider_ticker": "GOLDBEES.NS",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR",
+      "name": "Indian Silver Spot Price",
+      "type": "precious_metal",
+      "market": "spot_inr",
+      "currency": "INR",
+      "unit": "kg",
+      "provider_ticker": "SILVERBEES.NS",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "name": "USD to INR Exchange Rate",
+      "type": "currency",
+      "market": "fx",
+      "currency": "INR",
+      "unit": "rate",
+      "provider_ticker": "INR=X",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "name": "US Dollar Index",
+      "type": "currency",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "provider_ticker": "DX-Y.NYB",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "name": "US 10-Year Treasury Yield",
+      "type": "rates",
+      "market": "bond",
+      "currency": "USD",
+      "unit": "percent",
+      "provider_ticker": "^TNX",
+      "enabled": true
+    },
+    {
+      "symbol": "US2Y",
+      "name": "US 2-Year Treasury Yield",
+      "type": "rates",
+      "market": "bond",
+      "currency": "USD",
+      "unit": "percent",
+      "provider_ticker": "^IRX",
+      "enabled": true
+    },
+    {
+      "symbol": "WTI",
+      "name": "WTI Crude Oil",
+      "type": "energy",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "barrel",
+      "provider_ticker": "CL=F",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "name": "S&P 500 Index",
+      "type": "equity",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "provider_ticker": "^GSPC",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "name": "NIFTY 50 Index",
+      "type": "equity",
+      "market": "index",
+      "currency": "INR",
+      "unit": "index",
+      "provider_ticker": "^NSEI",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "name": "CBOE Volatility Index",
+      "type": "volatility",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "provider_ticker": "^VIX",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIAVIX",
+      "name": "India Volatility Index",
+      "type": "volatility",
+      "market": "index",
+      "currency": "INR",
+      "unit": "index",
+      "provider_ticker": "^INDIAVIX",
+      "enabled": true
+    }
+  ]
+}

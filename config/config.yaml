@@ -1,0 +1,67 @@
+system:
+  project_name: "Gold & Silver Research Pipeline"
+  timezone: "Asia/Kolkata"
+  data_frequency: "daily"
+  data_provider: "yfinance"
+
+paths:
+  raw_data: "data/raw"
+  processed_metals: "data/processed/metals"
+  processed_macro: "data/processed/macro"
+  features: "data/features/daily"
+  quality: "data/quality"
+  analysis_daily: "data/analysis/daily"
+  analysis_alerts: "data/analysis/alerts"
+  predictions_daily: "data/predictions/daily"
+  models: "data/models"
+  backtests: "data/backtests"
+  reports_daily: "reports/daily"
+
+unit_conversions:
+  troy_oz_to_grams: 31.1034768
+  grams_per_10g: 10.0
+  grams_per_kg: 1000.0
+
+indicators:
+  sma_windows: [5, 10, 20, 50, 100, 200]
+  ema_windows: [9, 20, 50, 200]
+  rsi_period: 14
+  stoch_rsi_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  atr_period: 14
+  bollinger_period: 20
+  bollinger_std: 2.0
+  rolling_volatility_windows: [20, 60, 120, 252]
+  rolling_correlation_windows: [20, 60, 120, 252]
+
+forecast_horizons: [1, 3, 5, 10, 20, 60]
+
+score_weights:
+  technical: 0.25
+  macro: 0.20
+  momentum: 0.15
+  volatility: 0.10
+  relative_value: 0.15
+  historical_pattern: 0.15
+
+alert_thresholds:
+  rsi_overbought: 70
+  rsi_oversold: 30
+  daily_return_extreme_pct: 2.5
+  dxy_return_extreme_pct: 1.0
+  yield_change_extreme_bps: 10.0
+  gsr_extreme_zscore: 2.0
+  volatility_spike_pct: 50.0
+
+backtest:
+  initial_capital: 100000.0
+  transaction_cost_bps: 10.0
+  slippage_bps: 5.0
+  position_sizing: "equal_weight" # or risk_parity
+
+model:
+  random_state: 42
+  cv_splits: 5
+  train_ratio: 0.8

@@ -1,0 +1,14 @@
+{
+  "prediction_date": "2026-01-20",
+  "instrument": "GOLD",
+  "entry_price": 2000.0,
+  "forecasts": {
+    "5d": {
+      "horizon_trading_days": 5,
+      "expected_mean_return_pct": 1.5
+    }
+  },
+  "research_bias": "Bullish",
+  "confidence_score": 75,
+  "created_at": "2026-10-03T13:40:55.401943"
+}

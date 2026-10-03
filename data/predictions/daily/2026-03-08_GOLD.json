@@ -1,0 +1,70 @@
+{
+  "prediction_date": "2026-03-08",
+  "instrument": "GOLD",
+  "entry_price": 5158.7001953125,
+  "forecasts": {
+    "1d": {
+      "horizon_trading_days": 1,
+      "probability_positive_return_pct": 57.1,
+      "probability_negative_return_pct": 42.9,
+      "expected_mean_return_pct": 0.7,
+      "median_return_pct": 0.43,
+      "expected_horizon_volatility_pct": 1.36,
+      "historical_min_pct": -2.85,
+      "historical_max_pct": 3.19
+    },
+    "3d": {
+      "horizon_trading_days": 3,
+      "probability_positive_return_pct": 66.7,
+      "probability_negative_return_pct": 33.3,
+      "expected_mean_return_pct": 1.54,
+      "median_return_pct": 2.28,
+      "expected_horizon_volatility_pct": 2.36,
+      "historical_min_pct": -3.92,
+      "historical_max_pct": 6.23
+    },
+    "5d": {
+      "horizon_trading_days": 5,
+      "probability_positive_return_pct": 66.7,
+      "probability_negative_return_pct": 33.3,
+      "expected_mean_return_pct": 1.62,
+      "median_return_pct": 2.68,
+      "expected_horizon_volatility_pct": 3.04,
+      "historical_min_pct": -3.41,
+      "historical_max_pct": 8.67
+    },
+    "10d": {
+      "horizon_trading_days": 10,
+      "probability_positive_return_pct": 58.3,
+      "probability_negative_return_pct": 41.7,
+      "expected_mean_return_pct": 2.61,
+      "median_return_pct": 2.91,
+      "expected_horizon_volatility_pct": 4.3,
+      "historical_min_pct": -3.73,
+      "historical_max_pct": 10.1
+    },
+    "20d": {
+      "horizon_trading_days": 20,
+      "probability_positive_return_pct": 83.3,
+      "probability_negative_return_pct": 16.7,
+      "expected_mean_return_pct": 5.94,
+      "median_return_pct": 6.05,
+      "expected_horizon_volatility_pct": 6.08,
+      "historical_min_pct": -2.06,
+      "historical_max_pct": 21.25
+    },
+    "60d": {
+      "horizon_trading_days": 60,
+      "probability_positive_return_pct": 85.7,
+      "probability_negative_return_pct": 14.3,
+      "expected_mean_return_pct": 9.38,
+      "median_return_pct": 8.55,
+      "expected_horizon_volatility_pct": 10.53,
+      "historical_min_pct": -0.8,
+      "historical_max_pct": 18.74
+    }
+  },
+  "research_bias": "Bullish",
+  "confidence_score": 80,
+  "created_at": "2026-10-03T13:44:13.312992"
+}

@@ -1,0 +1,429 @@
+{
+  "date": "2026-03-08",
+  "gold": {
+    "price": 5158.7,
+    "price_inr_10g": 152234.14,
+    "daily_move_pct": 1.58,
+    "rsi": 55.3,
+    "dist_200dma": 28.88,
+    "regime": {
+      "trend_regime": "Strong Bullish Trend",
+      "volatility_regime": "Normal Volatility",
+      "distance_200dma_pct": 28.88,
+      "rsi": 55.3,
+      "volatility_20d_ann_pct": 29.41
+    },
+    "correlations": {
+      "dxy": {
+        "20": -0.4516,
+        "60": -0.4654,
+        "120": -0.3729,
+        "252": -0.4478
+      },
+      "us10y": {
+        "20": 0.0487,
+        "60": 0.0409,
+        "120": -0.0155,
+        "252": -0.0527
+      },
+      "oil": {
+        "20": 0.1462,
+        "60": 0.1348,
+        "120": 0.0985,
+        "252": 0.1218
+      },
+      "sp500": {
+        "20": 0.3655,
+        "60": 0.1328,
+        "120": 0.173,
+        "252": 0.0336
+      },
+      "vix": {
+        "20": -0.2749,
+        "60": -0.0453,
+        "120": -0.0532,
+        "252": 0.0133
+      }
+    },
+    "support": [
+      4670.0,
+      4854.2,
+      4868.5
+    ],
+    "resistance": [
+      5434.1,
+      5394.2,
+      5299.0
+    ],
+    "scores": {
+      "composite_score": 72.0,
+      "components": {
+        "technical_score": 100.0,
+        "macro_score": 75.0,
+        "momentum_score": 60.0,
+        "volatility_score": 35.0,
+        "relative_value_score": 50.0,
+        "historical_pattern_score": 80.0
+      },
+      "weights": {
+        "technical": 0.25,
+        "macro": 0.2,
+        "momentum": 0.15,
+        "volatility": 0.1,
+        "relative_value": 0.15,
+        "historical_pattern": 0.15
+      }
+    },
+    "confidence": {
+      "research_bias": "Bullish",
+      "confidence_score": 80,
+      "disclaimer": "Probabilistic research signal based on historical conditions. Not a guaranteed future price prediction.",
+      "reasons": [
+        "Composite score of 72.0/100 indicates overall bullish alignment.",
+        "Pillar alignment: 4/6 components agree with the research bias.",
+        "Historical analogue sample size (12 observations) is robust.",
+        "Historical analogues show 66.7% positive forward returns over 5 days."
+      ]
+    },
+    "forward_statistics": {
+      "1d": {
+        "horizon_trading_days": 1,
+        "probability_positive_return_pct": 57.1,
+        "probability_negative_return_pct": 42.9,
+        "expected_mean_return_pct": 0.7,
+        "median_return_pct": 0.43,
+        "expected_horizon_volatility_pct": 1.36,
+        "historical_min_pct": -2.85,
+        "historical_max_pct": 3.19
+      },
+      "3d": {
+        "horizon_trading_days": 3,
+        "probability_positive_return_pct": 66.7,
+        "probability_negative_return_pct": 33.3,
+        "expected_mean_return_pct": 1.54,
+        "median_return_pct": 2.28,
+        "expected_horizon_volatility_pct": 2.36,
+        "historical_min_pct": -3.92,
+        "historical_max_pct": 6.23
+      },
+      "5d": {
+        "horizon_trading_days": 5,
+        "probability_positive_return_pct": 66.7,
+        "probability_negative_return_pct": 33.3,
+        "expected_mean_return_pct": 1.62,
+        "median_return_pct": 2.68,
+        "expected_horizon_volatility_pct": 3.04,
+        "historical_min_pct": -3.41,
+        "historical_max_pct": 8.67
+      },
+      "10d": {
+        "horizon_trading_days": 10,
+        "probability_positive_return_pct": 58.3,
+        "probability_negative_return_pct": 41.7,
+        "expected_mean_return_pct": 2.61,
+        "median_return_pct": 2.91,
+        "expected_horizon_volatility_pct": 4.3,
+        "historical_min_pct": -3.73,
+        "historical_max_pct": 10.1
+      },
+      "20d": {
+        "horizon_trading_days": 20,
+        "probability_positive_return_pct": 83.3,
+        "probability_negative_return_pct": 16.7,
+        "expected_mean_return_pct": 5.94,
+        "median_return_pct": 6.05,
+        "expected_horizon_volatility_pct": 6.08,
+        "historical_min_pct": -2.06,
+        "historical_max_pct": 21.25
+      },
+      "60d": {
+        "horizon_trading_days": 60,
+        "probability_positive_return_pct": 85.7,
+        "probability_negative_return_pct": 14.3,
+        "expected_mean_return_pct": 9.38,
+        "median_return_pct": 8.55,
+        "expected_horizon_volatility_pct": 10.53,
+        "historical_min_pct": -0.8,
+        "historical_max_pct": 18.74
+      }
+    }
+  },
+  "silver": {
+    "price": 83.82,
+    "price_inr_kg": 247342.49,
+    "daily_move_pct": 2.61,
+    "rsi": 56.7,
+    "dist_200dma": 55.34,
+    "regime": {
+      "trend_regime": "Range",
+      "volatility_regime": "Normal Volatility",
+      "distance_200dma_pct": 55.34,
+      "rsi": 56.7,
+      "volatility_20d_ann_pct": 76.74
+    },
+    "correlations": {
+      "dxy": {
+        "20": -0.5289,
+        "60": -0.4039,
+        "120": -0.3258,
+        "252": -0.2148
+      },
+      "us10y": {
+        "20": -0.0251,
+        "60": -0.0289,
+        "120": -0.0188,
+        "252": 0.0591
+      },
+      "oil": {
+        "20": 0.0932,
+        "60": 0.0538,
+        "120": 0.0519,
+        "252": 0.1199
+      },
+      "sp500": {
+        "20": 0.3543,
+        "60": 0.1962,
+        "120": 0.1836,
+        "252": 0.1654
+      },
+      "vix": {
+        "20": -0.4052,
+        "60": -0.1393,
+        "120": -0.1057,
+        "252": -0.1474
+      }
+    },
+    "support": [
+      68.71,
+      72.0,
+      74.83
+    ],
+    "resistance": [
+      95.86,
+      93.88,
+      90.94
+    ],
+    "scores": {
+      "composite_score": 67.12,
+      "components": {
+        "technical_score": 85.0,
+        "macro_score": 75.0,
+        "momentum_score": 60.0,
+        "volatility_score": 35.0,
+        "relative_value_score": 50.0,
+        "historical_pattern_score": 72.5
+      },
+      "weights": {
+        "technical": 0.25,
+        "macro": 0.2,
+        "momentum": 0.15,
+        "volatility": 0.1,
+        "relative_value": 0.15,
+        "historical_pattern": 0.15
+      }
+    },
+    "confidence": {
+      "research_bias": "Bullish",
+      "confidence_score": 80,
+      "disclaimer": "Probabilistic research signal based on historical conditions. Not a guaranteed future price prediction.",
+      "reasons": [
+        "Composite score of 67.1/100 indicates overall bullish alignment.",
+        "Pillar alignment: 4/6 components agree with the research bias.",
+        "Historical analogue sample size (12 observations) is robust.",
+        "Historical analogues show 66.7% positive forward returns over 5 days."
+      ]
+    },
+    "forward_statistics": {
+      "1d": {
+        "horizon_trading_days": 1,
+        "probability_positive_return_pct": 42.9,
+        "probability_negative_return_pct": 57.1,
+        "expected_mean_return_pct": -0.17,
+        "median_return_pct": -0.22,
+        "expected_horizon_volatility_pct": 3.01,
+        "historical_min_pct": -3.75,
+        "historical_max_pct": 2.15
+      },
+      "3d": {
+        "horizon_trading_days": 3,
+        "probability_positive_return_pct": 50.0,
+        "probability_negative_return_pct": 50.0,
+        "expected_mean_return_pct": 1.8,
+        "median_return_pct": 0.55,
+        "expected_horizon_volatility_pct": 5.21,
+        "historical_min_pct": -2.8,
+        "historical_max_pct": 12.23
+      },
+      "5d": {
+        "horizon_trading_days": 5,
+        "probability_positive_return_pct": 66.7,
+        "probability_negative_return_pct": 33.3,
+        "expected_mean_return_pct": 5.04,
+        "median_return_pct": 1.7,
+        "expected_horizon_volatility_pct": 6.73,
+        "historical_min_pct": -1.31,
+        "historical_max_pct": 17.13
+      },
+      "10d": {
+        "horizon_trading_days": 10,
+        "probability_positive_return_pct": 75.0,
+        "probability_negative_return_pct": 25.0,
+        "expected_mean_return_pct": 7.47,
+        "median_return_pct": 6.59,
+        "expected_horizon_volatility_pct": 9.52,
+        "historical_min_pct": -1.42,
+        "historical_max_pct": 19.63
+      },
+      "20d": {
+        "horizon_trading_days": 20,
+        "probability_positive_return_pct": 100.0,
+        "probability_negative_return_pct": 0.0,
+        "expected_mean_return_pct": 18.76,
+        "median_return_pct": 19.14,
+        "expected_horizon_volatility_pct": 13.46,
+        "historical_min_pct": 3.09,
+        "historical_max_pct": 40.14
+      },
+      "60d": {
+        "horizon_trading_days": 60,
+        "probability_positive_return_pct": 100.0,
+        "probability_negative_return_pct": 0.0,
+        "expected_mean_return_pct": 90.06,
+        "median_return_pct": 87.92,
+        "expected_horizon_volatility_pct": 23.32,
+        "historical_min_pct": 52.61,
+        "historical_max_pct": 137.61
+      }
+    }
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 61.55,
+    "zscore": -1.45,
+    "percentile": 12.7,
+    "long_term_average": 84.0,
+    "regime": "Depressed Ratio (Favors Gold Mean-Reversion)",
+    "sma_50": 58.24,
+    "sma_200": 79.17
+  },
+  "macro": {
+    "dxy": {
+      "latest": 98.99,
+      "abs_change": -0.33,
+      "pct_change": -0.3323,
+      "type": "index"
+    },
+    "us10y": {
+      "latest": 4.133,
+      "abs_change": -0.013,
+      "pct_change": -0.3136,
+      "type": "yield"
+    },
+    "us2y": {
+      "latest": 3.57,
+      "abs_change": -0.018,
+      "pct_change": -0.5017,
+      "type": "yield"
+    },
+    "oil": {
+      "latest": 90.9,
+      "abs_change": 9.89,
+      "pct_change": 12.2084,
+      "type": "price"
+    },
+    "sp500": {
+      "latest": 6740.02,
+      "abs_change": -90.6899,
+      "pct_change": -1.3277,
+      "type": "price"
+    },
+    "nifty50": {
+      "latest": 24450.4492,
+      "abs_change": -315.4512,
+      "pct_change": -1.2737,
+      "type": "price"
+    },
+    "vix": {
+      "latest": 29.49,
+      "abs_change": 5.74,
+      "pct_change": 24.1684,
+      "type": "index"
+    },
+    "indiavix": {
+      "latest": 19.88,
+      "abs_change": 2.02,
+      "pct_change": 11.3102,
+      "type": "index"
+    },
+    "usdinr": {
+      "latest": 91.7869,
+      "abs_change": -0.3361,
+      "pct_change": -0.3648,
+      "type": "fx"
+    },
+    "yield_curve_inverted": false,
+    "yield_spread_10y_2y": 0.563
+  },
+  "market_regime": {
+    "primary_macro_regime": "Risk-Off",
+    "macro_components": {
+      "risk_off_score": 3,
+      "risk_on_score": 1,
+      "inflation_score": 2,
+      "stagflation_score": 0,
+      "vix_level": 29.49,
+      "sp500_daily_pct": -1.3277,
+      "oil_daily_pct": 12.2084,
+      "dxy_daily_pct": -0.3323,
+      "yield_10y_abs_change": -0.013
+    },
+    "gold_regime": {
+      "trend_regime": "Strong Bullish Trend",
+      "volatility_regime": "Normal Volatility",
+      "distance_200dma_pct": 28.88,
+      "rsi": 55.3,
+      "volatility_20d_ann_pct": 29.41
+    },
+    "silver_regime": {
+      "trend_regime": "Range",
+      "volatility_regime": "Normal Volatility",
+      "distance_200dma_pct": 55.34,
+      "rsi": 56.7,
+      "volatility_20d_ann_pct": 76.74
+    }
+  },
+  "data_quality": {
+    "date": "2026-03-08",
+    "instruments_evaluated": 2,
+    "total_valid_records": 1003,
+    "total_suspicious_records": 1,
+    "total_invalid_records": 0,
+    "warnings": [],
+    "errors": [],
+    "details": [
+      {
+        "symbol": "GOLD",
+        "total_records": 502,
+        "valid_records": 502,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "SILVER",
+        "total_records": 502,
+        "valid_records": 501,
+        "suspicious_records": 1,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      }
+    ]
+  },
+  "alerts": {
+    "date": "2026-03-08",
+    "alert_count": 0,
+    "alerts": []
+  },
+  "generated_at": "2026-10-03T13:44:13.320361"
+}
