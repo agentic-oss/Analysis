@@ -1,0 +1,29 @@
+{
+  "date": "2026-03-08",
+  "instruments_evaluated": 2,
+  "total_valid_records": 1003,
+  "total_suspicious_records": 1,
+  "total_invalid_records": 0,
+  "warnings": [],
+  "errors": [],
+  "details": [
+    {
+      "symbol": "GOLD",
+      "total_records": 502,
+      "valid_records": 502,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER",
+      "total_records": 502,
+      "valid_records": 501,
+      "suspicious_records": 1,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

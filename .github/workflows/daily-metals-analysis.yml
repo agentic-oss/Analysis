@@ -1,0 +1,61 @@
+name: Daily Precious Metals Intelligence Pipeline
+
+on:
+  schedule:
+    # Runs daily at 23:30 UTC (05:00 AM IST next morning)
+    - cron: '30 23 * * *'
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Target analysis date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest
+
+      - name: Run automated test suite
+        run: |
+          pytest
+
+      - name: Execute Daily Precious Metals Pipeline
+        run: |
+          if [ -n "${{ github.event.inputs.target_date }}" ]; then
+            PYTHONPATH=. python3 src/pipeline/runner.py "${{ github.event.inputs.target_date }}"
+          else
+            PYTHONPATH=. python3 src/pipeline/runner.py
+          fi
+
+      - name: Verify no committed secrets or credential files
+        run: |
+          echo "Scanning for accidental secrets..."
+          ! grep -r -i -E "api_key\s*=\s*['\"][a-zA-Z0-9]{10,}['\"]|password\s*=\s*['\"][^'\"]+['\"]" .env config/ 2>/dev/null || exit 1
+
+      - name: Commit and push daily research updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/
+          if git diff --staged --quiet; then
+            echo "No new research data changes to commit."
+          else
+            TODAY=$(date +'%Y-%m-%d')
+            git commit -m "data: daily gold silver analysis ${TODAY}"
+            git push
+          fi

@@ -1,0 +1,10 @@
+{
+  "last_evaluated": "2026-10-03",
+  "instrument": "GOLD",
+  "total_evaluated_forecasts": 1,
+  "overall_directional_accuracy_pct": 100.0,
+  "mae": 152.63,
+  "by_horizon": {
+    "5": 1.0
+  }
+}
