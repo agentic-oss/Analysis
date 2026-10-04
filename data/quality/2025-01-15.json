@@ -1,0 +1,221 @@
+{
+  "date": "2025-01-15",
+  "instruments": {
+    "GOLD": {
+      "symbol": "GOLD",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 116 invalid records"
+      ],
+      "valid_count": 407,
+      "suspicious_count": 0,
+      "invalid_count": 116
+    },
+    "SILVER": {
+      "symbol": "SILVER",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 143 invalid records"
+      ],
+      "valid_count": 380,
+      "suspicious_count": 0,
+      "invalid_count": 143
+    },
+    "GOLD_SPOT": {
+      "symbol": "GOLD_SPOT",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 119 invalid records"
+      ],
+      "valid_count": 404,
+      "suspicious_count": 0,
+      "invalid_count": 119
+    },
+    "SILVER_SPOT": {
+      "symbol": "SILVER_SPOT",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 122 invalid records"
+      ],
+      "valid_count": 401,
+      "suspicious_count": 0,
+      "invalid_count": 122
+    },
+    "MCX_GOLD": {
+      "symbol": "MCX_GOLD",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 121 invalid records"
+      ],
+      "valid_count": 402,
+      "suspicious_count": 0,
+      "invalid_count": 121
+    },
+    "MCX_SILVER": {
+      "symbol": "MCX_SILVER",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 119 invalid records"
+      ],
+      "valid_count": 404,
+      "suspicious_count": 0,
+      "invalid_count": 119
+    },
+    "USDINR": {
+      "symbol": "USDINR",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 132 invalid records"
+      ],
+      "valid_count": 391,
+      "suspicious_count": 0,
+      "invalid_count": 132
+    },
+    "DXY": {
+      "symbol": "DXY",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 121 invalid records"
+      ],
+      "valid_count": 402,
+      "suspicious_count": 0,
+      "invalid_count": 121
+    },
+    "US10Y": {
+      "symbol": "US10Y",
+      "record_count": 523,
+      "warnings": [
+        "Found 1 suspicious records"
+      ],
+      "errors": [
+        "Found 115 invalid records"
+      ],
+      "valid_count": 407,
+      "suspicious_count": 1,
+      "invalid_count": 115
+    },
+    "US2Y": {
+      "symbol": "US2Y",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 120 invalid records"
+      ],
+      "valid_count": 403,
+      "suspicious_count": 0,
+      "invalid_count": 120
+    },
+    "TIP": {
+      "symbol": "TIP",
+      "record_count": 523,
+      "warnings": [
+        "Found 1 suspicious records"
+      ],
+      "errors": [
+        "Found 119 invalid records"
+      ],
+      "valid_count": 403,
+      "suspicious_count": 1,
+      "invalid_count": 119
+    },
+    "CRUDE_OIL": {
+      "symbol": "CRUDE_OIL",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 110 invalid records"
+      ],
+      "valid_count": 413,
+      "suspicious_count": 0,
+      "invalid_count": 110
+    },
+    "BRENT": {
+      "symbol": "BRENT",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 119 invalid records"
+      ],
+      "valid_count": 404,
+      "suspicious_count": 0,
+      "invalid_count": 119
+    },
+    "COPPER": {
+      "symbol": "COPPER",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 128 invalid records"
+      ],
+      "valid_count": 395,
+      "suspicious_count": 0,
+      "invalid_count": 128
+    },
+    "SP500": {
+      "symbol": "SP500",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 125 invalid records"
+      ],
+      "valid_count": 398,
+      "suspicious_count": 0,
+      "invalid_count": 125
+    },
+    "NASDAQ": {
+      "symbol": "NASDAQ",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 117 invalid records"
+      ],
+      "valid_count": 406,
+      "suspicious_count": 0,
+      "invalid_count": 117
+    },
+    "NIFTY50": {
+      "symbol": "NIFTY50",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 125 invalid records"
+      ],
+      "valid_count": 398,
+      "suspicious_count": 0,
+      "invalid_count": 125
+    },
+    "VIX": {
+      "symbol": "VIX",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 120 invalid records"
+      ],
+      "valid_count": 403,
+      "suspicious_count": 0,
+      "invalid_count": 120
+    },
+    "INDIA_VIX": {
+      "symbol": "INDIA_VIX",
+      "record_count": 523,
+      "warnings": [],
+      "errors": [
+        "Found 135 invalid records"
+      ],
+      "valid_count": 388,
+      "suspicious_count": 0,
+      "invalid_count": 135
+    }
+  },
+  "total_instruments_validated": 19,
+  "total_errors": 19,
+  "total_warnings": 2
+}
