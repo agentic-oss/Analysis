@@ -1,0 +1,189 @@
+{
+  "date": "2025-01-15",
+  "gold": {
+    "price": 2752.904841580039,
+    "return_1d_pct": -0.8758471124809764,
+    "return_5d_pct": 1.225440513574494,
+    "return_20d_pct": 5.8937024846377195,
+    "trend_regime": "Bullish Trend",
+    "volatility_regime": "Normal Volatility",
+    "rsi_14": 65.76236724254017,
+    "macd": 38.31151110940118,
+    "sma_50": 2642.1867544457805,
+    "sma_200": 2818.307133126798,
+    "bb_upper": 2816.385912719578,
+    "dist_sma_200_pct": -2.320623284027876,
+    "composite_score": 64.01,
+    "research_bias": "Bullish",
+    "signals": {
+      "1d": {
+        "horizon_days": 1,
+        "prob_positive": 0.55,
+        "prob_negative": 0.45,
+        "expected_return_pct": 0.06,
+        "median_return_pct": 0.04,
+        "volatility_pct": 0.93,
+        "historical_sample_count": 20,
+        "signal_direction": "Neutral",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "3d": {
+        "horizon_days": 3,
+        "prob_positive": 0.5556,
+        "prob_negative": 0.4444,
+        "expected_return_pct": 0.09,
+        "median_return_pct": 0.25,
+        "volatility_pct": 1.92,
+        "historical_sample_count": 18,
+        "signal_direction": "Neutral",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "5d": {
+        "horizon_days": 5,
+        "prob_positive": 0.4375,
+        "prob_negative": 0.5625,
+        "expected_return_pct": -0.12,
+        "median_return_pct": -0.57,
+        "volatility_pct": 2.65,
+        "historical_sample_count": 16,
+        "signal_direction": "Neutral",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "10d": {
+        "horizon_days": 10,
+        "prob_positive": 0.6364,
+        "prob_negative": 0.3636,
+        "expected_return_pct": -0.16,
+        "median_return_pct": 0.49,
+        "volatility_pct": 3.93,
+        "historical_sample_count": 11,
+        "signal_direction": "Neutral",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "20d": {
+        "horizon_days": 20,
+        "prob_positive": 0.5,
+        "prob_negative": 0.5,
+        "expected_return_pct": -1.36,
+        "median_return_pct": -2.35,
+        "volatility_pct": 7.28,
+        "historical_sample_count": 6,
+        "signal_direction": "Neutral",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "60d": {
+        "horizon_days": 60,
+        "prob_positive": 1.0,
+        "prob_negative": 0.0,
+        "expected_return_pct": 22.65,
+        "median_return_pct": 21.98,
+        "volatility_pct": 1.3,
+        "historical_sample_count": 3,
+        "signal_direction": "Bullish",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      }
+    },
+    "analogue_sample_count": 20
+  },
+  "silver": {
+    "price": 25.437623298678663,
+    "return_1d_pct": -1.266762065416771,
+    "return_5d_pct": -4.297786314270324,
+    "return_20d_pct": -4.070958084511167,
+    "trend_regime": "Bearish Trend",
+    "volatility_regime": "Normal Volatility",
+    "rsi_14": 26.735376468551195,
+    "macd": -0.10870402061932438,
+    "composite_score": 49.66,
+    "research_bias": "Neutral",
+    "signals": {
+      "1d": {
+        "horizon_days": 1,
+        "prob_positive": 0.5,
+        "prob_negative": 0.5,
+        "expected_return_pct": 0.12,
+        "median_return_pct": 0.14,
+        "volatility_pct": 1.26,
+        "historical_sample_count": 20,
+        "signal_direction": "Neutral",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "3d": {
+        "horizon_days": 3,
+        "prob_positive": 0.6111,
+        "prob_negative": 0.3889,
+        "expected_return_pct": 0.19,
+        "median_return_pct": 0.36,
+        "volatility_pct": 1.43,
+        "historical_sample_count": 18,
+        "signal_direction": "Bullish",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "5d": {
+        "horizon_days": 5,
+        "prob_positive": 0.6111,
+        "prob_negative": 0.3889,
+        "expected_return_pct": 0.69,
+        "median_return_pct": 0.88,
+        "volatility_pct": 1.58,
+        "historical_sample_count": 18,
+        "signal_direction": "Bullish",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "10d": {
+        "horizon_days": 10,
+        "prob_positive": 0.4444,
+        "prob_negative": 0.5556,
+        "expected_return_pct": 0.14,
+        "median_return_pct": -0.02,
+        "volatility_pct": 1.73,
+        "historical_sample_count": 18,
+        "signal_direction": "Neutral",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "20d": {
+        "horizon_days": 20,
+        "prob_positive": 0.6111,
+        "prob_negative": 0.3889,
+        "expected_return_pct": 0.68,
+        "median_return_pct": 0.48,
+        "volatility_pct": 1.77,
+        "historical_sample_count": 18,
+        "signal_direction": "Bullish",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      },
+      "60d": {
+        "horizon_days": 60,
+        "prob_positive": 1.0,
+        "prob_negative": 0.0,
+        "expected_return_pct": 3.99,
+        "median_return_pct": 3.77,
+        "volatility_pct": 2.42,
+        "historical_sample_count": 13,
+        "signal_direction": "Bullish",
+        "disclaimer": "Probabilistic research signal based on historical analogues, not a guaranteed forecast."
+      }
+    },
+    "analogue_sample_count": 20
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 108.22177879027859,
+    "zscore": -0.34520110179290836,
+    "percentile_252": 36.507936507936506
+  },
+  "macro": {
+    "macro_regime": "Risk-Off",
+    "explainable_components": {
+      "dxy_return_20d": -4.04117111801302,
+      "us10y_change_20d": -0.3101273789903889,
+      "sp500_return_20d": -4.124809315716361,
+      "oil_return_20d": 2.7166438033296103,
+      "vix_level": 108.85357884799764
+    }
+  },
+  "data_quality": {
+    "total_instruments_validated": 19,
+    "total_errors": 19,
+    "total_warnings": 2
+  }
+}
