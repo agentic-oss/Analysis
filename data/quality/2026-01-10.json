@@ -1,0 +1,13 @@
+{
+  "date": "2026-01-10",
+  "total_records": 7,
+  "warnings": [
+    "OHLC relationship violation for symbol GOLD on 2026-01-07"
+  ],
+  "errors": [],
+  "classifications": {
+    "valid": 6,
+    "suspicious": 1,
+    "invalid": 0
+  }
+}
