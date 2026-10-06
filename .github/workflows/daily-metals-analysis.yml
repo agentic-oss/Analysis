@@ -1,0 +1,53 @@
+name: Daily Precious Metals Analysis Pipeline
+
+on:
+  schedule:
+    # Run daily at 12:30 UTC (18:00 IST) to align with Indian market close
+    - cron: '30 12 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest
+
+      - name: Verify Secret Protection
+        run: |
+          echo "Scanning repository for leaked credentials or secrets..."
+          ! grep -rnI "ghp_" . || (echo "Potential GitHub token found" && exit 1)
+          ! grep -rnI "BEGIN PRIVATE KEY" . || (echo "Potential Private Key found" && exit 1)
+
+      - name: Run Test Suite
+        run: |
+          pytest
+
+      - name: Execute Daily Pipeline
+        run: |
+          PYTHONPATH=. python3 src/pipeline/runner.py
+
+      - name: Commit and Push Daily Analysis Results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/ reports/
+          if git status --porcelain | grep -E 'data/|reports/'; then
+            TODAY=$(date -u +'%Y-%m-%d')
+            git commit -m "data: daily gold silver analysis ${TODAY}"
+            git push || echo "Push failed due to permissions or branch protections."
+          else
+            echo "No data changes to commit."
+          fi
