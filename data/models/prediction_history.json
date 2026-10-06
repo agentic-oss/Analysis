@@ -1,0 +1,12 @@
+[
+  {
+    "prediction_date": "2026-03-31",
+    "instrument": "GOLD",
+    "horizon": 5,
+    "predicted_direction": "Bearish",
+    "predicted_return": 0.01017967671546413,
+    "confidence": 75.0,
+    "actual_return": null,
+    "prediction_correct": null
+  }
+]

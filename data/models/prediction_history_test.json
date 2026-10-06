@@ -1,0 +1,12 @@
+[
+  {
+    "prediction_date": "2026-01-01",
+    "instrument": "GOLD",
+    "horizon": 1,
+    "predicted_direction": "Bullish",
+    "predicted_return": 0.005,
+    "confidence": 75.0,
+    "actual_return": 0.005,
+    "prediction_correct": true
+  }
+]

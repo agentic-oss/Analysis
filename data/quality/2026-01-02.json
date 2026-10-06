@@ -1,0 +1,10 @@
+{
+  "date": "2026-01-02",
+  "gold_records": 2,
+  "silver_records": 0,
+  "datasets_validated": [
+    "gold_usd"
+  ],
+  "warnings": [],
+  "errors": []
+}

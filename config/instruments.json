@@ -1,0 +1,84 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "name": "Spot Gold",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "LBMA",
+      "ticker": "GC=F",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER",
+      "name": "Spot Silver",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "LBMA",
+      "ticker": "SI=F",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_FUT",
+      "name": "Gold Futures",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "ticker": "GC=F",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_FUT",
+      "name": "Silver Futures",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "oz",
+      "exchange": "COMEX",
+      "ticker": "SI=F",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR",
+      "name": "Indian Gold Spot",
+      "market": "spot",
+      "currency": "INR",
+      "unit": "10g",
+      "exchange": "IBJA",
+      "ticker": "GOLD_INR_DERIVED",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR",
+      "name": "Indian Silver Spot",
+      "market": "spot",
+      "currency": "INR",
+      "unit": "kg",
+      "exchange": "IBJA",
+      "ticker": "SILVER_INR_DERIVED",
+      "enabled": true
+    },
+    {
+      "symbol": "MCX_GOLD",
+      "name": "MCX Gold Futures",
+      "market": "futures",
+      "currency": "INR",
+      "unit": "10g",
+      "exchange": "MCX",
+      "ticker": "GOLDBEES.NS",
+      "enabled": true
+    },
+    {
+      "symbol": "MCX_SILVER",
+      "name": "MCX Silver Futures",
+      "market": "futures",
+      "currency": "INR",
+      "unit": "kg",
+      "exchange": "MCX",
+      "ticker": "SILVERBEES.NS",
+      "enabled": true
+    }
+  ]
+}

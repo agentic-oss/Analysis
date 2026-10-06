@@ -1,0 +1,48 @@
+system:
+  time_zone: "Asia/Kolkata"
+  data_dir: "data"
+  reports_dir: "reports"
+  collection_schedule: "18:00 IST"
+
+data_providers:
+  primary: "yfinance"
+  fallback: "synthetic"
+  retries: 3
+  backoff_factor: 2.0
+  timeout_seconds: 15
+
+data_frequency: "daily"
+
+lookback_windows:
+  short_term: 20
+  medium_term: 60
+  long_term: 252
+
+score_weights:
+  technical: 0.25
+  macro: 0.20
+  momentum: 0.15
+  volatility: 0.10
+  relative_value: 0.15
+  historical_pattern: 0.15
+
+forecast_horizons:
+  - 1
+  - 3
+  - 5
+  - 10
+  - 20
+  - 60
+
+backtest:
+  initial_capital: 100000
+  transaction_cost_pct: 0.001
+  slippage_pct: 0.0005
+  max_position_size: 0.2
+
+alert_thresholds:
+  rsi_overbought: 70
+  rsi_oversold: 30
+  volatility_spike_std: 2.0
+  ratio_zscore_extreme: 2.0
+  price_change_large_pct: 2.5
