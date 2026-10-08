@@ -1,0 +1,16 @@
+{
+  "date": "2026-03-30",
+  "total_alerts": 2,
+  "alerts": [
+    {
+      "type": "GOLD_RSI_OVERSOLD",
+      "severity": "HIGH",
+      "message": "Gold RSI is oversold at 23.0"
+    },
+    {
+      "type": "SILVER_RSI_OVERSOLD",
+      "severity": "HIGH",
+      "message": "Silver RSI is oversold at 19.4"
+    }
+  ]
+}

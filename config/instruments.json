@@ -1,0 +1,191 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "ticker": "GC=F",
+      "name": "Gold Futures / Spot Proxy",
+      "category": "precious_metals",
+      "market": "futures",
+      "exchange": "COMEX",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER",
+      "ticker": "SI=F",
+      "name": "Silver Futures / Spot Proxy",
+      "category": "precious_metals",
+      "market": "futures",
+      "exchange": "COMEX",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR",
+      "ticker": "GOLDBEES.NS",
+      "name": "Nippon India ETF Gold BeES (Gold INR Proxy)",
+      "category": "precious_metals",
+      "market": "spot",
+      "exchange": "NSE",
+      "currency": "INR",
+      "unit": "10g",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR",
+      "ticker": "SILVERBEES.NS",
+      "name": "Nippon India ETF Silver BeES (Silver INR Proxy)",
+      "category": "precious_metals",
+      "market": "spot",
+      "exchange": "NSE",
+      "currency": "INR",
+      "unit": "kg",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "ticker": "USDINR=X",
+      "name": "USD to INR Exchange Rate",
+      "category": "currency",
+      "market": "fx",
+      "exchange": "FOREX",
+      "currency": "INR",
+      "unit": "rate",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "ticker": "DX-Y.NYB",
+      "name": "US Dollar Index",
+      "category": "currency",
+      "market": "fx",
+      "exchange": "ICE",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "ticker": "^TNX",
+      "name": "US 10-Year Treasury Yield",
+      "category": "interest_rates",
+      "market": "bonds",
+      "exchange": "CBOE",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true
+    },
+    {
+      "symbol": "US2Y",
+      "ticker": "^IRX",
+      "name": "US 13-Week / Short Yield Proxy",
+      "category": "interest_rates",
+      "market": "bonds",
+      "exchange": "CBOE",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true
+    },
+    {
+      "symbol": "REAL_YIELD_10Y",
+      "ticker": "TIP",
+      "name": "iShares TIPS Bond ETF (Real Yield Proxy)",
+      "category": "interest_rates",
+      "market": "etf",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "unit": "price",
+      "enabled": true
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "ticker": "CL=F",
+      "name": "WTI Crude Oil Futures",
+      "category": "energy",
+      "market": "futures",
+      "exchange": "NYMEX",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true
+    },
+    {
+      "symbol": "BRENT_CRUDE",
+      "ticker": "BZ=F",
+      "name": "Brent Crude Oil Futures",
+      "category": "energy",
+      "market": "futures",
+      "exchange": "ICE",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "ticker": "^GSPC",
+      "name": "S&P 500 Index",
+      "category": "equity_markets",
+      "market": "index",
+      "exchange": "S&P",
+      "currency": "USD",
+      "unit": "points",
+      "enabled": true
+    },
+    {
+      "symbol": "NASDAQ",
+      "ticker": "^IXIC",
+      "name": "Nasdaq Composite",
+      "category": "equity_markets",
+      "market": "index",
+      "exchange": "NASDAQ",
+      "currency": "USD",
+      "unit": "points",
+      "enabled": true
+    },
+    {
+      "symbol": "DOW_JONES",
+      "ticker": "^DJI",
+      "name": "Dow Jones Industrial Average",
+      "category": "equity_markets",
+      "market": "index",
+      "exchange": "DJ",
+      "currency": "USD",
+      "unit": "points",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "ticker": "^NSEI",
+      "name": "NIFTY 50 Index",
+      "category": "equity_markets",
+      "market": "index",
+      "exchange": "NSE",
+      "currency": "INR",
+      "unit": "points",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "ticker": "^VIX",
+      "name": "CBOE Volatility Index",
+      "category": "volatility",
+      "market": "index",
+      "exchange": "CBOE",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "ticker": "^INDIAVIX",
+      "name": "India Volatility Index",
+      "category": "volatility",
+      "market": "index",
+      "exchange": "NSE",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true
+    }
+  ]
+}
