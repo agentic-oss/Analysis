@@ -1,0 +1,60 @@
+system:
+  pipeline_name: "Precious Metals Intelligence & Forecasting Pipeline"
+  version: "1.0.0"
+  timezone: "Asia/Kolkata"
+  data_dir: "data"
+  reports_dir: "reports"
+
+ingestion:
+  provider: "yfinance"
+  max_retries: 3
+  backoff_factor: 1.5
+  timeout_seconds: 15
+  historical_start_date: "2015-01-01"
+
+validation:
+  max_daily_jump_pct: 0.15
+  allow_zero_volume: true
+  quality_report_dir: "data/quality"
+
+indicators:
+  sma_periods: [5, 10, 20, 50, 100, 200]
+  ema_periods: [9, 20, 50, 200]
+  rsi_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  atr_period: 14
+  bollinger_period: 20
+  bollinger_std: 2.0
+  correlation_windows: [20, 60, 120, 252]
+
+ratios:
+  gold_silver:
+    mean_reversion_lookback: 252
+    zscore_threshold: 2.0
+
+scoring:
+  weights:
+    technical: 0.25
+    macro: 0.20
+    momentum: 0.15
+    volatility: 0.10
+    relative_value: 0.15
+    analogue: 0.15
+
+forecasting:
+  horizons: [1, 3, 5, 10, 20, 60]
+  confidence_min_samples: 30
+
+backtesting:
+  initial_capital: 100000.0
+  commission_bps: 10.0
+  slippage_bps: 5.0
+
+alerts:
+  rsi_overbought: 70
+  rsi_oversold: 30
+  gold_silver_ratio_high: 90
+  gold_silver_ratio_low: 65
+  daily_move_threshold_pct: 2.5

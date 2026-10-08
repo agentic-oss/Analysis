@@ -1,0 +1,205 @@
+{
+  "date": "2026-03-30",
+  "total_instruments": 17,
+  "total_valid_records": 45481,
+  "total_suspicious_records": 548,
+  "total_invalid_records": 129,
+  "warnings": [
+    "SILVER: Found 1 records with daily price jump > 15.0%.",
+    "GOLD_INR: Found 2 records with daily price jump > 15.0%.",
+    "SILVER_INR: Found 2 records with daily price jump > 15.0%.",
+    "US10Y: Found 13 records with daily price jump > 15.0%.",
+    "US2Y: Found 296 records with daily price jump > 15.0%.",
+    "CRUDE_OIL: Found 10 records with daily price jump > 15.0%.",
+    "BRENT_CRUDE: Found 3 records with daily price jump > 15.0%.",
+    "VIX: Found 166 records with daily price jump > 15.0%.",
+    "INDIA_VIX: Found 55 records with daily price jump > 15.0%."
+  ],
+  "errors": [
+    "USDINR: Found 117 records with invalid OHLC relationships.",
+    "US2Y: Found 9 records with zero or negative price.",
+    "CRUDE_OIL: Found 2 records with zero or negative price.",
+    "BRENT_CRUDE: Found 1 records with invalid OHLC relationships."
+  ],
+  "instrument_breakdown": [
+    {
+      "symbol": "GOLD",
+      "total_records": 2826,
+      "valid_records": 2826,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER",
+      "total_records": 2825,
+      "valid_records": 2824,
+      "suspicious_records": 1,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 1 records with daily price jump > 15.0%."
+      ],
+      "errors": []
+    },
+    {
+      "symbol": "GOLD_INR",
+      "total_records": 2775,
+      "valid_records": 2773,
+      "suspicious_records": 2,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 2 records with daily price jump > 15.0%."
+      ],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER_INR",
+      "total_records": 1024,
+      "valid_records": 1022,
+      "suspicious_records": 2,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 2 records with daily price jump > 15.0%."
+      ],
+      "errors": []
+    },
+    {
+      "symbol": "USDINR",
+      "total_records": 2925,
+      "valid_records": 2808,
+      "suspicious_records": 0,
+      "invalid_records": 117,
+      "warnings": [],
+      "errors": [
+        "Found 117 records with invalid OHLC relationships."
+      ]
+    },
+    {
+      "symbol": "DXY",
+      "total_records": 2827,
+      "valid_records": 2827,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "US10Y",
+      "total_records": 2825,
+      "valid_records": 2812,
+      "suspicious_records": 13,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 13 records with daily price jump > 15.0%."
+      ],
+      "errors": []
+    },
+    {
+      "symbol": "US2Y",
+      "total_records": 2825,
+      "valid_records": 2520,
+      "suspicious_records": 296,
+      "invalid_records": 9,
+      "warnings": [
+        "Found 296 records with daily price jump > 15.0%."
+      ],
+      "errors": [
+        "Found 9 records with zero or negative price."
+      ]
+    },
+    {
+      "symbol": "REAL_YIELD_10Y",
+      "total_records": 2826,
+      "valid_records": 2826,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "total_records": 2826,
+      "valid_records": 2814,
+      "suspicious_records": 10,
+      "invalid_records": 2,
+      "warnings": [
+        "Found 10 records with daily price jump > 15.0%."
+      ],
+      "errors": [
+        "Found 2 records with zero or negative price."
+      ]
+    },
+    {
+      "symbol": "BRENT_CRUDE",
+      "total_records": 2827,
+      "valid_records": 2823,
+      "suspicious_records": 3,
+      "invalid_records": 1,
+      "warnings": [
+        "Found 3 records with daily price jump > 15.0%."
+      ],
+      "errors": [
+        "Found 1 records with invalid OHLC relationships."
+      ]
+    },
+    {
+      "symbol": "SP500",
+      "total_records": 2826,
+      "valid_records": 2826,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "NASDAQ",
+      "total_records": 2826,
+      "valid_records": 2826,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "DOW_JONES",
+      "total_records": 2826,
+      "valid_records": 2826,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "NIFTY50",
+      "total_records": 2767,
+      "valid_records": 2767,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "VIX",
+      "total_records": 2826,
+      "valid_records": 2660,
+      "suspicious_records": 166,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 166 records with daily price jump > 15.0%."
+      ],
+      "errors": []
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "total_records": 2756,
+      "valid_records": 2701,
+      "suspicious_records": 55,
+      "invalid_records": 0,
+      "warnings": [
+        "Found 55 records with daily price jump > 15.0%."
+      ],
+      "errors": []
+    }
+  ]
+}

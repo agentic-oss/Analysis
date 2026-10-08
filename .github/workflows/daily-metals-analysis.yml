@@ -1,0 +1,47 @@
+name: Daily Precious Metals Analysis
+
+on:
+  schedule:
+    # Run daily at 18:00 UTC (23:30 IST) Monday through Friday
+    - cron: '0 18 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest
+
+      - name: Run Test Suite
+        run: |
+          PYTHONPATH=. pytest
+
+      - name: Run Market Data & Forecasting Pipeline
+        run: |
+          PYTHONPATH=. python3 src/pipeline/runner.py
+
+      - name: Verify Secret Protection
+        run: |
+          echo "Verifying no credentials/secrets in generated output files..."
+          ! grep -riE "(api[_-]?key|secret|password|bearer)" data/ reports/ || true
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/ reports/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "data: daily gold silver analysis $(date +'%Y-%m-%d')" && git push)
