@@ -1,0 +1,629 @@
+{
+  "date": "2026-03-31",
+  "gold": {
+    "price": 360.1738039476172,
+    "inr_price": 35237.15,
+    "fx_rate_used": 304.2969737693453,
+    "return_1d_pct": 0.531075016458395,
+    "composite_score": 67.66,
+    "scores": {
+      "composite_score": 67.66,
+      "technical_score": 70.0,
+      "macro_score": 65.0,
+      "momentum_score": 55.0,
+      "volatility_score": 50.0,
+      "relative_value_score": 50.0,
+      "historical_pattern_score": 100.0,
+      "model_score": 74.1
+    },
+    "regime": {
+      "trend": "Bullish Trend",
+      "volatility": "Normal Volatility",
+      "momentum_state": "Neutral Momentum",
+      "composite_regime": "Bullish Trend | Normal Volatility | Neutral Momentum"
+    },
+    "analogues": {
+      "current_date": "2026-03-31",
+      "top_analogues": [
+        {
+          "date": "2021-09-16 00:00:00",
+          "similarity_score": 0.4964,
+          "distance": 1.0143,
+          "forward_returns": {
+            "1d": -0.0026426488653572555,
+            "3d": 0.003627030480336524,
+            "5d": 0.014623108013461117,
+            "10d": 0.006997062628284478,
+            "20d": 0.039182116664118416,
+            "60d": 0.11196134204960173
+          }
+        },
+        {
+          "date": "2021-11-18 00:00:00",
+          "similarity_score": 0.4759,
+          "distance": 1.1011,
+          "forward_returns": {
+            "1d": 0.015344687522059308,
+            "3d": 0.020994597128602743,
+            "5d": 0.02419773051610452,
+            "10d": 0.0006583287594279508,
+            "20d": -0.012922831791466471,
+            "60d": 0.06415112779424126
+          }
+        },
+        {
+          "date": "2021-09-15 00:00:00",
+          "similarity_score": 0.4738,
+          "distance": 1.1105,
+          "forward_returns": {
+            "1d": 0.008066216370633095,
+            "3d": 0.004925494246945217,
+            "5d": 0.023323536701235437,
+            "10d": 0.020621714374150057,
+            "20d": 0.04658749164281284,
+            "60d": 0.1258652876735309
+          }
+        },
+        {
+          "date": "2022-02-14 00:00:00",
+          "similarity_score": 0.4727,
+          "distance": 1.1157,
+          "forward_returns": {
+            "1d": 0.004015750878723967,
+            "3d": 0.006623619665794056,
+            "5d": 0.008897436148047166,
+            "10d": 0.004992872597111342,
+            "20d": -0.010130388796876,
+            "60d": -0.025792575453441713
+          }
+        },
+        {
+          "date": "2021-11-29 00:00:00",
+          "similarity_score": 0.4716,
+          "distance": 1.1205,
+          "forward_returns": {
+            "1d": 0.01887570319949594,
+            "3d": -0.00022279247654455325,
+            "5d": 0.010188893652808728,
+            "10d": -0.0034385981182120107,
+            "20d": 0.016465728374278177,
+            "60d": 0.08410617500444317
+          }
+        }
+      ],
+      "forward_horizon_statistics": {
+        "1d": {
+          "sample_count": 5,
+          "mean_return_pct": 0.87,
+          "median_return_pct": 0.81,
+          "prob_positive_pct": 80.0,
+          "prob_negative_pct": 20.0,
+          "max_gain_pct": 1.89,
+          "max_loss_pct": -0.26
+        },
+        "3d": {
+          "sample_count": 5,
+          "mean_return_pct": 0.72,
+          "median_return_pct": 0.49,
+          "prob_positive_pct": 80.0,
+          "prob_negative_pct": 20.0,
+          "max_gain_pct": 2.1,
+          "max_loss_pct": -0.02
+        },
+        "5d": {
+          "sample_count": 5,
+          "mean_return_pct": 1.62,
+          "median_return_pct": 1.46,
+          "prob_positive_pct": 100.0,
+          "prob_negative_pct": 0.0,
+          "max_gain_pct": 2.42,
+          "max_loss_pct": 0.89
+        },
+        "10d": {
+          "sample_count": 5,
+          "mean_return_pct": 0.6,
+          "median_return_pct": 0.5,
+          "prob_positive_pct": 80.0,
+          "prob_negative_pct": 20.0,
+          "max_gain_pct": 2.06,
+          "max_loss_pct": -0.34
+        },
+        "20d": {
+          "sample_count": 5,
+          "mean_return_pct": 1.58,
+          "median_return_pct": 1.65,
+          "prob_positive_pct": 60.0,
+          "prob_negative_pct": 40.0,
+          "max_gain_pct": 4.66,
+          "max_loss_pct": -1.29
+        },
+        "60d": {
+          "sample_count": 5,
+          "mean_return_pct": 7.21,
+          "median_return_pct": 8.41,
+          "prob_positive_pct": 80.0,
+          "prob_negative_pct": 20.0,
+          "max_gain_pct": 12.59,
+          "max_loss_pct": -2.58
+        }
+      }
+    },
+    "signals": {
+      "1d": {
+        "horizon_days": 1,
+        "research_bias": "Bullish Signal",
+        "prob_positive_return": 65.7,
+        "prob_negative_return": 34.3,
+        "expected_return_pct": 0.59,
+        "expected_volatility_pct": 3.5,
+        "confidence_score": 85.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "3d": {
+        "horizon_days": 3,
+        "research_bias": "Bullish Signal",
+        "prob_positive_return": 65.7,
+        "prob_negative_return": 34.3,
+        "expected_return_pct": 0.39,
+        "expected_volatility_pct": 4.21,
+        "confidence_score": 85.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "5d": {
+        "horizon_days": 5,
+        "research_bias": "Bullish Signal",
+        "prob_positive_return": 74.1,
+        "prob_negative_return": 25.9,
+        "expected_return_pct": 0.86,
+        "expected_volatility_pct": 4.23,
+        "confidence_score": 85.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "10d": {
+        "horizon_days": 10,
+        "research_bias": "Bullish Signal",
+        "prob_positive_return": 66.5,
+        "prob_negative_return": 33.5,
+        "expected_return_pct": -0.02,
+        "expected_volatility_pct": 2.68,
+        "confidence_score": 85.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "20d": {
+        "horizon_days": 20,
+        "research_bias": "Bullish Signal",
+        "prob_positive_return": 55.3,
+        "prob_negative_return": 44.7,
+        "expected_return_pct": -1.0,
+        "expected_volatility_pct": 3.15,
+        "confidence_score": 65.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "60d": {
+        "horizon_days": 60,
+        "research_bias": "Bullish Signal",
+        "prob_positive_return": 58.8,
+        "prob_negative_return": 41.2,
+        "expected_return_pct": 5.72,
+        "expected_volatility_pct": 1.69,
+        "confidence_score": 65.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      }
+    },
+    "research_bias": "Bullish Signal"
+  },
+  "silver": {
+    "price": 160.87393861728037,
+    "inr_price": 1573890.05,
+    "fx_rate_used": 304.2969737693453,
+    "return_1d_pct": 0.6288782271823292,
+    "composite_score": 44.74,
+    "scores": {
+      "composite_score": 44.74,
+      "technical_score": 40.0,
+      "macro_score": 65.0,
+      "momentum_score": 20.0,
+      "volatility_score": 50.0,
+      "relative_value_score": 50.0,
+      "historical_pattern_score": 40.0,
+      "model_score": 47.4
+    },
+    "regime": {
+      "trend": "Bearish Trend",
+      "volatility": "Normal Volatility",
+      "momentum_state": "Neutral Momentum",
+      "composite_regime": "Bearish Trend | Normal Volatility | Neutral Momentum"
+    },
+    "analogues": {
+      "current_date": "2026-03-31",
+      "top_analogues": [
+        {
+          "date": "2023-02-27 00:00:00",
+          "similarity_score": 0.5521,
+          "distance": 0.8112,
+          "forward_returns": {
+            "1d": -0.006895886703146892,
+            "3d": -0.015936657827625766,
+            "5d": -0.025386196774464853,
+            "10d": -0.0265732714577136,
+            "20d": -0.031284695471502366,
+            "60d": 0.03920063177383515
+          }
+        },
+        {
+          "date": "2023-02-21 00:00:00",
+          "similarity_score": 0.5329,
+          "distance": 0.8767,
+          "forward_returns": {
+            "1d": 0.0006555115904218756,
+            "3d": -0.0015443168816884345,
+            "5d": 0.0016703124463368635,
+            "10d": -0.0233440496799715,
+            "20d": -0.007828986763972368,
+            "60d": 0.047991354612579196
+          }
+        },
+        {
+          "date": "2016-08-02 00:00:00",
+          "similarity_score": 0.5265,
+          "distance": 0.8994,
+          "forward_returns": {
+            "1d": -0.015478101749175077,
+            "3d": -0.01514268242057093,
+            "5d": -0.015650709021199027,
+            "10d": -0.010407242218939627,
+            "20d": -0.00948593717816515,
+            "60d": -0.017166963557408654
+          }
+        },
+        {
+          "date": "2023-02-28 00:00:00",
+          "similarity_score": 0.5247,
+          "distance": 0.9058,
+          "forward_returns": {
+            "1d": -0.005319660150811201,
+            "3d": -0.01594176108240586,
+            "5d": -0.02497264999819826,
+            "10d": -0.009306092193278825,
+            "20d": -0.02386565659633888,
+            "60d": 0.055129053968671515
+          }
+        },
+        {
+          "date": "2023-04-04 00:00:00",
+          "similarity_score": 0.5158,
+          "distance": 0.9388,
+          "forward_returns": {
+            "1d": -0.002936577336721591,
+            "3d": -9.670104582037986e-05,
+            "5d": 0.0035627490487715185,
+            "10d": 0.010710614267242846,
+            "20d": 0.08659398607743451,
+            "60d": 0.14067274171983657
+          }
+        }
+      ],
+      "forward_horizon_statistics": {
+        "1d": {
+          "sample_count": 5,
+          "mean_return_pct": -0.6,
+          "median_return_pct": -0.53,
+          "prob_positive_pct": 20.0,
+          "prob_negative_pct": 80.0,
+          "max_gain_pct": 0.07,
+          "max_loss_pct": -1.55
+        },
+        "3d": {
+          "sample_count": 5,
+          "mean_return_pct": -0.97,
+          "median_return_pct": -1.51,
+          "prob_positive_pct": 0.0,
+          "prob_negative_pct": 100.0,
+          "max_gain_pct": -0.01,
+          "max_loss_pct": -1.59
+        },
+        "5d": {
+          "sample_count": 5,
+          "mean_return_pct": -1.22,
+          "median_return_pct": -1.57,
+          "prob_positive_pct": 40.0,
+          "prob_negative_pct": 60.0,
+          "max_gain_pct": 0.36,
+          "max_loss_pct": -2.54
+        },
+        "10d": {
+          "sample_count": 5,
+          "mean_return_pct": -1.18,
+          "median_return_pct": -1.04,
+          "prob_positive_pct": 20.0,
+          "prob_negative_pct": 80.0,
+          "max_gain_pct": 1.07,
+          "max_loss_pct": -2.66
+        },
+        "20d": {
+          "sample_count": 5,
+          "mean_return_pct": 0.28,
+          "median_return_pct": -0.95,
+          "prob_positive_pct": 20.0,
+          "prob_negative_pct": 80.0,
+          "max_gain_pct": 8.66,
+          "max_loss_pct": -3.13
+        },
+        "60d": {
+          "sample_count": 5,
+          "mean_return_pct": 5.32,
+          "median_return_pct": 4.8,
+          "prob_positive_pct": 80.0,
+          "prob_negative_pct": 20.0,
+          "max_gain_pct": 14.07,
+          "max_loss_pct": -1.72
+        }
+      }
+    },
+    "signals": {
+      "1d": {
+        "horizon_days": 1,
+        "research_bias": "Bearish Signal",
+        "prob_positive_return": 31.6,
+        "prob_negative_return": 68.4,
+        "expected_return_pct": -0.34,
+        "expected_volatility_pct": 3.5,
+        "confidence_score": 85.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "3d": {
+        "horizon_days": 3,
+        "research_bias": "Bearish Signal",
+        "prob_positive_return": 22.2,
+        "prob_negative_return": 77.8,
+        "expected_return_pct": -0.54,
+        "expected_volatility_pct": 5.35,
+        "confidence_score": 85.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "5d": {
+        "horizon_days": 5,
+        "research_bias": "Neutral Signal",
+        "prob_positive_return": 47.4,
+        "prob_negative_return": 52.6,
+        "expected_return_pct": -0.6,
+        "expected_volatility_pct": 5.95,
+        "confidence_score": 65.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "10d": {
+        "horizon_days": 10,
+        "research_bias": "Bearish Signal",
+        "prob_positive_return": 39.7,
+        "prob_negative_return": 60.3,
+        "expected_return_pct": -0.47,
+        "expected_volatility_pct": 3.54,
+        "confidence_score": 85.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "20d": {
+        "horizon_days": 20,
+        "research_bias": "Bearish Signal",
+        "prob_positive_return": 43.1,
+        "prob_negative_return": 56.9,
+        "expected_return_pct": 0.56,
+        "expected_volatility_pct": 3.01,
+        "confidence_score": 65.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      },
+      "60d": {
+        "horizon_days": 60,
+        "research_bias": "Bullish Signal",
+        "prob_positive_return": 85.4,
+        "prob_negative_return": 14.6,
+        "expected_return_pct": 4.82,
+        "expected_volatility_pct": 1.7,
+        "confidence_score": 85.0,
+        "disclaimer": "Probabilistic research signal based on historical conditional statistics and model outputs. Not a guaranteed future price prediction."
+      }
+    },
+    "research_bias": "Neutral Signal"
+  },
+  "gold_silver_ratio": {
+    "current": 2.2388573751804004,
+    "z_score": 0.39660614984069714,
+    "percentile": 70.43650793650794,
+    "signal": "Neutral"
+  },
+  "macro": {
+    "macro_metrics": {
+      "DXY": {
+        "latest": 482.2216183169079,
+        "change_1d": 2.0997958244905703,
+        "return_1d_pct": 0.4373464662760112,
+        "return_20d_pct": 2.8055818640354273
+      },
+      "US10Y": {
+        "latest": 598.4196293899282,
+        "change_1d": -7.718800707092782,
+        "return_1d_pct": -1.2734385948532054,
+        "return_20d_pct": 4.507043710264527
+      },
+      "US2Y": {
+        "latest": 59.10475357842952,
+        "change_1d": 0.2407893544895643,
+        "return_1d_pct": 0.4090607176463921,
+        "return_20d_pct": 0.18459248868449163
+      },
+      "OIL_WTI": {
+        "latest": 591.1209946603561,
+        "change_1d": 2.054598425426093,
+        "return_1d_pct": 0.3487889376406871,
+        "return_20d_pct": 5.135740395854709
+      },
+      "SP500": {
+        "latest": 162.08662863813677,
+        "change_1d": -3.253418020213843,
+        "return_1d_pct": -1.9677132588068778,
+        "return_20d_pct": 0.07468990773599433
+      },
+      "NIFTY50": {
+        "latest": 286.29811983711716,
+        "change_1d": 0.39168657891849534,
+        "return_1d_pct": 0.13699816910547372,
+        "return_20d_pct": -0.4437443645508502
+      },
+      "VIX": {
+        "latest": 197.21738761733295,
+        "change_1d": -1.6944310058252086,
+        "return_1d_pct": -0.8518503412988935,
+        "return_20d_pct": -3.100069809103249
+      },
+      "INDIA_VIX": {
+        "latest": 297.153855635318,
+        "change_1d": 0.08186529262127351,
+        "return_1d_pct": 0.027557391905859326,
+        "return_20d_pct": -1.5961535894515944
+      },
+      "USDINR": {
+        "latest": 304.2969737693453,
+        "change_1d": -7.115059939241121,
+        "return_1d_pct": -2.2847736018766898,
+        "return_20d_pct": -3.4486320065321636
+      }
+    },
+    "macro_regime": {
+      "primary_macro_regime": "Disinflationary",
+      "risk_regime": "Risk-Off",
+      "monetary_regime": "Neutral Policy",
+      "composite_summary": "Disinflationary | Risk-Off | Neutral Policy",
+      "dxy_trend_20d": "Strong USD",
+      "vix_level": 197.21738761733295,
+      "components": []
+    }
+  },
+  "data_quality": {
+    "date": "2026-03-31",
+    "total_instruments_checked": 13,
+    "total_records_checked": 33891,
+    "total_valid_records": 33891,
+    "overall_status": "PASSED",
+    "warnings": [],
+    "errors": [],
+    "instrument_details": [
+      {
+        "symbol": "GOLD",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "SILVER",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "GOLD_INR",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "SILVER_INR",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "USDINR",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "DXY",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "US10Y",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "US2Y",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "OIL_WTI",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "SP500",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "NIFTY50",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "VIX",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      },
+      {
+        "symbol": "INDIA_VIX",
+        "total_records": 2607,
+        "valid_records": 2607,
+        "suspicious_records": 0,
+        "invalid_records": 0,
+        "warnings": [],
+        "errors": []
+      }
+    ]
+  },
+  "alerts": []
+}

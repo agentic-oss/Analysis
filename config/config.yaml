@@ -1,0 +1,83 @@
+system:
+  timezone: "Asia/Kolkata"
+  data_dir: "data"
+  reports_dir: "reports"
+  default_provider: "yfinance"
+  historical_lookback_years: 10
+
+data_collection:
+  retry_count: 3
+  timeout_seconds: 15
+  backoff_factor: 2.0
+  units:
+    gold_oz_to_grams: 31.1034768
+    gold_inr_unit_grams: 10
+    silver_oz_to_grams: 31.1034768
+    silver_inr_unit_grams: 1000
+
+indicators:
+  moving_averages:
+    sma: [5, 10, 20, 50, 100, 200]
+    ema: [9, 20, 50, 200]
+  rsi:
+    period: 14
+    overbought: 70
+    oversold: 30
+  macd:
+    fast: 12
+    slow: 26
+    signal: 9
+  atr:
+    period: 14
+  bollinger:
+    period: 20
+    std_dev: 2.0
+  correlations:
+    windows: [20, 60, 120, 252]
+
+analogue_engine:
+  top_n: 5
+  lookback_window: 2520
+  features:
+    - rsi_14
+    - macd
+    - volatility_20d
+    - distance_sma_50
+    - distance_sma_200
+    - gold_silver_ratio_zscore
+    - dxy_return_20d
+    - us10y_change_20d
+
+forecasting:
+  horizons: [1, 3, 5, 10, 20, 60]
+  confidence_weights:
+    analogues: 0.35
+    technical_trends: 0.25
+    macro_alignment: 0.20
+    model_consensus: 0.20
+
+models:
+  baseline:
+    type: "historical_conditional"
+  logistic:
+    C: 1.0
+    max_iter: 200
+  random_forest:
+    n_estimators: 100
+    max_depth: 5
+  time_series_validation:
+    n_splits: 5
+    test_size: 60
+
+backtesting:
+  initial_capital: 100000.0
+  transaction_cost_pct: 0.0005
+  slippage_pct: 0.0005
+  position_sizing: "risk_parity"
+
+alerts:
+  rsi_extreme_high: 75
+  rsi_extreme_low: 25
+  price_jump_pct_1d: 2.5
+  gsr_zscore_extreme: 2.0
+  vix_spike_pct: 15.0

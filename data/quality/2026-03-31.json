@@ -1,0 +1,128 @@
+{
+  "date": "2026-03-31",
+  "total_instruments_checked": 13,
+  "total_records_checked": 33891,
+  "total_valid_records": 33891,
+  "overall_status": "PASSED",
+  "warnings": [],
+  "errors": [],
+  "instrument_details": [
+    {
+      "symbol": "GOLD",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "GOLD_INR",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SILVER_INR",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "USDINR",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "DXY",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "US10Y",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "US2Y",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "OIL_WTI",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "SP500",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "NIFTY50",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "VIX",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "symbol": "INDIA_VIX",
+      "total_records": 2607,
+      "valid_records": 2607,
+      "suspicious_records": 0,
+      "invalid_records": 0,
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}
