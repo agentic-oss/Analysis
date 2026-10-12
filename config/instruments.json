@@ -1,0 +1,174 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "ticker": "GC=F",
+      "name": "Gold Futures / Spot USD",
+      "category": "precious_metals",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER",
+      "ticker": "SI=F",
+      "name": "Silver Futures / Spot USD",
+      "category": "precious_metals",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR",
+      "ticker": "GOLDBEES.NS",
+      "name": "Gold ETF / Indian Gold Proxy",
+      "category": "precious_metals",
+      "market": "indian",
+      "currency": "INR",
+      "unit": "10g",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR",
+      "ticker": "SILVERBEES.NS",
+      "name": "Silver ETF / Indian Silver Proxy",
+      "category": "precious_metals",
+      "market": "indian",
+      "currency": "INR",
+      "unit": "kg",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "ticker": "INR=X",
+      "name": "USD / INR Exchange Rate",
+      "category": "currency",
+      "market": "fx",
+      "currency": "INR",
+      "unit": "ratio",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "ticker": "DX-Y.NYB",
+      "name": "US Dollar Index",
+      "category": "currency",
+      "market": "fx",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "ticker": "^TNX",
+      "name": "US 10-Year Treasury Yield",
+      "category": "interest_rates",
+      "market": "bond",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true
+    },
+    {
+      "symbol": "US2Y",
+      "ticker": "^IRX",
+      "name": "US 13-Week / Short Treasury Yield",
+      "category": "interest_rates",
+      "market": "bond",
+      "currency": "USD",
+      "unit": "percent",
+      "enabled": true
+    },
+    {
+      "symbol": "REAL_YIELD",
+      "ticker": "TIP",
+      "name": "iShares TIPS Bond ETF (Real Yield Proxy)",
+      "category": "interest_rates",
+      "market": "etf",
+      "currency": "USD",
+      "unit": "price",
+      "enabled": true
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "ticker": "CL=F",
+      "name": "WTI Crude Oil Futures",
+      "category": "energy",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true
+    },
+    {
+      "symbol": "BRENT",
+      "ticker": "BZ=F",
+      "name": "Brent Crude Oil Futures",
+      "category": "energy",
+      "market": "futures",
+      "currency": "USD",
+      "unit": "barrel",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "ticker": "^GSPC",
+      "name": "S&P 500 Index",
+      "category": "equity",
+      "market": "us",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "NASDAQ",
+      "ticker": "^IXIC",
+      "name": "Nasdaq Composite",
+      "category": "equity",
+      "market": "us",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "DOW",
+      "ticker": "^DJI",
+      "name": "Dow Jones Industrial Average",
+      "category": "equity",
+      "market": "us",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "ticker": "^NSEI",
+      "name": "NIFTY 50 Index",
+      "category": "equity",
+      "market": "indian",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "ticker": "^VIX",
+      "name": "CBOE Volatility Index",
+      "category": "volatility",
+      "market": "us",
+      "currency": "USD",
+      "unit": "index",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIAVIX",
+      "ticker": "^INDIAVIX",
+      "name": "India Volatility Index",
+      "category": "volatility",
+      "market": "indian",
+      "currency": "INR",
+      "unit": "index",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-03-01",
+  "total_alerts": 1,
+  "alerts": [
+    {
+      "type": "GOLD_SILVER_RATIO_EXTREME",
+      "severity": "HIGH",
+      "message": "Gold/Silver ratio reached extreme Z-score of -2.62"
+    }
+  ]
+}

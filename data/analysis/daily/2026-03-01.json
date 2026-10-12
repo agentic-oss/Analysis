@@ -1,0 +1,328 @@
+{
+  "date": "2026-03-01",
+  "gold": {
+    "price": 5247.89990234375,
+    "return_1d_pct": 1.033839763814104,
+    "return_5d_pct": 3.2868193274771196,
+    "return_20d_pct": -1.3255866669396488,
+    "market_regime": "Strong Bullish Trend | High Volatility | Neutral Momentum",
+    "research_bias": "Bullish",
+    "rsi_14": 61.8345517725672,
+    "macd": 118.49813771494519,
+    "dist_sma_200": 32.71704133961244,
+    "sma_20": 5021.014965820313,
+    "sma_200": 3954.201999511719,
+    "scores": {
+      "technical_score": 100.0,
+      "macro_score": 50.0,
+      "momentum_score": 61.8,
+      "volatility_score": 0.0,
+      "relative_value_score": 100.0,
+      "historical_pattern_score": 100.0,
+      "composite_score": 71.8
+    }
+  },
+  "silver": {
+    "price": 92.68199920654297,
+    "return_1d_pct": 6.533481270984609,
+    "return_5d_pct": 12.638093455195222,
+    "return_20d_pct": -18.726380803499932,
+    "market_regime": "Bullish Trend | High Volatility | Neutral Momentum",
+    "research_bias": "Neutral",
+    "rsi_14": 65.11649771358276,
+    "macd": 1.2035928096836273,
+    "scores": {
+      "composite_score": 50.0
+    }
+  },
+  "indian_market": {
+    "gold_inr_per_10g": 153551.24,
+    "silver_inr_per_kg": 271183.44,
+    "usdinr_rate": 91.00740051269531
+  },
+  "macro": {
+    "regime": "Neutral",
+    "components": {
+      "dxy_trend": "Strengthening",
+      "rate_trend": "Falling",
+      "oil_trend": "Neutral",
+      "equity_trend": "Neutral",
+      "volatility_env": "Normal Vol"
+    },
+    "reasons": [],
+    "inputs": {
+      "dxy_return_20d": 0.0138,
+      "us10y_change_20d": -0.279,
+      "oil_return_20d": 0.0,
+      "sp500_return_20d": 0.0,
+      "vix_level": 19.86
+    }
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 56.62,
+    "historical_mean": 84.28,
+    "historical_std": 10.58,
+    "min_ratio": 44.16,
+    "max_ratio": 105.41,
+    "z_score": -2.62,
+    "percentile": 2.8,
+    "spread_1d_pct": -5.5,
+    "spread_20d_pct": 17.4,
+    "relative_value_bias": "Gold Outperformance Expected (Ratio Low)"
+  },
+  "historical_analogues": {
+    "top_k": 10,
+    "analogues": [
+      {
+        "date": "2025-12-30",
+        "distance": 0.0066,
+        "similarity_score": 99.3,
+        "rsi_14": 62.1,
+        "gold_silver_ratio": 56.69
+      },
+      {
+        "date": "2026-01-09",
+        "distance": 0.0416,
+        "similarity_score": 96.0,
+        "rsi_14": 59.2,
+        "gold_silver_ratio": 57.06
+      },
+      {
+        "date": "2026-01-06",
+        "distance": 0.075,
+        "similarity_score": 93.0,
+        "rsi_14": 61.1,
+        "gold_silver_ratio": 55.83
+      },
+      {
+        "date": "2026-02-25",
+        "distance": 0.0808,
+        "similarity_score": 92.5,
+        "rsi_14": 61.5,
+        "gold_silver_ratio": 57.47
+      },
+      {
+        "date": "2026-01-07",
+        "distance": 0.1173,
+        "similarity_score": 89.5,
+        "rsi_14": 58.6,
+        "gold_silver_ratio": 57.85
+      },
+      {
+        "date": "2026-01-05",
+        "distance": 0.1737,
+        "similarity_score": 85.2,
+        "rsi_14": 59.0,
+        "gold_silver_ratio": 58.45
+      },
+      {
+        "date": "2026-01-12",
+        "distance": 0.1977,
+        "similarity_score": 83.5,
+        "rsi_14": 63.6,
+        "gold_silver_ratio": 54.54
+      },
+      {
+        "date": "2026-02-04",
+        "distance": 0.2095,
+        "similarity_score": 82.7,
+        "rsi_14": 59.1,
+        "gold_silver_ratio": 58.82
+      },
+      {
+        "date": "2026-02-24",
+        "distance": 0.2441,
+        "similarity_score": 80.4,
+        "rsi_14": 60.4,
+        "gold_silver_ratio": 59.19
+      },
+      {
+        "date": "2026-02-03",
+        "distance": 0.267,
+        "similarity_score": 78.9,
+        "rsi_14": 59.6,
+        "gold_silver_ratio": 59.43
+      }
+    ],
+    "forward_statistics": {
+      "1d": {
+        "sample_count": 10,
+        "prob_positive_pct": 40.0,
+        "prob_negative_pct": 60.0,
+        "expected_mean_return_pct": 0.08,
+        "median_return_pct": -0.19,
+        "expected_volatility_pct": 1.16,
+        "min_return_pct": -1.24,
+        "max_return_pct": 2.53,
+        "confidence_score": 88.0
+      },
+      "3d": {
+        "sample_count": 9,
+        "prob_positive_pct": 100.0,
+        "prob_negative_pct": 0.0,
+        "expected_mean_return_pct": 1.48,
+        "median_return_pct": 1.38,
+        "expected_volatility_pct": 1.26,
+        "min_return_pct": 0.11,
+        "max_return_pct": 3.41,
+        "confidence_score": 88.0
+      },
+      "5d": {
+        "sample_count": 8,
+        "prob_positive_pct": 100.0,
+        "prob_negative_pct": 0.0,
+        "expected_mean_return_pct": 2.73,
+        "median_return_pct": 2.64,
+        "expected_volatility_pct": 0.82,
+        "min_return_pct": 1.74,
+        "max_return_pct": 3.88,
+        "confidence_score": 88.0
+      },
+      "10d": {
+        "sample_count": 8,
+        "prob_positive_pct": 100.0,
+        "prob_negative_pct": 0.0,
+        "expected_mean_return_pct": 6.99,
+        "median_return_pct": 7.33,
+        "expected_volatility_pct": 4.2,
+        "min_return_pct": 0.94,
+        "max_return_pct": 12.92,
+        "confidence_score": 88.0
+      },
+      "20d": {
+        "sample_count": 6,
+        "prob_positive_pct": 100.0,
+        "prob_negative_pct": 0.0,
+        "expected_mean_return_pct": 12.28,
+        "median_return_pct": 10.49,
+        "expected_volatility_pct": 4.59,
+        "min_return_pct": 9.02,
+        "max_return_pct": 21.25,
+        "confidence_score": 88.0
+      }
+    }
+  },
+  "forecasts": {
+    "gold_1d": {
+      "sample_count": 10,
+      "prob_positive_pct": 40.0,
+      "prob_negative_pct": 60.0,
+      "expected_mean_return_pct": 0.08,
+      "median_return_pct": -0.19,
+      "expected_volatility_pct": 1.16,
+      "min_return_pct": -1.24,
+      "max_return_pct": 2.53,
+      "confidence_score": 88.0
+    },
+    "gold_3d": {
+      "sample_count": 9,
+      "prob_positive_pct": 100.0,
+      "prob_negative_pct": 0.0,
+      "expected_mean_return_pct": 1.48,
+      "median_return_pct": 1.38,
+      "expected_volatility_pct": 1.26,
+      "min_return_pct": 0.11,
+      "max_return_pct": 3.41,
+      "confidence_score": 88.0
+    },
+    "gold_5d": {
+      "sample_count": 8,
+      "prob_positive_pct": 100.0,
+      "prob_negative_pct": 0.0,
+      "expected_mean_return_pct": 2.73,
+      "median_return_pct": 2.64,
+      "expected_volatility_pct": 0.82,
+      "min_return_pct": 1.74,
+      "max_return_pct": 3.88,
+      "confidence_score": 88.0
+    },
+    "gold_10d": {
+      "sample_count": 8,
+      "prob_positive_pct": 100.0,
+      "prob_negative_pct": 0.0,
+      "expected_mean_return_pct": 6.99,
+      "median_return_pct": 7.33,
+      "expected_volatility_pct": 4.2,
+      "min_return_pct": 0.94,
+      "max_return_pct": 12.92,
+      "confidence_score": 88.0
+    },
+    "gold_20d": {
+      "sample_count": 6,
+      "prob_positive_pct": 100.0,
+      "prob_negative_pct": 0.0,
+      "expected_mean_return_pct": 12.28,
+      "median_return_pct": 10.49,
+      "expected_volatility_pct": 4.59,
+      "min_return_pct": 9.02,
+      "max_return_pct": 21.25,
+      "confidence_score": 88.0
+    },
+    "gold_60d": {
+      "prob_positive_pct": 50.0,
+      "expected_mean_return_pct": 0.0,
+      "median_return_pct": 0.0,
+      "confidence_score": 88.0
+    }
+  },
+  "data_quality": {
+    "date": "2026-03-01",
+    "gold_records": 502,
+    "silver_records": 502,
+    "total_records": 3524,
+    "valid_records": 3476,
+    "suspicious_records": 48,
+    "invalid_records": 0,
+    "warnings": [
+      "Row 482 (2026-01-30): Abnormal daily jump of 31.3%",
+      "Row 29 (2024-04-12): Abnormal daily jump of 16.1%",
+      "Row 99 (2024-07-24): Abnormal daily jump of 22.6%",
+      "Row 106 (2024-08-02): Abnormal daily jump of 25.8%",
+      "Row 107 (2024-08-05): Abnormal daily jump of 64.9%",
+      "Row 108 (2024-08-06): Abnormal daily jump of 28.2%",
+      "Row 127 (2024-09-03): Abnormal daily jump of 38.1%",
+      "Row 147 (2024-10-01): Abnormal daily jump of 15.1%",
+      "Row 151 (2024-10-07): Abnormal daily jump of 17.9%",
+      "Row 173 (2024-11-06): Abnormal daily jump of 20.6%",
+      "Row 202 (2024-12-18): Abnormal daily jump of 74.0%",
+      "Row 204 (2024-12-20): Abnormal daily jump of 23.8%",
+      "Row 226 (2025-01-27): Abnormal daily jump of 20.5%",
+      "Row 244 (2025-02-21): Abnormal daily jump of 16.3%",
+      "Row 250 (2025-03-03): Abnormal daily jump of 16.0%",
+      "Row 255 (2025-03-10): Abnormal daily jump of 19.2%",
+      "Row 269 (2025-03-28): Abnormal daily jump of 15.8%",
+      "Row 273 (2025-04-03): Abnormal daily jump of 39.6%",
+      "Row 274 (2025-04-04): Abnormal daily jump of 50.9%",
+      "Row 277 (2025-04-09): Abnormal daily jump of 35.8%",
+      "Row 278 (2025-04-10): Abnormal daily jump of 21.1%",
+      "Row 280 (2025-04-14): Abnormal daily jump of 17.8%",
+      "Row 299 (2025-05-12): Abnormal daily jump of 16.0%",
+      "Row 306 (2025-05-21): Abnormal daily jump of 15.4%",
+      "Row 322 (2025-06-13): Abnormal daily jump of 15.5%",
+      "Row 355 (2025-08-01): Abnormal daily jump of 21.9%",
+      "Row 404 (2025-10-10): Abnormal daily jump of 31.8%",
+      "Row 408 (2025-10-16): Abnormal daily jump of 22.6%",
+      "Row 409 (2025-10-17): Abnormal daily jump of 17.9%",
+      "Row 472 (2026-01-20): Abnormal daily jump of 26.7%",
+      "Row 473 (2026-01-21): Abnormal daily jump of 15.9%",
+      "Row 484 (2026-02-05): Abnormal daily jump of 16.8%",
+      "Row 489 (2026-02-12): Abnormal daily jump of 18.0%",
+      "Row 12 (2024-03-19): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 118 (2024-08-14): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 125 (2024-08-23): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 171 (2024-10-28): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 186 (2024-11-18): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 189 (2024-11-21): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 196 (2024-12-02): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 201 (2024-12-09): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 250 (2025-02-17): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 277 (2025-03-26): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 333 (2025-06-16): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 425 (2025-10-22): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 450 (2025-11-26): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 495 (2026-01-30): Invalid OHLC structure (high/low bounds exceeded)",
+      "Row 502 (2026-02-10): Invalid OHLC structure (high/low bounds exceeded)"
+    ],
+    "errors": []
+  }
+}
