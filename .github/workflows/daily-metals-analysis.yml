@@ -1,0 +1,66 @@
+name: Daily Precious Metals Analysis & Pipeline
+
+on:
+  schedule:
+    # 18:00 UTC = 23:30 IST (Indian Market Post-Close)
+    - cron: '0 18 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Target Analysis Date (YYYY-MM-DD)'
+        required: false
+        default: ''
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn pyyaml pyarrow yfinance pytest
+
+      - name: Run tests
+        run: |
+          pytest
+
+      - name: Execute Daily Pipeline
+        run: |
+          if [ -n "${{ github.event.inputs.target_date }}" ]; then
+            PYTHONPATH=. python3 src/pipeline/runner.py ${{ github.event.inputs.target_date }}
+          else
+            PYTHONPATH=. python3 src/pipeline/runner.py
+          fi
+
+      - name: Verify Secret Protection
+        run: |
+          echo "Verifying no API keys or secrets staged..."
+          if git diff --cached | grep -iE 'api[_-]?key|secret|password|bearer'; then
+            echo "Secrets detected! Aborting commit."
+            exit 1
+          fi
+
+      - name: Commit and Push Daily Analysis Results
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/
+          if git status --porcelain | grep -q .; then
+            git commit -m "data: daily gold silver analysis $(date +'%Y-%m-%d')"
+            git push
+          else
+            echo "No changes to commit."
+          fi

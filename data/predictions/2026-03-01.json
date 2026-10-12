@@ -1,0 +1,30 @@
+{
+  "gold": {
+    "horizons": {
+      "1d": {
+        "predicted_direction": "Bearish",
+        "confidence_score": 88.0
+      },
+      "3d": {
+        "predicted_direction": "Bullish",
+        "confidence_score": 88.0
+      },
+      "5d": {
+        "predicted_direction": "Bullish",
+        "confidence_score": 88.0
+      },
+      "10d": {
+        "predicted_direction": "Bullish",
+        "confidence_score": 88.0
+      },
+      "20d": {
+        "predicted_direction": "Bullish",
+        "confidence_score": 88.0
+      },
+      "60d": {
+        "predicted_direction": "Bullish",
+        "confidence_score": 88.0
+      }
+    }
+  }
+}
