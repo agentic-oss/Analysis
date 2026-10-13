@@ -1,0 +1,130 @@
+{
+  "instruments": [
+    {
+      "symbol": "GOLD",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "provider_ticker": "GC=F",
+      "name": "Gold Spot / Futures USD",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER",
+      "market": "spot",
+      "currency": "USD",
+      "unit": "oz",
+      "provider_ticker": "SI=F",
+      "name": "Silver Spot / Futures USD",
+      "enabled": true
+    },
+    {
+      "symbol": "GOLD_INR",
+      "market": "domestic_india",
+      "currency": "INR",
+      "unit": "10g",
+      "provider_ticker": "GOLDBEES.NS",
+      "name": "Indian Gold ETF / MCX Benchmark",
+      "enabled": true
+    },
+    {
+      "symbol": "SILVER_INR",
+      "market": "domestic_india",
+      "currency": "INR",
+      "unit": "kg",
+      "provider_ticker": "SILVERBEES.NS",
+      "name": "Indian Silver ETF / MCX Benchmark",
+      "enabled": true
+    },
+    {
+      "symbol": "USDINR",
+      "market": "currency",
+      "currency": "INR",
+      "unit": "rate",
+      "provider_ticker": "USDINR=X",
+      "name": "USD / INR Exchange Rate",
+      "enabled": true
+    },
+    {
+      "symbol": "DXY",
+      "market": "index",
+      "currency": "USD",
+      "unit": "index",
+      "provider_ticker": "DX-Y.NYB",
+      "name": "US Dollar Index",
+      "enabled": true
+    },
+    {
+      "symbol": "US10Y",
+      "market": "rates",
+      "currency": "USD",
+      "unit": "percent",
+      "provider_ticker": "^TNX",
+      "name": "US Treasury 10-Year Yield",
+      "enabled": true
+    },
+    {
+      "symbol": "US2Y",
+      "market": "rates",
+      "currency": "USD",
+      "unit": "percent",
+      "provider_ticker": "2YY=F",
+      "name": "US Treasury 2-Year Yield",
+      "enabled": true
+    },
+    {
+      "symbol": "CRUDE_OIL",
+      "market": "energy",
+      "currency": "USD",
+      "unit": "bbl",
+      "provider_ticker": "CL=F",
+      "name": "WTI Crude Oil Futures",
+      "enabled": true
+    },
+    {
+      "symbol": "BRENT_CRUDE",
+      "market": "energy",
+      "currency": "USD",
+      "unit": "bbl",
+      "provider_ticker": "BZ=F",
+      "name": "Brent Crude Oil Futures",
+      "enabled": true
+    },
+    {
+      "symbol": "SP500",
+      "market": "equity",
+      "currency": "USD",
+      "unit": "index",
+      "provider_ticker": "^GSPC",
+      "name": "S&P 500 Index",
+      "enabled": true
+    },
+    {
+      "symbol": "NIFTY50",
+      "market": "equity",
+      "currency": "INR",
+      "unit": "index",
+      "provider_ticker": "^NSEI",
+      "name": "NIFTY 50 Index",
+      "enabled": true
+    },
+    {
+      "symbol": "VIX",
+      "market": "volatility",
+      "currency": "USD",
+      "unit": "index",
+      "provider_ticker": "^VIX",
+      "name": "CBOE Volatility Index",
+      "enabled": true
+    },
+    {
+      "symbol": "INDIAVIX",
+      "market": "volatility",
+      "currency": "INR",
+      "unit": "index",
+      "provider_ticker": "^INDIAVIX",
+      "name": "India Volatility Index",
+      "enabled": true
+    }
+  ]
+}

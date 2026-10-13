@@ -1,0 +1,26 @@
+{
+  "records": [
+    {
+      "prediction_date": "2024-01-15",
+      "instrument": "GOLD",
+      "horizon": "5d",
+      "predicted_direction": "NEUTRAL",
+      "expected_return_pct": 0.0,
+      "confidence_score": 50.0,
+      "actual_return_pct": null,
+      "prediction_correct": null,
+      "evaluated_at": null
+    },
+    {
+      "prediction_date": "2024-01-16",
+      "instrument": "GOLD",
+      "horizon": "5d",
+      "predicted_direction": "NEUTRAL",
+      "expected_return_pct": 0.0,
+      "confidence_score": 50.0,
+      "actual_return_pct": null,
+      "prediction_correct": null,
+      "evaluated_at": null
+    }
+  ]
+}

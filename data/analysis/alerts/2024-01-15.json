@@ -1,0 +1,18 @@
+{
+  "date": "2024-01-15",
+  "alert_count": 2,
+  "alerts": [
+    {
+      "date": "2024-01-15",
+      "type": "SILVER_LARGE_MOVE",
+      "severity": "HIGH",
+      "message": "Silver experienced a significant daily move of +2.77%"
+    },
+    {
+      "date": "2024-01-15",
+      "type": "RATIO_EXTREME_HIGH",
+      "severity": "HIGH",
+      "message": "Gold/Silver ratio reached extreme high level of 88.58"
+    }
+  ]
+}

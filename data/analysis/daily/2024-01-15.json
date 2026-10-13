@@ -1,0 +1,176 @@
+{
+  "date": "2024-01-15",
+  "gold": {
+    "price": 2051.60009765625,
+    "return_1d_pct": 1.6,
+    "technical_score": 57.6,
+    "macro_score": 50.0,
+    "composite_score": 48.7,
+    "regime": "Bullish Trend | Normal Volatility",
+    "signals": {
+      "research_bias": "NEUTRAL",
+      "confidence_score": 50.0,
+      "confidence_reasons": [
+        "Limited historical analogue sample size (0 matches)",
+        "Mixed directional outcomes across historical analogues (50.0% positive frequency)",
+        "Technical indicators neutrally or inversely aligned",
+        "Macro regime (Neutral) offers neutral/mixed signal"
+      ],
+      "horizons": {
+        "1d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "3d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "5d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "10d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "20d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "60d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        }
+      }
+    },
+    "analogues": {
+      "top_analogues": [],
+      "forward_stats": {}
+    }
+  },
+  "silver": {
+    "price": 23.16200065612793,
+    "return_1d_pct": 2.77,
+    "technical_score": 45.8,
+    "macro_score": 50.0,
+    "composite_score": 39.0,
+    "regime": "Bearish Trend | High Volatility",
+    "signals": {
+      "research_bias": "NEUTRAL",
+      "confidence_score": 50.0,
+      "confidence_reasons": [
+        "Limited historical analogue sample size (0 matches)",
+        "Mixed directional outcomes across historical analogues (50.0% positive frequency)",
+        "Technical indicators neutrally or inversely aligned",
+        "Macro regime (Neutral) offers neutral/mixed signal"
+      ],
+      "horizons": {
+        "1d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "3d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "5d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "10d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "20d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        },
+        "60d": {
+          "positive_return_probability_pct": 50.0,
+          "negative_return_probability_pct": 50.0,
+          "expected_median_return_pct": 0.0,
+          "expected_mean_return_pct": 0.0,
+          "sample_count": 0,
+          "disclaimer": "Probabilistic research signal based on historical conditional statistics. Not a guaranteed price target."
+        }
+      }
+    },
+    "analogues": {
+      "top_analogues": [],
+      "forward_stats": {}
+    }
+  },
+  "gold_silver_ratio": {
+    "current_ratio": 88.58,
+    "zscore_252d": 1.58,
+    "historical_percentile": 86.6,
+    "historical_mean": 83.77,
+    "historical_median": 84.01,
+    "historical_min": 74.57,
+    "historical_max": 97.39,
+    "extreme_high_count": 82,
+    "relative_bias": "SILVER_OUTPERFORM"
+  },
+  "macro": {
+    "primary_regime": "Neutral",
+    "components": {
+      "dxy_20d_return_pct": 0.43,
+      "sp500_20d_return_pct": 1.36,
+      "oil_20d_return_pct": 1.54,
+      "vix_level": 12.7,
+      "us10y_20d_change_pct": 0.51
+    },
+    "explanation": "Classified as Neutral based on VIX (12.7), S&P 500 20d (1.4%), Oil 20d (1.5%), and US10Y 20d (0.5%)."
+  },
+  "data_quality": {
+    "date": "2024-01-15",
+    "gold_records": 501,
+    "silver_records": 500,
+    "warnings": [],
+    "errors": []
+  }
+}
